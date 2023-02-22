@@ -1,0 +1,43 @@
+@import "../../../scss/vars";
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item {
+  margin-left: 26px;
+}
+
+.link {
+  display: flex;
+  align-items: flex-start;
+  color: $black;
+}
+
+.icon {
+  margin-right: 12px;
+}
+
+@media (max-width: 500px) {
+  .item {
+    margin: 0;
+  }
+
+  .item + .item {
+    margin-left: 12px;
+  }
+
+  .link {
+    font-size: 16px;
+    line-height: 23px;
+  }
+
+  .icon {
+    width: 20px;
+    height: 20px;
+
+    margin-right: 8px;
+  }
+}
