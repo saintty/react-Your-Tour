@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
+import Tours from "../Tours/Tours";
 
 import styles from "./App.module.scss";
 
@@ -23,7 +24,9 @@ const App = () => {
   return (
     <div className={styles.wrapper}>
       <Header fixed={fixedHeader} />
-      <main className={styles.content}></main>
+      <main className={styles.content}>
+        <Tours />
+      </main>
       <Footer />
     </div>
   );

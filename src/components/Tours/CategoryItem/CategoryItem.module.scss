@@ -1,0 +1,60 @@
+@import "./../../../scss/vars";
+
+.item {
+  position: relative;
+  cursor: pointer;
+  padding-bottom: 6px;
+}
+
+.item::after {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  width: 100%;
+  height: 2px;
+
+  background-color: $black;
+  opacity: 0;
+
+  transition: all 0.3s ease;
+
+  content: "";
+}
+
+.item:hover::after {
+  opacity: 1;
+}
+
+.item_active {
+  color: $orange-200;
+}
+
+.item_active::after {
+  background-color: $orange-200;
+  opacity: 1;
+}
+
+.item + .item {
+  margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+  .item {
+    margin-bottom: 10px;
+    padding-bottom: 0;
+  }
+
+  .item + .item {
+    margin-left: 10px;
+  }
+
+  .item:hover::after {
+    opacity: 0;
+  }
+
+  .item_active:hover::after {
+    opacity: 1;
+  }
+}
