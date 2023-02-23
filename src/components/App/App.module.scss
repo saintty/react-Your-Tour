@@ -2,7 +2,6 @@
 @import "../../scss/reset";
 @import "../../scss/vars";
 
-
 html {
   box-sizing: border-box;
   overflow-x: hidden;
@@ -25,6 +24,11 @@ body {
   line-height: 28px;
 }
 
+html,
+body {
+  height: 100%;
+}
+
 a {
   display: block;
 
@@ -37,4 +41,14 @@ button {
 
   border: none;
   cursor: pointer;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.content {
+  flex: 1 0 auto;
 }

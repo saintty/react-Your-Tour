@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 
-import "./App.module.scss";
+import styles from "./App.module.scss";
 
 const App = () => {
   const [fixedHeader, setFixedHeader] = useState(false);
@@ -21,8 +21,9 @@ const App = () => {
   }, []);
 
   return (
-    <div onScroll={() => console.log(window.scrollY)}>
+    <div className={styles.wrapper}>
       <Header fixed={fixedHeader} />
+      <main className={styles.content}></main>
       <Footer />
     </div>
   );
