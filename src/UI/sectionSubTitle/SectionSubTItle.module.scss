@@ -1,6 +1,6 @@
 @import "./../../scss//vars";
 
-.subcaption {
+.subtitle {
   max-width: 418px;
   margin: 0 auto 100px;
 
@@ -10,13 +10,13 @@
 
 
 @media (max-width: 768px) {
-  .subcaption {
+  .subtitle {
     margin-bottom: 60px;
   }
 }
 
 @media (max-width: 600px) {
-  .subcaption {
+  .subtitle {
     margin-bottom: 50px;
 
     font-size: 16px;
