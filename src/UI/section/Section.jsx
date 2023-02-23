@@ -10,7 +10,7 @@ const Section = ({ title, subtitle, children }) => {
     <section className={styles.section}>
       <Container>
         <SectionTitle title={title} />
-        <SectionSubTitle subtitle={subtitle} />
+        {subtitle && <SectionSubTitle subtitle={subtitle} />}
         {children}
       </Container>
     </section>

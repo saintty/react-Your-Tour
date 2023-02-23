@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Section from "../../UI/section/Section";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 
