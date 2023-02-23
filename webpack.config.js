@@ -65,9 +65,10 @@ module.exports = {
   },
   devtool: isDev ? "eval-cheap-source-map" : "source-map",
   devServer: {
+
     hot: true,
     open: true,
-    ...(mode && { port: 3000 }),
+    ...(isDev && { port: 3000 }),
   },
   plugins: [
     new HtmlWebpackPlugin({
