@@ -1,0 +1,39 @@
+@import "./../../scss/vars";
+
+.caption {
+  margin: 0 auto 30px;
+
+  color: $black;
+  font-weight: 700;
+  font-size: 59px;
+  line-height: 73px;
+  text-align: center;
+}
+
+
+@media (max-width: 768px) {
+  .caption{
+    margin-bottom: 19px;
+
+    font-size: 34px;
+    line-height: 38px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 0 21px;
+  }
+}
+
+@media (max-width: 420px) {
+  .caption{
+    letter-spacing: 0.02em;
+  }
+}
+
+@media (max-width: 359px) {
+  .caption{
+    font-size: 30px;
+  }
+}
