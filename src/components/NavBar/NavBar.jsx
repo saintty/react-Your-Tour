@@ -1,15 +1,17 @@
 import React from "react";
+import classNames from "classnames";
 import Logo from "../../UI/logo/Logo";
 import links from "./navLinks";
 import Container from "./../../shared/container/Container";
 import NavLink from "./NavLink/NavLink";
 
 import styles from "./NavBar.module.scss";
+import PhoneLink from "./PhoneLink/PhoneLink";
 
-const Navbar = () => {
+const Navbar = ({ fixed }) => {
   return (
     <div className={styles.wrapper}>
-      <div className={styles.top}>
+      <div className={fixed ? styles.fixed : ""}>
         <Container>
           <div className={styles.inner}>
             <Logo />
@@ -20,9 +22,7 @@ const Navbar = () => {
                 ))}
               </ul>
             </nav>
-            <a href="tel:+79999999999" className={styles.phone}>
-              +7 999 999 99 99
-            </a>
+            <PhoneLink to={"tel:+79999999999"}>+7 999 999 99 99</PhoneLink>
           </div>
         </Container>
       </div>

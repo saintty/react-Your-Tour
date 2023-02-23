@@ -9,12 +9,12 @@ import Background from "./Background/Background";
 import styles from "./Header.module.scss";
 import background from "./headerBackground.jpg";
 
-const Header = () => {
+const Header = ({ fixed }) => {
   return (
     <header className={styles.header}>
       <Background background={background} />
       <div className={styles.content}>
-        <Navbar />
+        <Navbar fixed={fixed} />
         <Container>
           <PageCaption>Идеальные путешествия существуют</PageCaption>
           <PageSubCaption>

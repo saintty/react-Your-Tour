@@ -1,3 +1,5 @@
+@import "./../../scss/vars";
+
 .wrapper {
   height: 88px;
 }
@@ -14,6 +16,27 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+
+  color: $black;
+
+  background-color: rgba(#f3efe8, 60%);
+  backdrop-filter: blur(27px);
+
+  svg path {
+    fill: $black;
+  }
+
+  li:hover::after {
+    background-color: $black;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -42,10 +65,5 @@
   .inner {
     margin: 0 -1px;
     padding: 32px 0;
-  }
-
-  .phone {
-    font-size: 16px;
-    line-height: 23px;
   }
 }

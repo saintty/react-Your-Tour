@@ -3,19 +3,6 @@
 .header {
   position: relative;
 
-  &__top.transparent {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 10;
-
-    color: $black;
-
-    background-color: rgba(#f3efe8, 60%);
-    backdrop-filter: blur(27px);
-  }
-
   &__top.transparent &-nav__item::after {
     background-color: $black;
   }
