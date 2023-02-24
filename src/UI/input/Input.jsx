@@ -1,16 +1,20 @@
 import React from "react";
+import Label from "../label/Label";
 
 import styles from "./Input.module.scss";
 
-const Input = ({ id, type, placeholder, required }) => {
+const Input = ({ id, type, label, placeholder, required }) => {
   return (
-    <input
-      id={id}
-      className={styles.input}
-      type={type}
-      placeholder={placeholder}
-      required={required}
-    />
+    <>
+      <Label label={label} htmlFor={id} />
+      <input
+        id={id}
+        className={styles.input}
+        type={type}
+        placeholder={placeholder}
+        required={required}
+      />
+    </>
   );
 };
 
