@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "../../shared/container/Container";
-import CenteredButton from "../../UI/CenteredButton/CenteredButton";
+import CenteredButton from "../../UI/centeredButton/CenteredButton";
 import PageCaption from "../../UI/PageCaption/PageCaption";
 import PageSubCaption from "../../UI/PageSubCaption/PageSubCaption";
 import Navbar from "../Navbar/Navbar";
