@@ -1,0 +1,75 @@
+@import "./../../scss/vars";
+
+.select {
+  width: 100%;
+  height: 68px;
+  padding: 19px;
+
+  color: $black;
+  font-size: 20px;
+  line-height: 28px;
+
+  background-color: $beige-100;
+  border: 1px solid $beige-200;
+  border-radius: 10px;
+
+  background-image: url("./arrow.svg");
+  background-repeat: no-repeat;
+  background-position-x: calc(100% - 20px);
+  background-position-y: center;
+
+  appearance: none;
+  outline: none;
+
+  cursor: pointer;
+}
+
+.select:placeholder {
+  color: $gray-300;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.select:hover {
+  background-color: $beige-200;
+}
+
+.select:focus {
+  background-color: $beige-200;
+  border-color: $gray-300;
+}
+
+.select:required:invalid {
+  color: $gray-300;
+}
+
+.select option[value=""][disabled] {
+  display: none;
+}
+
+.select option {
+  color: $black;
+}
+
+@media (max-width: 768px) {
+  .select:hover {
+    background-color: $beige-100;
+  }
+
+  .select:focus {
+    background-color: $beige-100;
+    border-color: $beige-200;
+  }
+}
+
+@media (max-width: 600px) {
+  .select {
+    height: 46px;
+    padding: 9px;
+
+    font-size: 16px;
+    line-height: 23px;
+
+    background-position-x: calc(100% - 9px);
+  }
+}
