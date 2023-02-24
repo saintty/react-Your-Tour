@@ -1,0 +1,93 @@
+@import "./../../scss/vars";
+
+.button {
+  width: 235px;
+  padding: 15px;
+
+  font-size: 20px;
+  line-height: 28px;
+
+  border-radius: 10px;
+}
+
+.button + .button {
+  margin-left: 30px;
+}
+
+.submit {
+  color: $white;
+
+  background-color: $green-400;
+}
+
+.submit:hover {
+  background-color: $green-300;
+}
+
+.submit:active {
+  background-color: $green-200;
+}
+
+.reset {
+  color: $green-400;
+
+  background-color: $green-100;
+}
+
+.reset:hover {
+  background-color: $gray-100;
+}
+
+.reset:active {
+  background-color: $gray-200;
+}
+
+@media (max-width: 800px) {
+  .button {
+    width: 200px;
+  }
+
+  .button + .button {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .button {
+    width: 175px;
+    padding: 12px;
+  }
+  .submit:hover,
+  .submit:active {
+    background-color: $green-400;
+  }
+
+  .reset:hover,
+  .reset:active {
+    background-color: $green-100;
+  }
+}
+
+@media (max-width: 600px) {
+  .button {
+    width: 134px;
+
+    font-size: 16px;
+    line-height: 23px;
+  }
+
+  .button + .button {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 350px) {
+  .button {
+    width: 100%;
+  }
+
+  .button + .button {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}

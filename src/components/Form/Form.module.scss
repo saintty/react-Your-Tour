@@ -1,0 +1,57 @@
+@import "./../../scss/vars";
+
+.form {
+  position: relative;
+  padding: 70px;
+
+  background-color: #fff;
+  border-radius: 50px;
+}
+
+.license {
+  display: inline;
+
+  color: $black;
+}
+
+.license:hover {
+  text-decoration: underline;
+}
+
+.license:active {
+  color: $green-400;
+}
+
+@media (max-width: 1030px) {
+  .form {
+    padding: 60px;
+  }
+}
+
+@media (max-width: 800px) {
+  .form {
+    padding: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .license:hover {
+    text-decoration: none;
+  }
+
+  .license:active {
+    color: $black;
+  }
+}
+
+@media (max-width: 600px) {
+  .form {
+    padding: 20px 20px 40px;
+  }
+}
+
+@media (max-width: 500px) {
+  .form {
+    border-radius: 30px;
+  }
+}

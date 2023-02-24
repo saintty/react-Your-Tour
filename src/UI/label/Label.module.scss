@@ -1,0 +1,22 @@
+@import "./../../scss/vars";
+
+.label {
+  display: block;
+  margin-bottom: 8px;
+
+  color: $black;
+  line-height: 28px;
+
+  cursor: pointer;
+}
+
+.long {
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .label {
+    font-size: 16px;
+    line-height: 23px;
+  }
+}

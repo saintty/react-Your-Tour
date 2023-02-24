@@ -1,7 +1,7 @@
 import React from "react";
 
 import styles from "./InfoButton.module.scss";
-import icon from "./arrow-right.svg";
+import icon from "./arrow.svg";
 
 const InfoButton = ({ label }) => {
   return (
