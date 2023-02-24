@@ -4,15 +4,15 @@ import Label from "../label/Label";
 
 import styles from "./LabeledInput.module.scss";
 
-const LabeledInput = ({ id, type, label, placeholder, required }) => {
+const LabeledInput = ({ input }) => {
   return (
     <div className={styles.field}>
-      <Label label={label} htmlFor={id} />
+      <Label label={input.label} htmlFor={input.id} />
       <Input
-        id={id}
-        type={type}
-        placeholder={placeholder}
-        required={required}
+        id={input.id}
+        type={input.type}
+        placeholder={input.placeholder}
+        required={input.required}
       />
     </div>
   );

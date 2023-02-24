@@ -1,8 +1,10 @@
 import React from "react";
 import LabeledInput from "../../UI/labeledInput/LabeledInput";
 import Section from "../../UI/section/Section";
+import InputRow from "./InputRow/InputRow";
 
 import styles from "./Form.module.scss";
+import { inputs } from "./inputFields";
 
 const Form = () => {
   return (
