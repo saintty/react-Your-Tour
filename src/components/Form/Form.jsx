@@ -1,4 +1,5 @@
 import React from "react";
+import LabeledInput from "../../UI/labeledInput/LabeledInput";
 import Section from "../../UI/section/Section";
 
 import styles from "./Form.module.scss";
