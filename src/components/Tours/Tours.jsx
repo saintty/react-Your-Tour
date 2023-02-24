@@ -2,13 +2,16 @@ import React from "react";
 import Section from "./../../UI/section/Section";
 
 import styles from "./Tours.module.scss";
-import { categories } from "./data";
+import { categories, cards } from "./data";
 import CategoryList from "./CategoryList/CategoryList";
+import Card from "./card/Card";
+import CardList from "./CardList/CardList";
 
 const Tours = () => {
   return (
     <Section title="Выбери свой тур">
       <CategoryList categories={categories} />
+      <CardList cards={cards}/>
     </Section>
   );
 };

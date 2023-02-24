@@ -14,6 +14,7 @@ const CategoryList = ({ categories }) => {
           link={item.link}
           active={item.name === active}
           setActive={setActive}
+          key={item.name}
         />
       ))}
     </ul>

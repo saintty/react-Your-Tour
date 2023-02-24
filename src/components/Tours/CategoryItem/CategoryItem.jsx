@@ -6,10 +6,10 @@ import styles from "./CategoryItem.module.scss";
 const CategoryItem = ({ name, link, active, setActive }) => {
   return (
     <li
-      class={classNames(styles.item, active ? styles.item_active : "")}
+      className={classNames(styles.item, active ? styles.item_active : "")}
       onClick={() => setActive(name)}
     >
-      <a href={link} class={styles.link}>
+      <a href={link} className={styles.link}>
         {name}
       </a>
     </li>
