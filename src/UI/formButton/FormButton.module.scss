@@ -53,6 +53,10 @@
 }
 
 @media (max-width: 768px) {
+  .button {
+    width: 175px;
+    padding: 12px;
+  }
   .submit:hover,
   .submit:active {
     background-color: $green-400;
@@ -67,7 +71,6 @@
 @media (max-width: 600px) {
   .button {
     width: 134px;
-    padding: 12px;
 
     font-size: 16px;
     line-height: 23px;
@@ -75,5 +78,16 @@
 
   .button + .button {
     margin-left: 10px;
+  }
+}
+
+@media (max-width: 350px) {
+  .button {
+    width: 100%;
+  }
+
+  .button + .button {
+    margin-left: 0;
+    margin-top: 10px;
   }
 }

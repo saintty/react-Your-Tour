@@ -9,7 +9,7 @@ const Textarea = ({ textarea }) => {
       <Label label={textarea.label} htmlFor={textarea.id} />
       <textarea
         id={textarea.id}
-        class={styles.textarea}
+        className={styles.textarea}
         placeholder={textarea.placeholder}
       ></textarea>
     </>

@@ -2,11 +2,16 @@
 
 .label {
   display: block;
+  margin-bottom: 8px;
 
   color: $black;
-  line-height: 36px;
+  line-height: 28px;
 
   cursor: pointer;
+}
+
+.long {
+  width: 100%;
 }
 
 @media (max-width: 600px) {
