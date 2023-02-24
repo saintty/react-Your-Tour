@@ -7,7 +7,7 @@ const InfoButton = ({ label }) => {
   return (
     <div className={styles.button}>
       <span className={styles.label}>{label}</span>
-      <img className={styles.icon} src={icon} />
+      <img className={styles.icon} src={icon} alt="Иконка кнопки информации"/>
     </div>
   );
 };
