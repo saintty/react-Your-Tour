@@ -1,0 +1,25 @@
+@import "./../../scss/vars";
+
+.license {
+  display: inline;
+
+  color: $black;
+}
+
+.license:hover {
+  text-decoration: underline;
+}
+
+.license:active {
+  color: $green-400;
+}
+
+@media (max-width: 768px) {
+  .license:hover {
+    text-decoration: none;
+  }
+
+  .license:active {
+    color: $black;
+  }
+}
