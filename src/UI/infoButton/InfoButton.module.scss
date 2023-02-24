@@ -2,19 +2,30 @@
 
 .button {
   margin-left: -20px;
+  margin-bottom: -7px;
   padding: 7px 21px 7px 20px;
 
   border-radius: 50px;
 
+  font-weight: 700;
+  font-size: 23px;
+
   transition: all 0.3s ease;
 }
 
-.button:hover {
+li:hover .button {
+  margin-bottom: 3px;
+  margin-left: -10px;
+
   background-color: $green-400;
 }
 
-.button:active {
+li .button:active {
   background-color: $orange-200;
+}
+
+.label {
+  margin-right: 15px;
 }
 
 @media (max-width: 768px) {
