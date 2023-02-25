@@ -1,0 +1,33 @@
+.content {
+  max-width: 554px;
+}
+
+.name {
+  margin-bottom: 37px;
+}
+
+.description {
+  margin-bottom: 28px;
+}
+
+@media (max-width: 768px) {
+  .name {
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 500px) {
+  .content {
+    font-size: 16px;
+    line-height: 23px;
+  }
+
+  .name {
+    max-width: 160px;
+    margin-bottom: 20px;
+  }
+
+  .description {
+    margin-bottom: 23px;
+  }
+}

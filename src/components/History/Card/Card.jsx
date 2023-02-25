@@ -1,5 +1,5 @@
 import React from "react";
-import Benefits from "../Benefits/Benefits";
+import CardContent from "../CardContent/CardContent";
 import CardFooter from "../CardFooter/CardFooter";
 
 import styles from "./Card.module.scss";
@@ -14,15 +14,7 @@ const Card = () => {
           alt="Фоновое изображение истории"
         />
         <div class="history__card">
-          <div class="history__content">
-            <h3 class="history__name card-name">Автостопом в Стамбул</h3>
-            <p class="history__description">
-              Идейные соображения высшего порядка, а также рамки и место
-              обучения кадров обеспечивает широкому кругу (специалистов) участие
-              в формировании новых предложений:
-            </p>
-            <Benefits />
-          </div>
+          <CardContent />
           <CardFooter />
         </div>
       </a>
