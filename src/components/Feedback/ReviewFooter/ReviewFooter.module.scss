@@ -1,0 +1,46 @@
+@import "./../../../scss/vars";
+
+.footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.wrapper {
+  margin-right: 15px;
+}
+
+.user {
+  margin-bottom: 8px;
+
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 43px;
+}
+
+.tour {
+  color: $gray-300;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+}
+
+.avatar {
+  max-width: 75px;
+  max-height: 75px;
+  object-fit: cover;
+}
+
+@media (max-width: 600px) {
+  .tour {
+    font-size: 16px;
+    line-height: 23px;
+  }
+
+  .user {
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+  }
+}

@@ -3,7 +3,7 @@ import Footer from "../Footer/Footer";
 import Form from "../Form/Form";
 import Header from "../Header/Header";
 import Tours from "../Tours/Tours";
-
+import Feedback from "../Feedback/Feedback";
 import styles from "./App.module.scss";
 
 const App = () => {
@@ -28,6 +28,7 @@ const App = () => {
       <main className={styles.content}>
         <Tours />
         <Form />
+        <Feedback />
       </main>
       <Footer />
     </div>
