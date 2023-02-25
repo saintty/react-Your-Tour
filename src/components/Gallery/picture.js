@@ -13,7 +13,31 @@ import p12 from "./pictures/picture-12.jpg";
 import p13 from "./pictures/picture-13.jpg";
 
 export const rows = [
-  [p1, p2, p3, p4],
-  [p5, p6, p7, p8, p9],
-  [p10, p11, p12, p13],
+  {
+    pictures: [
+      { picture: p1 },
+      { picture: p2, isMediumHidden: true },
+      { picture: p3, isSmallHidden: true },
+      { picture: p4 },
+    ],
+  },
+  {
+    pictures: [
+      { picture: p5 },
+      { picture: p6, isSmallHidden: true },
+      { picture: p7, isMediumHidden: true },
+      { picture: p8 },
+      { picture: p9 },
+    ],
+    smallGap: true,
+  },
+  {
+    pictures: [
+      { picture: p10 },
+      { picture: p11 },
+      { picture: p12, isSmallHidden: true },
+      { picture: p13, isMediumHidden: true },
+    ],
+    smallGap: true,
+  },
 ];

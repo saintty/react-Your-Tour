@@ -6,7 +6,6 @@ import { rows } from "./picture";
 import WideSection from "../../UI/wideSection/WideSection";
 
 const Gallery = () => {
-  console.log(rows);
   return (
     <WideSection
       title="Фотографии путешествий"
@@ -14,7 +13,11 @@ const Gallery = () => {
     >
       <div>
         {rows.map((row) => (
-          <Row pictures={row} key={row} />
+          <Row
+            pictures={row.pictures}
+            smallGap={row.smallGap}
+            key={row.pictures[0].picture}
+          />
         ))}
       </div>
     </WideSection>

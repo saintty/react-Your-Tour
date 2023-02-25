@@ -1,10 +1,17 @@
 import React from "react";
+import classNames from "classnames";
 
 import styles from "./Picture.module.scss";
 
-const Picture = ({ picture }) => {
+const Picture = ({ picture, mediumHide, smallHide }) => {
   return (
-    <div className={styles.item}>
+    <div
+      className={classNames(
+        styles.item,
+        mediumHide && styles.mediumHide,
+        smallHide && styles.smallHide
+      )}
+    >
       <img className={styles.img} src={picture} alt="Галерея путешествий" />
     </div>
   );
