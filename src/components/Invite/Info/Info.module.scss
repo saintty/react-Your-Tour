@@ -1,0 +1,75 @@
+@import "./../../../scss/vars";
+
+.title {
+  margin-bottom: 20px;
+
+  color: $black;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 43px;
+}
+
+.text {
+  color: $gray-300;
+}
+
+.email {
+  display: inline-block;
+
+  color: $black;
+}
+
+.email:hover {
+  text-decoration: underline;
+}
+
+.email:active {
+  color: $green-400;
+}
+
+@media (max-width: 768px) {
+  .picture {
+    max-width: 260px;
+    margin-right: 0;
+    margin-bottom: 30px;
+
+    border-radius: 30px;
+  }
+
+  .title {
+    font-size: 29px;
+    line-height: 36px;
+    text-align: center;
+  }
+
+  .text {
+    text-align: center;
+  }
+
+  .email:hover {
+    text-decoration: none;
+  }
+
+  .email:active {
+    color: $black;
+  }
+}
+
+@media (max-width: 500px) {
+  .title {
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 28px;
+  }
+
+  .text {
+    font-size: 16px;
+    line-height: 23px;
+  }
+}
+
+@media (max-width: 420px) {
+  .title {
+    letter-spacing: 0.04em;
+  }
+}

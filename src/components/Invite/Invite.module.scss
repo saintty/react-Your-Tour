@@ -1,0 +1,43 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+  max-width: 771px;
+  margin: 0 auto;
+}
+
+.picture {
+  width: 100%;
+  max-width: 370px;
+  margin-right: 30px;
+
+  border-radius: 50px;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .picture {
+    max-width: 260px;
+    margin-right: 0;
+    margin-bottom: 30px;
+
+    border-radius: 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .wrapper {
+    padding: 0 13.5px;
+  }
+
+  .picture {
+    max-width: 190px;
+
+    border-radius: 20px;
+  }
+}

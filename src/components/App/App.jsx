@@ -7,6 +7,7 @@ import Feedback from "../Feedback/Feedback";
 import Gallery from "../Gallery/Gallery";
 
 import styles from "./App.module.scss";
+import Invite from "../Invite/Invite";
 
 const App = () => {
   const [fixedHeader, setFixedHeader] = useState(false);
@@ -32,6 +33,7 @@ const App = () => {
         <Form />
         <Feedback />
         <Gallery />
+        <Invite />
       </main>
       <Footer />
     </div>
