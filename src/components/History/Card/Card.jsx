@@ -1,6 +1,6 @@
 import React from "react";
 import Benefits from "../Benefits/Benefits";
-import Socials from "../Socials/Socials";
+import CardFooter from "../CardFooter/CardFooter";
 
 import styles from "./Card.module.scss";
 
@@ -23,12 +23,7 @@ const Card = () => {
             </p>
             <Benefits />
           </div>
-          <footer class="history__footer">
-            <span class="history__info card-button">Подробнее</span>
-            <div class="history__socials">
-              <Socials />
-            </div>
-          </footer>
+          <CardFooter />
         </div>
       </a>
     </li>
