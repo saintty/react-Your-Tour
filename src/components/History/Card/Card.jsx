@@ -1,5 +1,6 @@
 import React from "react";
 import Benefits from "../Benefits/Benefits";
+import Socials from "../Socials/Socials";
 
 import styles from "./Card.module.scss";
 
@@ -25,29 +26,7 @@ const Card = () => {
           <footer class="history__footer">
             <span class="history__info card-button">Подробнее</span>
             <div class="history__socials">
-              <ul class="history__socials-list">
-                <li class="history__socials-item">
-                  <object>
-                    <a class="history__socials-link" href="#" target="_blank">
-                      instagram
-                    </a>
-                  </object>
-                </li>
-                <li class="history__socials-item">
-                  <object>
-                    <a class="history__socials-link" href="#" target="_blank">
-                      facebook
-                    </a>
-                  </object>
-                </li>
-                <li class="history__socials-item">
-                  <object>
-                    <a class="history__socials-link" href="#" target="_blank">
-                      YouTube
-                    </a>
-                  </object>
-                </li>
-              </ul>
+              <Socials />
             </div>
           </footer>
         </div>
