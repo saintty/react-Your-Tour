@@ -1,14 +1,14 @@
 import React from "react";
-import Section from "./../../UI/section/Section";
 import Row from "./Row/Row";
 
 import styles from "./Gallery.module.scss";
 import { rows } from "./picture";
+import WideSection from "../../UI/wideSection/WideSection";
 
 const Gallery = () => {
   console.log(rows);
   return (
-    <Section
+    <WideSection
       title="Фотографии путешествий"
       subtitle="Идейные соображения высшего порядка, а также рамки и место обучения кадров"
     >
@@ -17,7 +17,7 @@ const Gallery = () => {
           <Row pictures={row} key={row} />
         ))}
       </div>
-    </Section>
+    </WideSection>
   );
 };
 
