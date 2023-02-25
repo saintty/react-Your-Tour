@@ -9,7 +9,7 @@ const Section = ({ title, subtitle, children }) => {
   return (
     <section className={styles.section}>
       <Container>
-        <SectionTitle title={title} />
+        {title && <SectionTitle title={title} />}
         {subtitle && <SectionSubTitle subtitle={subtitle} />}
         {children}
       </Container>
