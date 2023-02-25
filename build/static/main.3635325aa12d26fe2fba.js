@@ -1900,6 +1900,216 @@ Feedback_c = Feedback;
 /* harmony default export */ const Feedback_Feedback = (Feedback);
 var Feedback_c;
 $RefreshReg$(Feedback_c, "Feedback");
+;// CONCATENATED MODULE: ./src/components/Gallery/Picture/Picture.module.scss
+// extracted by mini-css-extract-plugin
+/* harmony default export */ const Picture_module = ({"item":"Picture__item-tSITu","img":"Picture__img-ps_qJ","mediumHide":"Picture__mediumHide-K_HOX","smallHide":"Picture__smallHide-Tl8Cw"});
+;// CONCATENATED MODULE: ./src/components/Gallery/Picture/Picture.jsx
+
+
+
+
+var Picture = function Picture(_ref) {
+  var picture = _ref.picture,
+    mediumHide = _ref.mediumHide,
+    smallHide = _ref.smallHide;
+  return /*#__PURE__*/(0,jsx_runtime.jsx)("div", {
+    className: classnames_default()(Picture_module.item, mediumHide && Picture_module.mediumHide, smallHide && Picture_module.smallHide),
+    children: /*#__PURE__*/(0,jsx_runtime.jsx)("img", {
+      className: Picture_module.img,
+      src: picture,
+      alt: "\u0413\u0430\u043B\u0435\u0440\u0435\u044F \u043F\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0439"
+    })
+  });
+};
+Picture_c = Picture;
+/* harmony default export */ const Picture_Picture = (Picture);
+var Picture_c;
+$RefreshReg$(Picture_c, "Picture");
+;// CONCATENATED MODULE: ./src/components/Gallery/Row/Row.module.scss
+// extracted by mini-css-extract-plugin
+/* harmony default export */ const Row_module = ({"row":"Row__row-WmNr1","small":"Row__small-l7Qob"});
+;// CONCATENATED MODULE: ./src/components/Gallery/Row/Row.jsx
+
+
+
+
+
+var Row = function Row(_ref) {
+  var pictures = _ref.pictures,
+    smallGap = _ref.smallGap;
+  console.log(pictures[0]);
+  return /*#__PURE__*/(0,jsx_runtime.jsx)("div", {
+    className: classnames_default()(Row_module.row, smallGap && Row_module.small),
+    children: pictures.map(function (item) {
+      return /*#__PURE__*/(0,jsx_runtime.jsx)(Picture_Picture, {
+        picture: item.picture,
+        mediumHide: item.isMediumHidden,
+        smallHide: item.isSmallHidden
+      }, "".concat(item.picture));
+    })
+  });
+};
+Row_c = Row;
+/* harmony default export */ const Row_Row = (Row);
+var Row_c;
+$RefreshReg$(Row_c, "Row");
+;// CONCATENATED MODULE: ./src/components/Gallery/Gallery.module.scss
+// extracted by mini-css-extract-plugin
+/* harmony default export */ const Gallery_module = ({});
+;// CONCATENATED MODULE: ./src/components/Gallery/pictures/picture-1.jpg
+const picture_1_namespaceObject = __webpack_require__.p + "images\\picture-1.04795f32bfc1f5581e04.jpg";
+;// CONCATENATED MODULE: ./src/components/Gallery/pictures/picture-2.jpg
+const picture_2_namespaceObject = __webpack_require__.p + "images\\picture-2.848832167d13db1fa15e.jpg";
+;// CONCATENATED MODULE: ./src/components/Gallery/pictures/picture-3.jpg
+const picture_3_namespaceObject = __webpack_require__.p + "images\\picture-3.e4fe19e9123635e913f3.jpg";
+;// CONCATENATED MODULE: ./src/components/Gallery/pictures/picture-4.jpg
+const picture_4_namespaceObject = __webpack_require__.p + "images\\picture-4.33e5ecd63228e74fc4f2.jpg";
+;// CONCATENATED MODULE: ./src/components/Gallery/pictures/picture-5.jpg
+const picture_5_namespaceObject = __webpack_require__.p + "images\\picture-5.09b41b65bef151ab41fb.jpg";
+;// CONCATENATED MODULE: ./src/components/Gallery/pictures/picture-6.jpg
+const picture_6_namespaceObject = __webpack_require__.p + "images\\picture-6.4658efbac4edde6acdaf.jpg";
+;// CONCATENATED MODULE: ./src/components/Gallery/pictures/picture-7.jpg
+const picture_7_namespaceObject = __webpack_require__.p + "images\\picture-7.0e4583a1600e51705ceb.jpg";
+;// CONCATENATED MODULE: ./src/components/Gallery/pictures/picture-8.jpg
+const picture_8_namespaceObject = __webpack_require__.p + "images\\picture-8.f408ab7d25ca3536774c.jpg";
+;// CONCATENATED MODULE: ./src/components/Gallery/pictures/picture-9.jpg
+const picture_9_namespaceObject = __webpack_require__.p + "images\\picture-9.e82d17f5bfd1140e6fc1.jpg";
+;// CONCATENATED MODULE: ./src/components/Gallery/pictures/picture-10.jpg
+const picture_10_namespaceObject = __webpack_require__.p + "images\\picture-10.2cf4e8ee374804ce7691.jpg";
+;// CONCATENATED MODULE: ./src/components/Gallery/pictures/picture-11.jpg
+const picture_11_namespaceObject = __webpack_require__.p + "images\\picture-11.1992630020bee3c869ba.jpg";
+;// CONCATENATED MODULE: ./src/components/Gallery/pictures/picture-12.jpg
+const picture_12_namespaceObject = __webpack_require__.p + "images\\picture-12.5bfeef79ffcada7cfa40.jpg";
+;// CONCATENATED MODULE: ./src/components/Gallery/pictures/picture-13.jpg
+const picture_13_namespaceObject = __webpack_require__.p + "images\\picture-13.e4f746f217d2a2ec6242.jpg";
+;// CONCATENATED MODULE: ./src/components/Gallery/picture.js
+
+
+
+
+
+
+
+
+
+
+
+
+
+var rows = [{
+  pictures: [{
+    picture: picture_1_namespaceObject
+  }, {
+    picture: picture_2_namespaceObject,
+    isMediumHidden: true
+  }, {
+    picture: picture_3_namespaceObject,
+    isSmallHidden: true
+  }, {
+    picture: picture_4_namespaceObject
+  }]
+}, {
+  pictures: [{
+    picture: picture_5_namespaceObject
+  }, {
+    picture: picture_6_namespaceObject,
+    isSmallHidden: true
+  }, {
+    picture: picture_7_namespaceObject,
+    isMediumHidden: true
+  }, {
+    picture: picture_8_namespaceObject
+  }, {
+    picture: picture_9_namespaceObject
+  }],
+  smallGap: true
+}, {
+  pictures: [{
+    picture: picture_10_namespaceObject
+  }, {
+    picture: picture_11_namespaceObject
+  }, {
+    picture: picture_12_namespaceObject,
+    isSmallHidden: true
+  }, {
+    picture: picture_13_namespaceObject,
+    isMediumHidden: true
+  }],
+  smallGap: true
+}];
+;// CONCATENATED MODULE: ./src/shared/wideContainer/WideContainer.scss
+// extracted by mini-css-extract-plugin
+/* harmony default export */ const wideContainer_WideContainer = ({"container":"wideContainer__container-b61dQ"});
+;// CONCATENATED MODULE: ./src/shared/wideContainer/WideContainer.jsx
+
+
+
+var WideContainer = function WideContainer(_ref) {
+  var children = _ref.children;
+  return /*#__PURE__*/(0,jsx_runtime.jsx)("div", {
+    className: wideContainer_WideContainer.container,
+    children: children
+  });
+};
+WideContainer_c = WideContainer;
+/* harmony default export */ const shared_wideContainer_WideContainer = (WideContainer);
+var WideContainer_c;
+$RefreshReg$(WideContainer_c, "WideContainer");
+;// CONCATENATED MODULE: ./src/UI/wideSection/WideSection.module.scss
+// extracted by mini-css-extract-plugin
+/* harmony default export */ const WideSection_module = ({"section":"wideSection__section-bLyPw"});
+;// CONCATENATED MODULE: ./src/UI/wideSection/WideSection.jsx
+
+
+
+
+
+
+
+var WideSection = function WideSection(_ref) {
+  var title = _ref.title,
+    subtitle = _ref.subtitle,
+    children = _ref.children;
+  return /*#__PURE__*/(0,jsx_runtime.jsx)("section", {
+    className: WideSection_module.section,
+    children: /*#__PURE__*/(0,jsx_runtime.jsxs)(shared_wideContainer_WideContainer, {
+      children: [/*#__PURE__*/(0,jsx_runtime.jsx)(sectionTitle_SectionTitle, {
+        title: title
+      }), /*#__PURE__*/(0,jsx_runtime.jsx)(sectionSubTitle_SectionSubTitle, {
+        subtitle: subtitle
+      }), children]
+    })
+  });
+};
+WideSection_c = WideSection;
+/* harmony default export */ const wideSection_WideSection = (WideSection);
+var WideSection_c;
+$RefreshReg$(WideSection_c, "WideSection");
+;// CONCATENATED MODULE: ./src/components/Gallery/Gallery.jsx
+
+
+
+
+
+
+var Gallery = function Gallery() {
+  return /*#__PURE__*/(0,jsx_runtime.jsx)(wideSection_WideSection, {
+    title: "\u0424\u043E\u0442\u043E\u0433\u0440\u0430\u0444\u0438\u0438 \u043F\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0439",
+    subtitle: "\u0418\u0434\u0435\u0439\u043D\u044B\u0435 \u0441\u043E\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F \u0432\u044B\u0441\u0448\u0435\u0433\u043E \u043F\u043E\u0440\u044F\u0434\u043A\u0430, \u0430 \u0442\u0430\u043A\u0436\u0435 \u0440\u0430\u043C\u043A\u0438 \u0438 \u043C\u0435\u0441\u0442\u043E \u043E\u0431\u0443\u0447\u0435\u043D\u0438\u044F \u043A\u0430\u0434\u0440\u043E\u0432",
+    children: /*#__PURE__*/(0,jsx_runtime.jsx)("div", {
+      children: rows.map(function (row) {
+        return /*#__PURE__*/(0,jsx_runtime.jsx)(Row_Row, {
+          pictures: row.pictures,
+          smallGap: row.smallGap
+        }, row.pictures[0].picture);
+      })
+    })
+  });
+};
+Gallery_c = Gallery;
+/* harmony default export */ const Gallery_Gallery = (Gallery);
+var Gallery_c;
+$RefreshReg$(Gallery_c, "Gallery");
 ;// CONCATENATED MODULE: ./src/components/App/App.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const App_module = ({"wrapper":"App__wrapper-vhn2S","content":"App__content-wL0Gq"});
@@ -1911,6 +2121,7 @@ function App_unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof 
 function App_arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i]; return arr2; }
 function App_iterableToArrayLimit(arr, i) { var _i = null == arr ? null : "undefined" != typeof Symbol && arr[Symbol.iterator] || arr["@@iterator"]; if (null != _i) { var _s, _e, _x, _r, _arr = [], _n = !0, _d = !1; try { if (_x = (_i = _i.call(arr)).next, 0 === i) { if (Object(_i) !== _i) return; _n = !1; } else for (; !(_n = (_s = _x.call(_i)).done) && (_arr.push(_s.value), _arr.length !== i); _n = !0); } catch (err) { _d = !0, _e = err; } finally { try { if (!_n && null != _i["return"] && (_r = _i["return"](), Object(_r) !== _r)) return; } finally { if (_d) throw _e; } } return _arr; } }
 function App_arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
 
 
 
@@ -1941,7 +2152,7 @@ var App = function App() {
       fixed: fixedHeader
     }), /*#__PURE__*/(0,jsx_runtime.jsxs)("main", {
       className: App_module.content,
-      children: [/*#__PURE__*/(0,jsx_runtime.jsx)(Tours_Tours, {}), /*#__PURE__*/(0,jsx_runtime.jsx)(Form_Form, {}), /*#__PURE__*/(0,jsx_runtime.jsx)(Feedback_Feedback, {})]
+      children: [/*#__PURE__*/(0,jsx_runtime.jsx)(Tours_Tours, {}), /*#__PURE__*/(0,jsx_runtime.jsx)(Form_Form, {}), /*#__PURE__*/(0,jsx_runtime.jsx)(Feedback_Feedback, {}), /*#__PURE__*/(0,jsx_runtime.jsx)(Gallery_Gallery, {})]
     }), /*#__PURE__*/(0,jsx_runtime.jsx)(Footer_Footer, {})]
   });
 };
@@ -1963,4 +2174,4 @@ root.render( /*#__PURE__*/(0,jsx_runtime.jsx)(react.StrictMode, {
 
 /******/ })()
 ;
-//# sourceMappingURL=main.829320e24a5de71912c8.js.map
+//# sourceMappingURL=main.3635325aa12d26fe2fba.js.map
