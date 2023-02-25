@@ -2,9 +2,8 @@ import React, { useState, useEffect } from "react";
 import Footer from "../Footer/Footer";
 import Form from "../Form/Form";
 import Header from "../Header/Header";
-import Reviews from "../Reviews/Reviews";
 import Tours from "../Tours/Tours";
-
+import Feedback from "../Feedback/Feedback";
 import styles from "./App.module.scss";
 
 const App = () => {
@@ -29,7 +28,7 @@ const App = () => {
       <main className={styles.content}>
         <Tours />
         <Form />
-        <Reviews />
+        <Feedback />
       </main>
       <Footer />
     </div>
