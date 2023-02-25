@@ -4,18 +4,22 @@ import CardFooter from "../CardFooter/CardFooter";
 
 import styles from "./Card.module.scss";
 
-const Card = () => {
+const Card = ({ card }) => {
   return (
-    <li class="history__item card">
-      <a class="history__link" href="#">
+    <li className={styles.item}>
+      <a className={styles.link} href={card.link}>
         <img
-          class="history__photo card-scalable-img"
-          src="images/history/history-1.jpg"
+          className={styles.picture}
+          src={card.picture}
           alt="Фоновое изображение истории"
         />
-        <div class="history__card">
-          <CardContent />
-          <CardFooter />
+        <div className={styles.card}>
+          <CardContent
+            name={card.name}
+            description={card.description}
+            benefits={card.benefits}
+          />
+          <CardFooter links={card.socials} />
         </div>
       </a>
     </li>

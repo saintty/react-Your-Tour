@@ -1,0 +1,49 @@
+.item {
+  position: relative;
+
+  overflow: hidden;
+
+  border-radius: 50px;
+}
+
+.item + .item {
+  margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+  .card {
+    padding: 35px;
+  }
+
+  .card,
+  .item,
+  .link,
+  .picture {
+    border-radius: 30px;
+  }
+
+  .item + .item {
+    margin-top: 35px;
+  }
+}
+
+@media (max-width: 500px) {
+  .picture {
+    height: 455px;
+  }
+
+  .card {
+    padding: 30px;
+  }
+
+  .card,
+  .item,
+  .link,
+  .picture {
+    border-radius: 20px;
+  }
+
+  .item + .item {
+    margin-top: 20px;
+  }
+}

@@ -5,9 +5,9 @@ import styles from "./CardContent.module.scss";
 
 const CardContent = ({ name, description, benefits }) => {
   return (
-    <div class={styles.content}>
-      <h3 class={styles.name}>{name}</h3>
-      <p class={styles.description}>{description}</p>
+    <div className={styles.content}>
+      <h3 className={styles.name}>{name}</h3>
+      <p className={styles.description}>{description}</p>
       {benefits && <Benefits benefits={benefits} />}
     </div>
   );
