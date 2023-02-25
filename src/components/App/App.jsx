@@ -4,6 +4,8 @@ import Form from "../Form/Form";
 import Header from "../Header/Header";
 import Tours from "../Tours/Tours";
 import Feedback from "../Feedback/Feedback";
+import Gallery from "../Gallery/Gallery";
+
 import styles from "./App.module.scss";
 
 const App = () => {
@@ -29,6 +31,7 @@ const App = () => {
         <Tours />
         <Form />
         <Feedback />
+        <Gallery />
       </main>
       <Footer />
     </div>
