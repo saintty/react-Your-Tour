@@ -5,9 +5,10 @@ import Header from "../Header/Header";
 import Tours from "../Tours/Tours";
 import Feedback from "../Feedback/Feedback";
 import Gallery from "../Gallery/Gallery";
+import History from "../History/History";
+import Invite from "../Invite/Invite";
 
 import styles from "./App.module.scss";
-import Invite from "../Invite/Invite";
 
 const App = () => {
   const [fixedHeader, setFixedHeader] = useState(false);
@@ -33,6 +34,7 @@ const App = () => {
         <Form />
         <Feedback />
         <Gallery />
+        <History />
         <Invite />
       </main>
       <Footer />
