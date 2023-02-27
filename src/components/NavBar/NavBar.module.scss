@@ -2,6 +2,12 @@
 
 .wrapper {
   height: 88px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  z-index: 10;
+  width: 100%;
 }
 
 .inner {
@@ -47,6 +53,7 @@
 
 @media (max-width: 910px) {
   .inner {
+    align-items: flex-end;
     padding: 28.88px 0;
   }
 

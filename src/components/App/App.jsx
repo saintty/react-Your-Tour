@@ -7,28 +7,15 @@ import Feedback from "../Feedback/Feedback";
 import Gallery from "../Gallery/Gallery";
 import History from "../History/History";
 import Invite from "../Invite/Invite";
+import Navbar from "../NavBar/NavBar";
 
 import styles from "./App.module.scss";
 
 const App = () => {
-  const [fixedHeader, setFixedHeader] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = (event) => {
-      if (window.scrollY >= 450) setFixedHeader(true);
-      else setFixedHeader(false);
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
   return (
     <div className={styles.wrapper}>
-      <Header fixed={fixedHeader} />
+      <Navbar />
+      <Header />
       <main className={styles.content}>
         <Tours />
         <Form />

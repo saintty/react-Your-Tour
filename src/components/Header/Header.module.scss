@@ -2,14 +2,6 @@
 
 .header {
   position: relative;
-
-  &__top.transparent &-nav__item::after {
-    background-color: $black;
-  }
-
-  &__top.transparent &__logo path {
-    fill: $black;
-  }
 }
 
 .content {
@@ -18,6 +10,8 @@
   right: 0;
   bottom: 0;
   left: 0;
+
+  padding-top: 88px;
 
   background: linear-gradient(180deg, rgba(#000, 40%) 0%, rgba(#000, 0) 39.9%),
     linear-gradient(0deg, rgba(#000, 30%), rgba(#000, 30%));
