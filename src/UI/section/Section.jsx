@@ -1,13 +1,20 @@
 import React from "react";
 import SectionTitle from "./../sectionTitle/SectionTitle";
 import SectionSubTitle from "./../sectionSubTitle/SectionSubTitle";
-
-import styles from "./Section.module.scss";
+import classNames from "classnames";
 import Container from "../../shared/container/Container";
 
-const Section = ({ title, subtitle, children }) => {
+import styles from "./Section.module.scss";
+
+const Section = ({ title, subtitle, order, children }) => {
   return (
-    <section className={styles.section}>
+    <section
+      className={classNames(
+        styles.section,
+        order === "first" && styles.first,
+        order === "last" && styles.last
+      )}
+    >
       <Container>
         {title && <SectionTitle title={title} />}
         {subtitle && <SectionSubTitle subtitle={subtitle} />}

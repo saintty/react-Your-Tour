@@ -7,7 +7,7 @@ import picture from "./footer-photo.jpg";
 
 const Invite = ({}) => {
   return (
-    <Section>
+    <Section order="last">
       <div className={styles.wrapper}>
         <img
           className={styles.picture}
