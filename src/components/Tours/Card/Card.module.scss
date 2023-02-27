@@ -117,3 +117,23 @@
     padding: 35px;
   }
 }
+
+@media (max-width: 420px) {
+  .picture {
+    height: 318px;
+  }
+
+  .card,
+  .wrapper,
+  .picture {
+    border-radius: 20px;
+  }
+
+  .wrapper {
+    padding: 25px;
+  }
+
+  .card:hover .wrapper {
+    padding: 25px;
+  }
+}
