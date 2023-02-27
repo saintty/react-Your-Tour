@@ -9,9 +9,9 @@ import CardList from "./CardList/CardList";
 
 const Tours = () => {
   return (
-    <Section title="Выбери свой тур">
+    <Section title="Выбери свой тур" order="first">
       <CategoryList categories={categories} />
-      <CardList cards={cards}/>
+      <CardList cards={cards} />
     </Section>
   );
 };

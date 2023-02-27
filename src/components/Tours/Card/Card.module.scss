@@ -54,6 +54,11 @@
   padding: 40px;
 }
 
+.card:hover button {
+  margin-bottom: 10px;
+  margin-left: -10px;
+}
+
 @media (max-width: 1220px) {
   .card {
     width: 49%;
@@ -87,6 +92,10 @@
   .card:hover .wrapper {
     padding: 50px;
   }
+
+  .card:hover button {
+    margin-bottom: 0px;
+  }
 }
 
 @media (max-width: 500px) {
@@ -106,5 +115,25 @@
 
   .card:hover .wrapper {
     padding: 35px;
+  }
+}
+
+@media (max-width: 420px) {
+  .picture {
+    height: 318px;
+  }
+
+  .card,
+  .wrapper,
+  .picture {
+    border-radius: 20px;
+  }
+
+  .wrapper {
+    padding: 25px;
+  }
+
+  .card:hover .wrapper {
+    padding: 25px;
   }
 }
