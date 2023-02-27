@@ -5,10 +5,10 @@ import icon from "./arrow.svg";
 
 const InfoButton = ({ label }) => {
   return (
-    <div className={styles.button}>
+    <button className={styles.button}>
       <span className={styles.label}>{label}</span>
-      <img className={styles.icon} src={icon} alt="Иконка кнопки информации"/>
-    </div>
+      <img className={styles.icon} src={icon} alt="Иконка кнопки информации" />
+    </button>
   );
 };
 
