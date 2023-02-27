@@ -6,13 +6,12 @@ const Socials = ({ socials }) => {
   return (
     <ul className={styles.list}>
       {socials.map((item) => (
-        <li className={styles.item}>
+        <li className={styles.item} key={item.label}>
           <object>
             <a
               className={styles.link}
               href={item.link}
               target="_blank"
-              key={item.label}
             >
               {item.label}
             </a>

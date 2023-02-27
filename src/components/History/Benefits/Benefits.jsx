@@ -4,9 +4,9 @@ import styles from "./Benefits.module.scss";
 
 const Benefits = ({ benefits }) => {
   return (
-    <ul class={styles.list}>
+    <ul className={styles.list}>
       {benefits.map((item) => (
-        <li class={styles.item} key={item}>
+        <li className={styles.item} key={item}>
           {item}
         </li>
       ))}
