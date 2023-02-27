@@ -1,7 +1,6 @@
 @import "./../../scss/vars";
 
 .button {
-  margin-bottom: -7px;
   margin-left: -20px;
   padding: 7px 21px 7px 20px;
 
@@ -14,9 +13,6 @@
 }
 
 li:hover .button {
-  margin-bottom: 3px;
-  margin-left: -10px;
-
   background-color: $green-400;
 }
 
@@ -34,7 +30,6 @@ li .button:active {
   }
 
   li:hover .button {
-    margin-bottom: -7px;
     margin-left: -20px;
 
     background-color: unset;

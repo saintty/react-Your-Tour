@@ -5,7 +5,6 @@ import classNames from "classnames";
 import styles from "./Row.module.scss";
 
 const Row = ({ pictures, smallGap }) => {
-  console.log(pictures[0]);
   return (
     <div className={classNames(styles.row, smallGap && styles.small)}>
       {pictures.map((item) => (
