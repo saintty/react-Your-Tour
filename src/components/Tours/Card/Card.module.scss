@@ -92,6 +92,10 @@
   .card:hover .wrapper {
     padding: 50px;
   }
+
+  .card:hover button {
+    margin-bottom: 0px;
+  }
 }
 
 @media (max-width: 500px) {
