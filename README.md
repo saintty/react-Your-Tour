@@ -1,15 +1,15 @@
-# Webpack + React project boilerplate
-----
+# Your Tour
 
-##Before the start
+## Before the start
 ___`npm i`___ to initialize project
-##Available scripts:
+
+## Available scripts:
 - ___`npm run start`___ - start project in development mode on localhost:3000
 - ___`npm run prebuild`___ - remove `./build` production folder
 - ___`npm run build`___ - build production version in `./build` folder
 
 
-##Processes files:
+## Processes files:
 - ___`*.html`___
 - ___`*.js`___ and ___`*.jsx`___
 - ___`*.css`___ ___`*.scss`___ and ___`*.sass`___
