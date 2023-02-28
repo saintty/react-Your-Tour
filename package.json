@@ -1,7 +1,8 @@
 {
-  "name": "react-webpack-build",
+  "name": "your-tour-react-project",
   "version": "1.0.0",
-  "description": "Initial webpack + react project setup",
+  "private": true,
+  "description": "Your Tour web-site",
   "main": "index.js",
   "scripts": {
     "start": "set NODE_ENV=development&&webpack serve --config webpack.config.js",
