@@ -31,7 +31,7 @@ const Navbar = () => {
       <Container>
         <div className={styles.inner}>
           <Logo />
-          <nav className={styles.nav}>
+          <nav className={classNames(styles.nav, open && styles.open)}>
             <ul className={styles.list}>
               {links.map((link) => (
                 <NavLink to={link.to} label={link.label} key={link.to} />
