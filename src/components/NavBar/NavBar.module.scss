@@ -43,11 +43,22 @@
   li:hover::after {
     background-color: $black;
   }
+
+  button span{
+    background-color: $black;
+  }
 }
 
 @media (max-width: 1200px) {
   .inner {
     padding: 28px 4px;
+  }
+}
+
+
+@media (max-width: 930px) {
+  .nav {
+    display: none;
   }
 }
 

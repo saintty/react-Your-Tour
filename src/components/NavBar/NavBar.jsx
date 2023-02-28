@@ -4,12 +4,14 @@ import Logo from "../../UI/logo/Logo";
 import links from "./navLinks";
 import Container from "./../../shared/container/Container";
 import NavLink from "./NavLink/NavLink";
+import Button from "./Button/Button";
+import PhoneLink from "./PhoneLink/PhoneLink";
 
 import styles from "./NavBar.module.scss";
-import PhoneLink from "./PhoneLink/PhoneLink";
 
 const Navbar = () => {
   const [fixed, setFixed] = useState(false);
+  const [open, setOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = (event) => {
@@ -36,6 +38,7 @@ const Navbar = () => {
               ))}
             </ul>
           </nav>
+          <Button open={open} setOpen={() => setOpen(!open)} />
           <PhoneLink to={"tel:+79999999999"}>+7 999 999 99 99</PhoneLink>
         </div>
       </Container>
