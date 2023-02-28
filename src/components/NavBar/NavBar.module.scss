@@ -43,6 +43,10 @@
   li:hover::after {
     background-color: $black;
   }
+
+  button span {
+    background-color: $black;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -51,20 +55,36 @@
   }
 }
 
-@media (max-width: 910px) {
-  .inner {
-    align-items: flex-end;
-    padding: 28.88px 0;
+@media (max-width: 930px) {
+  .nav {
+    position: absolute;
+    top: 88px;
+    left: -100%;
+
+    width: 100%;
+    padding: 20px 0;
+    background-color: rgba($black, 0.95);
+    transition: all 0.3s ease;
   }
 
-  .nav {
-    display: none;
+  .open {
+    left: 0;
+
+    li {
+      color: $white;
+    }
+  }
+
+  .list {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
   }
 }
 
-@media (max-width: 840px) {
-  .nav {
-    display: none;
+@media (max-width: 910px) {
+  .inner {
+    padding: 28.88px 0;
   }
 }
 
