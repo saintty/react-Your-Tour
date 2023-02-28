@@ -21,6 +21,6 @@ const links = [
     icon: vk,
     alt: "Иконка ссылки на сторонний ресурс",
   },
-]
+];
 
 export default links;

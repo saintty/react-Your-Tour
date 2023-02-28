@@ -4,10 +4,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.item + .item {
-  margin-left: 26px;
+  max-width: 430px;
+  flex-wrap: wrap;
+  gap: 26px;
 }
 
 .link {
@@ -21,12 +20,12 @@
 }
 
 @media (max-width: 500px) {
-  .item {
-    margin: 0;
+  .list {
+    gap: 12px;
   }
 
-  .item + .item {
-    margin-left: 12px;
+  .item {
+    margin: 0;
   }
 
   .link {
