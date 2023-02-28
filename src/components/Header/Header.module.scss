@@ -1,0 +1,18 @@
+@import "./../../scss/vars";
+
+.header {
+  position: relative;
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  padding-top: 88px;
+
+  background: linear-gradient(180deg, rgba(#000, 40%) 0%, rgba(#000, 0) 39.9%),
+    linear-gradient(0deg, rgba(#000, 30%), rgba(#000, 30%));
+}

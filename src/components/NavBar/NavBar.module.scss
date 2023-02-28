@@ -1,0 +1,96 @@
+@import "./../../scss/vars";
+
+.wrapper {
+  height: 88px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  z-index: 10;
+  width: 100%;
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 28px 1px;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+
+  color: $black;
+
+  background-color: rgba(#f3efe8, 60%);
+  backdrop-filter: blur(27px);
+
+  svg path {
+    fill: $black;
+  }
+
+  li:hover::after {
+    background-color: $black;
+  }
+
+  button span {
+    background-color: $black;
+  }
+}
+
+@media (max-width: 1200px) {
+  .inner {
+    padding: 28px 4px;
+  }
+}
+
+@media (max-width: 930px) {
+  .nav {
+    position: absolute;
+    top: 88px;
+    left: -100%;
+
+    width: 100%;
+    padding: 20px 0;
+    background-color: rgba($black, 0.95);
+    transition: all 0.3s ease;
+  }
+
+  .open {
+    left: 0;
+
+    li {
+      color: $white;
+    }
+  }
+
+  .list {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 910px) {
+  .inner {
+    padding: 28.88px 0;
+  }
+}
+
+@media (max-width: 420px) {
+  .inner {
+    margin: 0 -1px;
+    padding: 32px 0;
+  }
+}

@@ -1,0 +1,11 @@
+.list {
+  padding-left: 30px;
+
+  list-style-type: disc;
+}
+
+@media (max-width: 500px) {
+  .list {
+    padding-left: 24px;
+  }
+}

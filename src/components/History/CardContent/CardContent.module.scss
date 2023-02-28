@@ -1,0 +1,45 @@
+@import "./../../../scss/vars";
+
+.content {
+  max-width: 554px;
+}
+
+.name {
+  margin-bottom: 37px;
+  color: $white;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 43px;
+}
+
+.description {
+  margin-bottom: 28px;
+}
+
+@media (max-width: 768px) {
+  .name {
+    margin-bottom: 25px;
+    font-size: 29px;
+    line-height: 35px;
+  }
+}
+
+@media (max-width: 500px) {
+  .content {
+    font-size: 16px;
+    line-height: 23px;
+  }
+
+  .name {
+    max-width: 160px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+  }
+
+  .description {
+    margin-bottom: 23px;
+  }
+}

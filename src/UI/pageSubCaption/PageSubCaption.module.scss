@@ -1,0 +1,29 @@
+.subtitle {
+  max-width: 562px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+
+  text-align: center;
+}
+
+@media (max-width: 1030px) {
+  .subtitle {
+    max-width: 442px;
+  }
+}
+
+@media (max-width: 576px) {
+  .subtitle {
+    max-width: 320px;
+    margin-bottom: 40px;
+
+    font-size: 16px;
+    line-height: 23px;
+  }
+}
+
+@media (max-width: 420px) {
+  .subtitle {
+    max-width: 300px;
+  }
+}

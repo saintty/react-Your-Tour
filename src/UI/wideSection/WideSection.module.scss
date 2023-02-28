@@ -1,0 +1,27 @@
+.section {
+  padding-top: 100px;
+  padding-bottom: 35px;
+}
+
+.first {
+  padding-top: 135px;
+}
+
+.last {
+  padding-bottom: 135px;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding-top: 41px;
+    padding-bottom: 35px;
+  }
+
+  .first {
+    padding-top: 76px;
+  }
+
+  .last {
+    padding-bottom: 75px;
+  }
+}
