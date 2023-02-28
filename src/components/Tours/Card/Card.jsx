@@ -7,7 +7,7 @@ import styles from "./Card.module.scss";
 
 const Card = ({ card }) => {
   return (
-    <Slide direction="up" duration={1500} triggerOnce={true}>
+    <Slide direction="up" duration={700} triggerOnce={true}>
       <li className={styles.card}>
         <a className={styles.link} href={card.link}>
           <img
