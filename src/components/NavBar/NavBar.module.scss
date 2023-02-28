@@ -79,13 +79,11 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    margin-left: 20px;
   }
 }
 
 @media (max-width: 910px) {
   .inner {
-    align-items: flex-end;
     padding: 28.88px 0;
   }
 }
