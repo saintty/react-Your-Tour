@@ -988,9 +988,9 @@ SectionTitle_c = SectionTitle;
 /* harmony default export */ const sectionTitle_SectionTitle = (SectionTitle);
 var SectionTitle_c;
 $RefreshReg$(SectionTitle_c, "SectionTitle");
-;// CONCATENATED MODULE: ./src/UI/sectionSubTitle/sectionSubTitle.module.scss
+;// CONCATENATED MODULE: ./src/UI/sectionSubTitle/SectionSubTitle.module.scss
 // extracted by mini-css-extract-plugin
-/* harmony default export */ const sectionSubTitle_module = ({"subtitle":"sectionSubTitle__subtitle-pBCca"});
+/* harmony default export */ const SectionSubTitle_module = ({"subtitle":"sectionSubTitle__subtitle-izu1L"});
 ;// CONCATENATED MODULE: ./src/UI/sectionSubTitle/SectionSubTitle.jsx
 
 
@@ -998,7 +998,7 @@ $RefreshReg$(SectionTitle_c, "SectionTitle");
 var SectionSubTitle = function SectionSubTitle(_ref) {
   var subtitle = _ref.subtitle;
   return /*#__PURE__*/(0,jsx_runtime.jsx)("p", {
-    className: sectionSubTitle_module.subtitle,
+    className: SectionSubTitle_module.subtitle,
     children: subtitle
   });
 };
@@ -1454,10 +1454,10 @@ Form_c = Form;
 /* harmony default export */ const Form_Form = (Form);
 var Form_c;
 $RefreshReg$(Form_c, "Form");
-;// CONCATENATED MODULE: ./src/UI/centeredButton/CenteredButton.module.scss
+;// CONCATENATED MODULE: ./src/UI/centerButton/CenterButton.module.scss
 // extracted by mini-css-extract-plugin
-/* harmony default export */ const CenteredButton_module = ({"wrapper":"centeredButton__wrapper-_NvT1","button":"centeredButton__button-BPT0R"});
-;// CONCATENATED MODULE: ./src/UI/centeredButton/CenteredButton.jsx
+/* harmony default export */ const CenterButton_module = ({"wrapper":"centerButton__wrapper-s8gxA","button":"centerButton__button-JEmCV"});
+;// CONCATENATED MODULE: ./src/UI/centerButton/CenterButton.jsx
 
 
 
@@ -1465,53 +1465,53 @@ var CenteredButton = function CenteredButton(_ref) {
   var to = _ref.to,
     label = _ref.label;
   return /*#__PURE__*/(0,jsx_runtime.jsx)("div", {
-    className: CenteredButton_module.wrapper,
+    className: CenterButton_module.wrapper,
     children: /*#__PURE__*/(0,jsx_runtime.jsx)("a", {
-      className: CenteredButton_module.button,
+      className: CenterButton_module.button,
       href: to,
       target: "_blank",
       children: label
     })
   });
 };
-CenteredButton_c = CenteredButton;
-/* harmony default export */ const centeredButton_CenteredButton = (CenteredButton);
-var CenteredButton_c;
-$RefreshReg$(CenteredButton_c, "CenteredButton");
-;// CONCATENATED MODULE: ./src/UI/PageCaption/pageCaption.module.scss
+CenterButton_c = CenteredButton;
+/* harmony default export */ const CenterButton = (CenteredButton);
+var CenterButton_c;
+$RefreshReg$(CenterButton_c, "CenteredButton");
+;// CONCATENATED MODULE: ./src/UI/pageCaption/PageCaption.module.scss
 // extracted by mini-css-extract-plugin
-/* harmony default export */ const pageCaption_module = ({"title":"PageCaption__title-Q_kwD"});
-;// CONCATENATED MODULE: ./src/UI/PageCaption/PageCaption.jsx
+/* harmony default export */ const PageCaption_module = ({"title":"pageCaption__title-K__D9"});
+;// CONCATENATED MODULE: ./src/UI/pageCaption/PageCaption.jsx
 
 
 
 var PageCaption = function PageCaption(_ref) {
   var children = _ref.children;
   return /*#__PURE__*/(0,jsx_runtime.jsx)("h1", {
-    className: pageCaption_module.title,
+    className: PageCaption_module.title,
     children: children
   });
 };
 PageCaption_c = PageCaption;
-/* harmony default export */ const PageCaption_PageCaption = (PageCaption);
+/* harmony default export */ const pageCaption_PageCaption = (PageCaption);
 var PageCaption_c;
 $RefreshReg$(PageCaption_c, "PageCaption");
-;// CONCATENATED MODULE: ./src/UI/PageSubCaption/pageSubCaption.module.scss
+;// CONCATENATED MODULE: ./src/UI/pageSubCaption/PageSubCaption.module.scss
 // extracted by mini-css-extract-plugin
-/* harmony default export */ const pageSubCaption_module = ({"subtitle":"PageSubCaption__subtitle-yRWsY"});
-;// CONCATENATED MODULE: ./src/UI/PageSubCaption/PageSubCaption.jsx
+/* harmony default export */ const PageSubCaption_module = ({"subtitle":"pageSubCaption__subtitle-V_wX7"});
+;// CONCATENATED MODULE: ./src/UI/pageSubCaption/PageSubCaption.jsx
 
 
 
 var PageSubCaption = function PageSubCaption(_ref) {
   var children = _ref.children;
   return /*#__PURE__*/(0,jsx_runtime.jsx)("h2", {
-    className: pageSubCaption_module.subtitle,
+    className: PageSubCaption_module.subtitle,
     children: children
   });
 };
 PageSubCaption_c = PageSubCaption;
-/* harmony default export */ const PageSubCaption_PageSubCaption = (PageSubCaption);
+/* harmony default export */ const pageSubCaption_PageSubCaption = (PageSubCaption);
 var PageSubCaption_c;
 $RefreshReg$(PageSubCaption_c, "PageSubCaption");
 ;// CONCATENATED MODULE: ./src/components/Header/Background/Background.module.scss
@@ -1557,11 +1557,11 @@ var Header = function Header() {
     }), /*#__PURE__*/(0,jsx_runtime.jsx)("div", {
       className: Header_module.content,
       children: /*#__PURE__*/(0,jsx_runtime.jsxs)(container_Container, {
-        children: [/*#__PURE__*/(0,jsx_runtime.jsx)(PageCaption_PageCaption, {
+        children: [/*#__PURE__*/(0,jsx_runtime.jsx)(pageCaption_PageCaption, {
           children: "\u0418\u0434\u0435\u0430\u043B\u044C\u043D\u044B\u0435 \u043F\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u044F \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0443\u044E\u0442"
-        }), /*#__PURE__*/(0,jsx_runtime.jsx)(PageSubCaption_PageSubCaption, {
+        }), /*#__PURE__*/(0,jsx_runtime.jsx)(pageSubCaption_PageSubCaption, {
           children: "\u0418\u0434\u0435\u0439\u043D\u044B\u0435 \u0441\u043E\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F \u0432\u044B\u0441\u0448\u0435\u0433\u043E \u043F\u043E\u0440\u044F\u0434\u043A\u0430, \u0430 \u0442\u0430\u043A\u0436\u0435 \u0440\u0430\u043C\u043A\u0438 \u0438 \u043C\u0435\u0441\u0442\u043E \u043E\u0431\u0443\u0447\u0435\u043D\u0438\u044F \u043A\u0430\u0434\u0440\u043E\u0432"
-        }), /*#__PURE__*/(0,jsx_runtime.jsx)(centeredButton_CenteredButton, {
+        }), /*#__PURE__*/(0,jsx_runtime.jsx)(CenterButton, {
           to: "#",
           label: "\u041D\u0430\u0439\u0442\u0438 \u0442\u0443\u0440"
         })]
@@ -1573,9 +1573,6 @@ Header_c = Header;
 /* harmony default export */ const Header_Header = (Header);
 var Header_c;
 $RefreshReg$(Header_c, "Header");
-;// CONCATENATED MODULE: ./src/components/Tours/Tours.module.scss
-// extracted by mini-css-extract-plugin
-/* harmony default export */ const Tours_module = ({});
 ;// CONCATENATED MODULE: ./src/components/Tours/pictures/card-1.jpg
 const card_1_namespaceObject = __webpack_require__.p + "images\\card-1.a3ab33de5ea3efedd27d.jpg";
 ;// CONCATENATED MODULE: ./src/components/Tours/pictures/card-2.jpg
@@ -1710,60 +1707,6 @@ CategoryList_c = CategoryList;
 /* harmony default export */ const CategoryList_CategoryList = (CategoryList);
 var CategoryList_c;
 $RefreshReg$(CategoryList_c, "CategoryList");
-;// CONCATENATED MODULE: ./src/components/Tours/card/cardHeader/CardHeader.module.scss
-// extracted by mini-css-extract-plugin
-/* harmony default export */ const CardHeader_module = ({"name":"cardHeader__name-GiFmR","price":"cardHeader__price-koror"});
-;// CONCATENATED MODULE: ./src/components/Tours/card/cardHeader/CardHeader.jsx
-
-
-
-
-var CardHeader = function CardHeader(_ref) {
-  var name = _ref.name,
-    price = _ref.price;
-  return /*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
-    children: [/*#__PURE__*/(0,jsx_runtime.jsx)("h3", {
-      className: CardHeader_module.name,
-      children: name
-    }), /*#__PURE__*/(0,jsx_runtime.jsx)("span", {
-      className: CardHeader_module.price,
-      children: price
-    })]
-  });
-};
-CardHeader_c = CardHeader;
-/* harmony default export */ const cardHeader_CardHeader = (CardHeader);
-var CardHeader_c;
-$RefreshReg$(CardHeader_c, "CardHeader");
-;// CONCATENATED MODULE: ./src/UI/infoButton/InfoButton.module.scss
-// extracted by mini-css-extract-plugin
-/* harmony default export */ const InfoButton_module = ({"button":"infoButton__button-JEBfa","label":"infoButton__label-Cg8S6"});
-;// CONCATENATED MODULE: ./src/UI/infoButton/arrow.svg
-const arrow_namespaceObject = __webpack_require__.p + "icons\\arrow.f74fbbb58a5e60ee636a.svg";
-;// CONCATENATED MODULE: ./src/UI/infoButton/InfoButton.jsx
-
-
-
-
-
-var InfoButton = function InfoButton(_ref) {
-  var label = _ref.label;
-  return /*#__PURE__*/(0,jsx_runtime.jsxs)("button", {
-    className: InfoButton_module.button,
-    children: [/*#__PURE__*/(0,jsx_runtime.jsx)("span", {
-      className: InfoButton_module.label,
-      children: label
-    }), /*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-      className: InfoButton_module.icon,
-      src: arrow_namespaceObject,
-      alt: "\u0418\u043A\u043E\u043D\u043A\u0430 \u043A\u043D\u043E\u043F\u043A\u0438 \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u0438"
-    })]
-  });
-};
-InfoButton_c = InfoButton;
-/* harmony default export */ const infoButton_InfoButton = (InfoButton);
-var InfoButton_c;
-$RefreshReg$(InfoButton_c, "InfoButton");
 ;// CONCATENATED MODULE: ./node_modules/@emotion/sheet/dist/emotion-sheet.browser.esm.js
 /*
 
@@ -6735,10 +6678,64 @@ var Zoom = (props) => {
 };
 
 //# sourceMappingURL=index.mjs.map
-;// CONCATENATED MODULE: ./src/components/Tours/card/Card.module.scss
+;// CONCATENATED MODULE: ./src/components/Tours/Card/CardHeader/CardHeader.module.scss
 // extracted by mini-css-extract-plugin
-/* harmony default export */ const Card_module = ({"card":"card__card-HyTn7","picture":"card__picture-NHIal","wrapper":"card__wrapper-dlfmn"});
-;// CONCATENATED MODULE: ./src/components/Tours/card/Card.jsx
+/* harmony default export */ const CardHeader_module = ({"name":"CardHeader__name-i4TzD","price":"CardHeader__price-spI6q"});
+;// CONCATENATED MODULE: ./src/components/Tours/Card/CardHeader/CardHeader.jsx
+
+
+
+
+var CardHeader = function CardHeader(_ref) {
+  var name = _ref.name,
+    price = _ref.price;
+  return /*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
+    children: [/*#__PURE__*/(0,jsx_runtime.jsx)("h3", {
+      className: CardHeader_module.name,
+      children: name
+    }), /*#__PURE__*/(0,jsx_runtime.jsx)("span", {
+      className: CardHeader_module.price,
+      children: price
+    })]
+  });
+};
+CardHeader_c = CardHeader;
+/* harmony default export */ const CardHeader_CardHeader = (CardHeader);
+var CardHeader_c;
+$RefreshReg$(CardHeader_c, "CardHeader");
+;// CONCATENATED MODULE: ./src/UI/infoButton/InfoButton.module.scss
+// extracted by mini-css-extract-plugin
+/* harmony default export */ const InfoButton_module = ({"button":"infoButton__button-JEBfa","label":"infoButton__label-Cg8S6"});
+;// CONCATENATED MODULE: ./src/UI/infoButton/arrow.svg
+const arrow_namespaceObject = __webpack_require__.p + "icons\\arrow.f74fbbb58a5e60ee636a.svg";
+;// CONCATENATED MODULE: ./src/UI/infoButton/InfoButton.jsx
+
+
+
+
+
+var InfoButton = function InfoButton(_ref) {
+  var label = _ref.label;
+  return /*#__PURE__*/(0,jsx_runtime.jsxs)("button", {
+    className: InfoButton_module.button,
+    children: [/*#__PURE__*/(0,jsx_runtime.jsx)("span", {
+      className: InfoButton_module.label,
+      children: label
+    }), /*#__PURE__*/(0,jsx_runtime.jsx)("img", {
+      className: InfoButton_module.icon,
+      src: arrow_namespaceObject,
+      alt: "\u0418\u043A\u043E\u043D\u043A\u0430 \u043A\u043D\u043E\u043F\u043A\u0438 \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u0438"
+    })]
+  });
+};
+InfoButton_c = InfoButton;
+/* harmony default export */ const infoButton_InfoButton = (InfoButton);
+var InfoButton_c;
+$RefreshReg$(InfoButton_c, "InfoButton");
+;// CONCATENATED MODULE: ./src/components/Tours/Card/Card.module.scss
+// extracted by mini-css-extract-plugin
+/* harmony default export */ const Card_module = ({"card":"Card__card-bOonk","picture":"Card__picture-YMkno","wrapper":"Card__wrapper-KpA0Y"});
+;// CONCATENATED MODULE: ./src/components/Tours/Card/Card.jsx
 
 
 
@@ -6763,7 +6760,7 @@ var Card = function Card(_ref) {
           alt: "\u0424\u043E\u043D\u043E\u0432\u043E\u0435 \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 \u043F\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u044F"
         }), /*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
           className: Card_module.wrapper,
-          children: [/*#__PURE__*/(0,jsx_runtime.jsx)(cardHeader_CardHeader, {
+          children: [/*#__PURE__*/(0,jsx_runtime.jsx)(CardHeader_CardHeader, {
             name: card.name,
             price: card.price
           }), /*#__PURE__*/(0,jsx_runtime.jsx)(infoButton_InfoButton, {
@@ -6775,7 +6772,7 @@ var Card = function Card(_ref) {
   });
 };
 Card_c = Card;
-/* harmony default export */ const card_Card = (Card);
+/* harmony default export */ const Card_Card = (Card);
 var Card_c;
 $RefreshReg$(Card_c, "Card");
 ;// CONCATENATED MODULE: ./src/components/Tours/CardList/CardList.module.scss
@@ -6791,7 +6788,7 @@ var CardList = function CardList(_ref) {
   return /*#__PURE__*/(0,jsx_runtime.jsx)("ul", {
     className: CardList_module.list,
     children: cards.map(function (item) {
-      return /*#__PURE__*/(0,jsx_runtime.jsx)(card_Card, {
+      return /*#__PURE__*/(0,jsx_runtime.jsx)(Card_Card, {
         card: item
       }, "".concat(item.price, "_").concat(item.link));
     })
@@ -6802,8 +6799,6 @@ CardList_c = CardList;
 var CardList_c;
 $RefreshReg$(CardList_c, "CardList");
 ;// CONCATENATED MODULE: ./src/components/Tours/Tours.jsx
-
-
 
 
 
@@ -7265,7 +7260,7 @@ $RefreshReg$(CardFooter_c, "CardFooter");
 
 
 
-var Card_Card = function Card(_ref) {
+var Card_Card_Card = function Card(_ref) {
   var card = _ref.card;
   return /*#__PURE__*/(0,jsx_runtime.jsx)(Slide, {
     direction: "up",
@@ -7294,8 +7289,8 @@ var Card_Card = function Card(_ref) {
     })
   });
 };
-Card_Card_c = Card_Card;
-/* harmony default export */ const History_Card_Card = (Card_Card);
+Card_Card_c = Card_Card_Card;
+/* harmony default export */ const History_Card_Card = (Card_Card_Card);
 var Card_Card_c;
 $RefreshReg$(Card_Card_c, "Card");
 ;// CONCATENATED MODULE: ./src/components/History/History.module.scss
@@ -7704,4 +7699,4 @@ root.render( /*#__PURE__*/(0,jsx_runtime.jsx)(react.StrictMode, {
 
 /******/ })()
 ;
-//# sourceMappingURL=main.c7678c7fc77ce9bc067c.js.map
+//# sourceMappingURL=main.7144c13de65d30b79fde.js.map
