@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "../../shared/container/Container";
-import CenteredButton from "../../UI/centeredButton/CenteredButton";
+import CenterButton from "../../UI/centerButton/CenterButton";
 import PageCaption from "../../UI/pageCaption/PageCaption";
 import PageSubCaption from "../../UI/pageSubCaption/PageSubCaption";
 import Background from "./Background/Background";
@@ -19,7 +19,7 @@ const Header = () => {
             Идейные соображения высшего порядка, а также рамки и место обучения
             кадров
           </PageSubCaption>
-          <CenteredButton to={"#"} label="Найти тур" />
+          <CenterButton to={"#"} label="Найти тур" />
         </Container>
       </div>
     </header>
