@@ -1,6 +1,6 @@
 import React from "react";
 
-import styles from "./sectionSubTitle.module.scss";
+import styles from "./SectionSubTitle.module.scss";
 
 const SectionSubTitle = ({ subtitle }) => {
   return <p className={styles.subtitle}>{subtitle}</p>;

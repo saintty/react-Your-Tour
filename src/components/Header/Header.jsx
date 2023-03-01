@@ -1,8 +1,8 @@
 import React from "react";
 import Container from "../../shared/container/Container";
 import CenteredButton from "../../UI/centeredButton/CenteredButton";
-import PageCaption from "../../UI/PageCaption/PageCaption";
-import PageSubCaption from "../../UI/PageSubCaption/PageSubCaption";
+import PageCaption from "../../UI/pageCaption/PageCaption";
+import PageSubCaption from "../../UI/pageSubCaption/PageSubCaption";
 import Background from "./Background/Background";
 
 import styles from "./Header.module.scss";

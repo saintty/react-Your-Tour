@@ -1,10 +1,7 @@
 import React from "react";
 import Section from "./../../UI/section/Section";
-
-import styles from "./Tours.module.scss";
 import { categories, cards } from "./data";
 import CategoryList from "./CategoryList/CategoryList";
-import Card from "./card/Card";
 import CardList from "./CardList/CardList";
 
 const Tours = () => {
