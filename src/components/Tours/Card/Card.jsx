@@ -1,7 +1,7 @@
 import React from "react";
-import CardHeader from "./cardHeader/CardHeader";
-import InfoButton from "../../../UI/infoButton/InfoButton";
 import { Slide } from "react-awesome-reveal";
+import CardHeader from "./CardHeader/CardHeader";
+import InfoButton from "../../../UI/infoButton/InfoButton";
 
 import styles from "./Card.module.scss";
 
