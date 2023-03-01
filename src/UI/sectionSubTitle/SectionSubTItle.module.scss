@@ -1,4 +1,4 @@
-@import "./../../scss//vars";
+@import "./../../scss/vars";
 
 .subtitle {
   max-width: 418px;
@@ -7,7 +7,6 @@
   color: $gray-300;
   text-align: center;
 }
-
 
 @media (max-width: 768px) {
   .subtitle {
