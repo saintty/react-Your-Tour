@@ -2,8 +2,9 @@
   "name": "your-tour-react-project",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://saintty.github.io/react-Your-Tour/",
   "description": "Your Tour web-site",
-  "main": "index.js",
+  "main": "index.jsx",
   "scripts": {
     "start": "set NODE_ENV=development&&webpack serve --config webpack.config.js",
     "prebuild": "rimraf build",
