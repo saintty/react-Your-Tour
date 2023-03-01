@@ -1,4 +1,5 @@
 import React from "react";
+import { Routes, Route } from "react-router-dom";
 import Footer from "../Footer/Footer";
 import Navbar from "../NavBar/NavBar";
 import Home from "../Home/Home";
@@ -9,7 +10,9 @@ const App = () => {
   return (
     <div className={styles.wrapper}>
       <Navbar />
-        <Home />
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
       <Footer />
     </div>
   );
