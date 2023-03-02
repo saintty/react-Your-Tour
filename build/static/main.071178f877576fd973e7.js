@@ -884,11 +884,11 @@ var Container = function Container(_ref) {
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Socials_module = ({"list":"Socials__list-Jz7L0","link":"Socials__link-eRUzO","icon":"Socials__icon-buy4y","item":"Socials__item-Ioz0j"});
 ;// CONCATENATED MODULE: ./src/components/Footer/Socials/icons/instagram.svg
-const instagram_namespaceObject = __webpack_require__.p + "icons\\instagram.cd8d274fb772190c0694.svg";
+const instagram_namespaceObject = "data:image/svg+xml,%3csvg width='26' height='26' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M14.667 14a2.333 2.333 0 1 1 4.667 0 2.333 2.333 0 0 1-4.667 0Zm-1.261 0a3.594 3.594 0 1 0 7.189 0 3.594 3.594 0 0 0-7.19 0Zm6.491-3.737a.84.84 0 1 0 1.68 0 .84.84 0 0 0-1.68 0Zm-5.725 9.435c-.683-.031-1.054-.145-1.3-.241a2.177 2.177 0 0 1-.805-.524 2.165 2.165 0 0 1-.524-.804c-.096-.247-.21-.618-.24-1.3-.035-.738-.042-.96-.042-2.829 0-1.87.008-2.09.041-2.829.031-.682.146-1.053.241-1.3.127-.327.279-.56.524-.805s.477-.397.805-.524c.246-.096.617-.21 1.3-.24.738-.034.96-.041 2.828-.041 1.87 0 2.09.007 2.83.04.682.032 1.052.146 1.3.241.326.127.559.28.804.524.245.245.397.478.524.805.096.247.21.618.24 1.3.035.739.042.96.042 2.829 0 1.869-.007 2.09-.041 2.829-.031.682-.145 1.053-.241 1.3-.127.327-.279.56-.524.804a2.173 2.173 0 0 1-.805.524c-.246.096-.617.21-1.3.24-.738.035-.96.041-2.829.041-1.868 0-2.09-.006-2.828-.04Zm-.058-12.656c-.745.034-1.254.153-1.699.326a3.43 3.43 0 0 0-1.24.807c-.389.389-.629.78-.808 1.24-.173.445-.29.954-.325 1.7-.034.745-.042.984-.042 2.885 0 1.901.008 2.14.042 2.886.034.745.152 1.254.325 1.7.18.46.418.85.808 1.239.389.39.78.628 1.24.808.446.172.954.29 1.7.325.746.034.984.042 2.885.042 1.902 0 2.14-.008 2.886-.042s1.255-.152 1.7-.325c.46-.18.85-.419 1.24-.808.389-.389.628-.78.807-1.24.173-.445.292-.954.325-1.7.034-.746.042-.984.042-2.885 0-1.901-.008-2.14-.042-2.886-.034-.745-.152-1.254-.325-1.7-.18-.46-.418-.85-.807-1.239a3.434 3.434 0 0 0-1.24-.807c-.445-.173-.954-.292-1.7-.326-.745-.034-.984-.042-2.885-.042-1.902 0-2.14.008-2.887.042Z' fill='%23A6A6A6'/%3e%3c/svg%3e";
 ;// CONCATENATED MODULE: ./src/components/Footer/Socials/icons/facebook.svg
-const facebook_namespaceObject = __webpack_require__.p + "icons\\facebook.85711e0226eadb9513f9.svg";
+const facebook_namespaceObject = "data:image/svg+xml,%3csvg width='26' height='26' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M20.988 5h-2.717c-1.612 0-3.406.678-3.406 3.015.008.815 0 1.594 0 2.472H13v2.968h1.923V22h3.534v-8.601h2.332l.211-2.92h-2.604s.006-1.3 0-1.676c0-.924.96-.871 1.019-.871h1.574V5Z' fill='%23A6A6A6'/%3e%3c/svg%3e";
 ;// CONCATENATED MODULE: ./src/components/Footer/Socials/icons/vk.svg
-const vk_namespaceObject = __webpack_require__.p + "icons\\vk.54fd9a687a2678b83f8d.svg";
+const vk_namespaceObject = "data:image/svg+xml,%3csvg width='26' height='26' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' clip-rule='evenodd' d='M23.54 10.805c.14-.473 0-.805-.657-.805h-2.188c-.563 0-.813.3-.954.632 0 0-1.11 2.747-2.689 4.515-.515.521-.734.68-1.016.68-.14 0-.344-.159-.344-.632v-4.39c0-.568-.156-.805-.625-.805h-3.439c-.344 0-.563.268-.563.505 0 .537.782.663.876 2.148v3.252c0 .71-.125.837-.407.837-.734 0-2.548-2.747-3.61-5.905-.22-.584-.423-.837-.985-.837H4.75c-.625 0-.75.3-.75.632 0 .584.735 3.49 3.455 7.326C9.268 20.578 11.815 22 14.129 22c1.392 0 1.563-.316 1.563-.853v-1.99c0-.63.126-.757.579-.757.328 0 .875.158 2.173 1.421 1.485 1.5 1.735 2.179 2.563 2.179h2.189c.625 0 .938-.316.75-.932-.203-.615-.907-1.515-1.845-2.59-.515-.615-1.281-1.262-1.5-1.594-.328-.426-.235-.616 0-.979 0-.015 2.673-3.805 2.939-5.1Z' fill='%23A6A6A6'/%3e%3c/svg%3e";
 ;// CONCATENATED MODULE: ./src/components/Footer/Socials/links.js
 
 
@@ -6629,7 +6629,7 @@ var CardHeader = function CardHeader(_ref) {
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const InfoButton_module = ({"button":"infoButton__button-JEBfa","label":"infoButton__label-Cg8S6"});
 ;// CONCATENATED MODULE: ./src/UI/infoButton/arrow.svg
-const arrow_namespaceObject = __webpack_require__.p + "icons\\arrow.f74fbbb58a5e60ee636a.svg";
+const arrow_namespaceObject = "data:image/svg+xml,%3csvg width='22' height='16' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M21.7 7.283 15.154.797a1.03 1.03 0 0 0-1.447 0c-.4.396-.4 1.037 0 1.433l4.8 4.756H1.023C.458 6.986 0 7.44 0 8s.458 1.014 1.023 1.014h17.484l-4.8 4.756c-.4.396-.4 1.037 0 1.433a1.026 1.026 0 0 0 1.447 0L21.7 8.717c.4-.396.4-1.038 0-1.434Z' fill='white'/%3e%3c/svg%3e";
 ;// CONCATENATED MODULE: ./src/UI/infoButton/InfoButton.jsx
 
 
@@ -7540,4 +7540,4 @@ root.render( /*#__PURE__*/(0,jsx_runtime.jsx)(react.StrictMode, {
 
 /******/ })()
 ;
-//# sourceMappingURL=main.08c2def1257a06b633d2.js.map
+//# sourceMappingURL=main.071178f877576fd973e7.js.map

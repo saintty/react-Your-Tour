@@ -4,6 +4,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const ReactRefreshWebpackPlugin = require("@pmmmwh/react-refresh-webpack-plugin");
 const ImageMinimizerPlugin = require("image-minimizer-webpack-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
+const svgToMiniDataURI = require('mini-svg-data-uri');
 
 const mode = process.env.NODE_ENV;
 const isDev = mode === "development";
@@ -57,10 +58,13 @@ module.exports = {
       },
       {
         test: /\.svg$/,
-        type: "asset/resource",
+        type: "asset/inline",
         generator: {
-          filename: path.join("icons", "[name].[contenthash][ext]"),
-        },
+          dataUrl: content => {
+            content = content.toString();
+            return svgToMiniDataURI(content);
+          }
+        }
       },
     ],
   },
