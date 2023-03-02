@@ -8,11 +8,11 @@ const links = [
     label: "Создать тур",
   },
   {
-    to: "#feedback",
+    to: "#history",
     label: "Истории",
   },
   {
-    to: "#history",
+    to: "#feedback",
     label: "Отзывы",
   },
 ];

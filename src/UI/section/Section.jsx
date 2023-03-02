@@ -6,9 +6,10 @@ import Container from "../../shared/container/Container";
 
 import styles from "./Section.module.scss";
 
-const Section = ({ title, subtitle, order, children }) => {
+const Section = ({ title, subtitle, order, id, children }) => {
   return (
     <section
+      id={id}
       className={classNames(
         styles.section,
         order === "first" && styles.first,
