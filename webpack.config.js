@@ -29,7 +29,8 @@ module.exports = {
           {
             loader: require.resolve("babel-loader"),
             options: {
-              plugins: [["react-refresh/babel", { skipEnvCheck: true }]],
+              cacheDirectory: true,
+              plugins: isDev ? ["react-refresh/babel"] : [],
             },
           },
         ],

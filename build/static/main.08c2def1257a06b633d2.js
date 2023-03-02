@@ -879,10 +879,7 @@ var Container = function Container(_ref) {
     children: children
   });
 };
-_c = Container;
 /* harmony default export */ const container_Container = (Container);
-var _c;
-$RefreshReg$(_c, "Container");
 ;// CONCATENATED MODULE: ./src/components/Footer/Socials/Socials.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Socials_module = ({"list":"Socials__list-Jz7L0","link":"Socials__link-eRUzO","icon":"Socials__icon-buy4y","item":"Socials__item-Ioz0j"});
@@ -938,10 +935,7 @@ var Socials = function Socials() {
     })
   });
 };
-Socials_c = Socials;
 /* harmony default export */ const Socials_Socials = (Socials);
-var Socials_c;
-$RefreshReg$(Socials_c, "Socials");
 ;// CONCATENATED MODULE: ./src/components/Footer/Footer.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Footer_module = ({"footer":"Footer__footer-ceS4E","content":"Footer__content-OCBXB","label":"Footer__label-kuwh_"});
@@ -966,10 +960,7 @@ var Footer = function Footer() {
     })
   });
 };
-Footer_c = Footer;
 /* harmony default export */ const Footer_Footer = (Footer);
-var Footer_c;
-$RefreshReg$(Footer_c, "Footer");
 ;// CONCATENATED MODULE: ./src/UI/sectionTitle/SectionTitle.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const SectionTitle_module = ({"title":"sectionTitle__title-a4_Yf"});
@@ -984,10 +975,7 @@ var SectionTitle = function SectionTitle(_ref) {
     children: title
   });
 };
-SectionTitle_c = SectionTitle;
 /* harmony default export */ const sectionTitle_SectionTitle = (SectionTitle);
-var SectionTitle_c;
-$RefreshReg$(SectionTitle_c, "SectionTitle");
 ;// CONCATENATED MODULE: ./src/UI/sectionSubTitle/SectionSubTitle.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const SectionSubTitle_module = ({"subtitle":"sectionSubTitle__subtitle-izu1L"});
@@ -1002,10 +990,7 @@ var SectionSubTitle = function SectionSubTitle(_ref) {
     children: subtitle
   });
 };
-SectionSubTitle_c = SectionSubTitle;
 /* harmony default export */ const sectionSubTitle_SectionSubTitle = (SectionSubTitle);
-var SectionSubTitle_c;
-$RefreshReg$(SectionSubTitle_c, "SectionSubTitle");
 // EXTERNAL MODULE: ./node_modules/classnames/index.js
 var classnames = __webpack_require__(184);
 var classnames_default = /*#__PURE__*/__webpack_require__.n(classnames);
@@ -1037,10 +1022,7 @@ var Section = function Section(_ref) {
     })
   });
 };
-Section_c = Section;
 /* harmony default export */ const section_Section = (Section);
-var Section_c;
-$RefreshReg$(Section_c, "Section");
 ;// CONCATENATED MODULE: ./src/components/Form/InputRow/InputRow.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const InputRow_module = ({"row":"InputRow__row-KuPFy","longRow":"InputRow__longRow-q_pnm"});
@@ -1057,10 +1039,7 @@ var InputRow = function InputRow(_ref) {
     children: children
   });
 };
-InputRow_c = InputRow;
 /* harmony default export */ const InputRow_InputRow = (InputRow);
-var InputRow_c;
-$RefreshReg$(InputRow_c, "InputRow");
 ;// CONCATENATED MODULE: ./src/UI/label/Label.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Label_module = ({"label":"label__label-pXIIj","long":"label__long-iCPqs"});
@@ -1079,10 +1058,7 @@ var Label = function Label(_ref) {
     children: label
   });
 };
-Label_c = Label;
 /* harmony default export */ const label_Label = (Label);
-var Label_c;
-$RefreshReg$(Label_c, "Label");
 ;// CONCATENATED MODULE: ./src/UI/input/Input.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Input_module = ({"input":"input__input-J5tvk"});
@@ -1112,10 +1088,7 @@ var Input = function Input(_ref) {
     })]
   });
 };
-Input_c = Input;
 /* harmony default export */ const input_Input = (Input);
-var Input_c;
-$RefreshReg$(Input_c, "Input");
 ;// CONCATENATED MODULE: ./src/components/Form/Field/Field.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Field_module = ({"field":"Field__field-BSSOH"});
@@ -1138,10 +1111,7 @@ var Field = function Field(_ref) {
     }) : children
   });
 };
-Field_c = Field;
 /* harmony default export */ const Field_Field = (Field);
-var Field_c;
-$RefreshReg$(Field_c, "Field");
 ;// CONCATENATED MODULE: ./src/UI/select/Select.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Select_module = ({"select":"select__select-nAOti"});
@@ -1176,10 +1146,7 @@ var Select = function Select(_ref) {
     })]
   });
 };
-Select_c = Select;
 /* harmony default export */ const select_Select = (Select);
-var Select_c;
-$RefreshReg$(Select_c, "Select");
 ;// CONCATENATED MODULE: ./src/UI/textarea/Textarea.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Textarea_module = ({"textarea":"textarea__textarea-_tTEC"});
@@ -1203,10 +1170,7 @@ var Textarea = function Textarea(_ref) {
     })]
   });
 };
-Textarea_c = Textarea;
 /* harmony default export */ const textarea_Textarea = (Textarea);
-var Textarea_c;
-$RefreshReg$(Textarea_c, "Textarea");
 ;// CONCATENATED MODULE: ./src/UI/radio/Radio.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Radio_module = ({"label":"radio__label-TxJXx","input":"radio__input-hZxBe"});
@@ -1238,10 +1202,7 @@ var Radio = function Radio(_ref) {
     })]
   });
 };
-Radio_c = Radio;
 /* harmony default export */ const radio_Radio = (Radio);
-var Radio_c;
-$RefreshReg$(Radio_c, "Radio");
 ;// CONCATENATED MODULE: ./src/UI/checkbox/Checkbox.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Checkbox_module = ({"label":"checkbox__label-BfwQY","input":"checkbox__input-xYbI1"});
@@ -1267,10 +1228,7 @@ var Checkbox = function Checkbox(_ref) {
     })]
   });
 };
-Checkbox_c = Checkbox;
 /* harmony default export */ const checkbox_Checkbox = (Checkbox);
-var Checkbox_c;
-$RefreshReg$(Checkbox_c, "Checkbox");
 ;// CONCATENATED MODULE: ./src/UI/formButton/FormButton.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const FormButton_module = ({"button":"formButton__button-Zs43D","submit":"formButton__submit-jZHgO","reset":"formButton__reset-vlvNZ"});
@@ -1288,10 +1246,7 @@ var FormButton = function FormButton(_ref) {
     children: label
   });
 };
-FormButton_c = FormButton;
 /* harmony default export */ const formButton_FormButton = (FormButton);
-var FormButton_c;
-$RefreshReg$(FormButton_c, "FormButton");
 ;// CONCATENATED MODULE: ./src/components/Form/ButtonRow/ButtonRow.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const ButtonRow_module = ({"row":"ButtonRow__row-GeIn9"});
@@ -1306,10 +1261,7 @@ var ButtonRow = function ButtonRow(_ref) {
     children: children
   });
 };
-ButtonRow_c = ButtonRow;
 /* harmony default export */ const ButtonRow_ButtonRow = (ButtonRow);
-var ButtonRow_c;
-$RefreshReg$(ButtonRow_c, "ButtonRow");
 ;// CONCATENATED MODULE: ./src/components/Form/Form.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Form_module = ({"form":"Form__form-Nl9sb","license":"Form__license-xbWce"});
@@ -1450,10 +1402,7 @@ var Form = function Form() {
     })
   });
 };
-Form_c = Form;
 /* harmony default export */ const Form_Form = (Form);
-var Form_c;
-$RefreshReg$(Form_c, "Form");
 ;// CONCATENATED MODULE: ./src/UI/centerButton/CenterButton.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const CenterButton_module = ({"wrapper":"centerButton__wrapper-s8gxA","button":"centerButton__button-JEmCV"});
@@ -1474,10 +1423,7 @@ var CenteredButton = function CenteredButton(_ref) {
     })
   });
 };
-CenterButton_c = CenteredButton;
 /* harmony default export */ const CenterButton = (CenteredButton);
-var CenterButton_c;
-$RefreshReg$(CenterButton_c, "CenteredButton");
 ;// CONCATENATED MODULE: ./src/UI/pageCaption/PageCaption.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const PageCaption_module = ({"title":"pageCaption__title-K__D9"});
@@ -1492,10 +1438,7 @@ var PageCaption = function PageCaption(_ref) {
     children: children
   });
 };
-PageCaption_c = PageCaption;
 /* harmony default export */ const pageCaption_PageCaption = (PageCaption);
-var PageCaption_c;
-$RefreshReg$(PageCaption_c, "PageCaption");
 ;// CONCATENATED MODULE: ./src/UI/pageSubCaption/PageSubCaption.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const PageSubCaption_module = ({"subtitle":"pageSubCaption__subtitle-V_wX7"});
@@ -1510,10 +1453,7 @@ var PageSubCaption = function PageSubCaption(_ref) {
     children: children
   });
 };
-PageSubCaption_c = PageSubCaption;
 /* harmony default export */ const pageSubCaption_PageSubCaption = (PageSubCaption);
-var PageSubCaption_c;
-$RefreshReg$(PageSubCaption_c, "PageSubCaption");
 ;// CONCATENATED MODULE: ./src/components/Header/Background/Background.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Background_module = ({"background":"Background__background-wql0t"});
@@ -1529,10 +1469,7 @@ var Background = function Background(_ref) {
     alt: "\u0424\u043E\u043D\u043E\u0432\u043E\u0435 \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 \u0448\u0430\u043F\u043A\u0438 \u0441\u0430\u0439\u0442\u0430, \u0434\u0435\u0440\u0435\u0432\u044F\u043D\u043D\u044B\u0435 \u043F\u043E\u0441\u0442\u0440\u043E\u0439\u043A\u0438 \u043D\u0430 \u0444\u043E\u043D\u0435 \u0440\u0435\u043A\u0438"
   });
 };
-Background_c = Background;
 /* harmony default export */ const Background_Background = (Background);
-var Background_c;
-$RefreshReg$(Background_c, "Background");
 ;// CONCATENATED MODULE: ./src/components/Header/Header.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Header_module = ({"header":"Header__header-k5rxh","content":"Header__content-hKJhd"});
@@ -1569,10 +1506,7 @@ var Header = function Header() {
     })]
   });
 };
-Header_c = Header;
 /* harmony default export */ const Header_Header = (Header);
-var Header_c;
-$RefreshReg$(Header_c, "Header");
 ;// CONCATENATED MODULE: ./src/components/Tours/pictures/card-1.jpg
 const card_1_namespaceObject = __webpack_require__.p + "images\\card-1.a3ab33de5ea3efedd27d.jpg";
 ;// CONCATENATED MODULE: ./src/components/Tours/pictures/card-2.jpg
@@ -1664,15 +1598,11 @@ var CategoryItem = function CategoryItem(_ref) {
     })
   });
 };
-CategoryItem_c = CategoryItem;
 /* harmony default export */ const CategoryItem_CategoryItem = (CategoryItem);
-var CategoryItem_c;
-$RefreshReg$(CategoryItem_c, "CategoryItem");
 ;// CONCATENATED MODULE: ./src/components/Tours/CategoryList/CategoryList.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const CategoryList_module = ({"list":"CategoryList__list-bAKO6"});
 ;// CONCATENATED MODULE: ./src/components/Tours/CategoryList/CategoryList.jsx
-var _s2 = $RefreshSig$();
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
 function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
@@ -1684,7 +1614,6 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 
 var CategoryList = function CategoryList(_ref) {
-  _s2();
   var categories = _ref.categories;
   var _useState = (0,react.useState)(categories[0].name),
     _useState2 = _slicedToArray(_useState, 2),
@@ -1702,11 +1631,7 @@ var CategoryList = function CategoryList(_ref) {
     })
   });
 };
-_s2(CategoryList, "d74bv2W9B1NPNL2apphCJ3bmeiE=");
-CategoryList_c = CategoryList;
 /* harmony default export */ const CategoryList_CategoryList = (CategoryList);
-var CategoryList_c;
-$RefreshReg$(CategoryList_c, "CategoryList");
 ;// CONCATENATED MODULE: ./node_modules/@emotion/sheet/dist/emotion-sheet.browser.esm.js
 /*
 
@@ -6699,10 +6624,7 @@ var CardHeader = function CardHeader(_ref) {
     })]
   });
 };
-CardHeader_c = CardHeader;
 /* harmony default export */ const CardHeader_CardHeader = (CardHeader);
-var CardHeader_c;
-$RefreshReg$(CardHeader_c, "CardHeader");
 ;// CONCATENATED MODULE: ./src/UI/infoButton/InfoButton.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const InfoButton_module = ({"button":"infoButton__button-JEBfa","label":"infoButton__label-Cg8S6"});
@@ -6728,10 +6650,7 @@ var InfoButton = function InfoButton(_ref) {
     })]
   });
 };
-InfoButton_c = InfoButton;
 /* harmony default export */ const infoButton_InfoButton = (InfoButton);
-var InfoButton_c;
-$RefreshReg$(InfoButton_c, "InfoButton");
 ;// CONCATENATED MODULE: ./src/components/Tours/Card/Card.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Card_module = ({"card":"Card__card-bOonk","picture":"Card__picture-YMkno","wrapper":"Card__wrapper-KpA0Y"});
@@ -6771,10 +6690,7 @@ var Card = function Card(_ref) {
     })
   });
 };
-Card_c = Card;
 /* harmony default export */ const Card_Card = (Card);
-var Card_c;
-$RefreshReg$(Card_c, "Card");
 ;// CONCATENATED MODULE: ./src/components/Tours/CardList/CardList.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const CardList_module = ({"list":"CardList__list-pi9dt"});
@@ -6794,10 +6710,7 @@ var CardList = function CardList(_ref) {
     })
   });
 };
-CardList_c = CardList;
 /* harmony default export */ const CardList_CardList = (CardList);
-var CardList_c;
-$RefreshReg$(CardList_c, "CardList");
 ;// CONCATENATED MODULE: ./src/components/Tours/Tours.jsx
 
 
@@ -6817,10 +6730,7 @@ var Tours = function Tours() {
     })]
   });
 };
-Tours_c = Tours;
 /* harmony default export */ const Tours_Tours = (Tours);
-var Tours_c;
-$RefreshReg$(Tours_c, "Tours");
 ;// CONCATENATED MODULE: ./src/components/Feedback/ReviewFooter/ReviewFooter.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const ReviewFooter_module = ({"footer":"ReviewFooter__footer-F8AzU","wrapper":"ReviewFooter__wrapper-sa6Dw","user":"ReviewFooter__user-qWqPp","tour":"ReviewFooter__tour-QYfaG","avatar":"ReviewFooter__avatar-wn2tl"});
@@ -6851,10 +6761,7 @@ var ReviewFooter = function ReviewFooter(_ref) {
     })]
   });
 };
-ReviewFooter_c = ReviewFooter;
 /* harmony default export */ const ReviewFooter_ReviewFooter = (ReviewFooter);
-var ReviewFooter_c;
-$RefreshReg$(ReviewFooter_c, "ReviewFooter");
 ;// CONCATENATED MODULE: ./src/components/Feedback/Review/Review.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Review_module = ({"item":"Review__item-PAZP_","text":"Review__text-SCJVi"});
@@ -6878,10 +6785,7 @@ var Review = function Review(_ref) {
     })]
   });
 };
-Review_c = Review;
 /* harmony default export */ const Review_Review = (Review);
-var Review_c;
-$RefreshReg$(Review_c, "Review");
 ;// CONCATENATED MODULE: ./src/components/Feedback/Feedback.modules.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Feedback_modules = ({"list":"Feedback__list-K7_mT"});
@@ -6925,10 +6829,7 @@ var Feedback = function Feedback() {
     }), "hello"]
   });
 };
-Feedback_c = Feedback;
 /* harmony default export */ const Feedback_Feedback = (Feedback);
-var Feedback_c;
-$RefreshReg$(Feedback_c, "Feedback");
 ;// CONCATENATED MODULE: ./src/components/Gallery/Picture/Picture.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Picture_module = ({"item":"Picture__item-tSITu","img":"Picture__img-ps_qJ","mediumHide":"Picture__mediumHide-K_HOX","smallHide":"Picture__smallHide-Tl8Cw"});
@@ -6950,10 +6851,7 @@ var Picture = function Picture(_ref) {
     })
   });
 };
-Picture_c = Picture;
 /* harmony default export */ const Picture_Picture = (Picture);
-var Picture_c;
-$RefreshReg$(Picture_c, "Picture");
 ;// CONCATENATED MODULE: ./src/components/Gallery/Row/Row.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Row_module = ({"row":"Row__row-WmNr1","small":"Row__small-l7Qob"});
@@ -6977,10 +6875,7 @@ var Row = function Row(_ref) {
     })
   });
 };
-Row_c = Row;
 /* harmony default export */ const Row_Row = (Row);
-var Row_c;
-$RefreshReg$(Row_c, "Row");
 ;// CONCATENATED MODULE: ./src/components/Gallery/Gallery.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Gallery_module = ({});
@@ -7079,10 +6974,7 @@ var WideContainer = function WideContainer(_ref) {
     children: children
   });
 };
-WideContainer_c = WideContainer;
 /* harmony default export */ const shared_wideContainer_WideContainer = (WideContainer);
-var WideContainer_c;
-$RefreshReg$(WideContainer_c, "WideContainer");
 ;// CONCATENATED MODULE: ./src/UI/wideSection/WideSection.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const WideSection_module = ({"section":"wideSection__section-bLyPw","first":"wideSection__first-uE5WF","last":"wideSection__last-VGZql"});
@@ -7111,10 +7003,7 @@ var WideSection = function WideSection(_ref) {
     })
   });
 };
-WideSection_c = WideSection;
 /* harmony default export */ const wideSection_WideSection = (WideSection);
-var WideSection_c;
-$RefreshReg$(WideSection_c, "WideSection");
 ;// CONCATENATED MODULE: ./src/components/Gallery/Gallery.jsx
 
 
@@ -7136,10 +7025,7 @@ var Gallery = function Gallery() {
     })
   });
 };
-Gallery_c = Gallery;
 /* harmony default export */ const Gallery_Gallery = (Gallery);
-var Gallery_c;
-$RefreshReg$(Gallery_c, "Gallery");
 ;// CONCATENATED MODULE: ./src/components/History/Benefits/Benefits.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Benefits_module = ({"list":"Benefits__list-JjlXO"});
@@ -7159,10 +7045,7 @@ var Benefits = function Benefits(_ref) {
     })
   });
 };
-Benefits_c = Benefits;
 /* harmony default export */ const Benefits_Benefits = (Benefits);
-var Benefits_c;
-$RefreshReg$(Benefits_c, "Benefits");
 ;// CONCATENATED MODULE: ./src/components/History/CardContent/CardContent.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const CardContent_module = ({"content":"CardContent__content-btjGi","name":"CardContent__name-xall4","description":"CardContent__description-MEEY7"});
@@ -7189,10 +7072,7 @@ var CardContent = function CardContent(_ref) {
     })]
   });
 };
-CardContent_c = CardContent;
 /* harmony default export */ const CardContent_CardContent = (CardContent);
-var CardContent_c;
-$RefreshReg$(CardContent_c, "CardContent");
 ;// CONCATENATED MODULE: ./src/components/History/Socials/Socials.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Socials_Socials_module = ({"list":"Socials__list-IRbIL","item":"Socials__item-bAXWb","link":"Socials__link-G5vCk"});
@@ -7219,10 +7099,7 @@ var Socials_Socials_Socials = function Socials(_ref) {
     })
   });
 };
-Socials_Socials_c = Socials_Socials_Socials;
 /* harmony default export */ const History_Socials_Socials = (Socials_Socials_Socials);
-var Socials_Socials_c;
-$RefreshReg$(Socials_Socials_c, "Socials");
 ;// CONCATENATED MODULE: ./src/components/History/CardFooter/CardFooter.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const CardFooter_module = ({"footer":"CardFooter__footer-Fwcs2"});
@@ -7245,10 +7122,7 @@ var CardFooter = function CardFooter(_ref) {
     })]
   });
 };
-CardFooter_c = CardFooter;
 /* harmony default export */ const CardFooter_CardFooter = (CardFooter);
-var CardFooter_c;
-$RefreshReg$(CardFooter_c, "CardFooter");
 ;// CONCATENATED MODULE: ./src/components/History/Card/Card.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Card_Card_module = ({"item":"Card__item-zRlQu","link":"Card__link-TGqxm","picture":"Card__picture-Fzij5","card":"Card__card-pppe6"});
@@ -7289,10 +7163,7 @@ var Card_Card_Card = function Card(_ref) {
     })
   });
 };
-Card_Card_c = Card_Card_Card;
 /* harmony default export */ const History_Card_Card = (Card_Card_Card);
-var Card_Card_c;
-$RefreshReg$(Card_Card_c, "Card");
 ;// CONCATENATED MODULE: ./src/components/History/History.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const History_module = ({});
@@ -7370,10 +7241,7 @@ var History = function History() {
     })
   });
 };
-History_c = History;
 /* harmony default export */ const History_History = (History);
-var History_c;
-$RefreshReg$(History_c, "History");
 ;// CONCATENATED MODULE: ./src/components/Invite/Info/Info.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Info_module = ({"title":"Info__title-oPr3K","text":"Info__text-jjQvh","email":"Info__email-GgUOB","picture":"Info__picture-AOpWH"});
@@ -7397,10 +7265,7 @@ var Info = function Info() {
     })]
   });
 };
-Info_c = Info;
 /* harmony default export */ const Info_Info = (Info);
-var Info_c;
-$RefreshReg$(Info_c, "Info");
 ;// CONCATENATED MODULE: ./src/components/Invite/Invite.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Invite_module = ({"wrapper":"Invite__wrapper-Ggg9K","picture":"Invite__picture-FV8VH"});
@@ -7429,10 +7294,7 @@ var Invite = function Invite(_ref) {
     })
   });
 };
-Invite_c = Invite;
 /* harmony default export */ const Invite_Invite = (Invite);
-var Invite_c;
-$RefreshReg$(Invite_c, "Invite");
 ;// CONCATENATED MODULE: ./src/UI/logo/Logo.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Logo_module = ({"logo":"logo__logo-ewK9q"});
@@ -7491,10 +7353,7 @@ var Logo = function Logo() {
     })
   });
 };
-Logo_c = Logo;
 /* harmony default export */ const logo_Logo = (Logo);
-var Logo_c;
-$RefreshReg$(Logo_c, "Logo");
 ;// CONCATENATED MODULE: ./src/components/NavBar/navLinks.js
 var navLinks_links = [{
   to: "#tour",
@@ -7529,10 +7388,7 @@ var NavLink = function NavLink(_ref) {
     })
   });
 };
-NavLink_c = NavLink;
 /* harmony default export */ const NavLink_NavLink = (NavLink);
-var NavLink_c;
-$RefreshReg$(NavLink_c, "NavLink");
 ;// CONCATENATED MODULE: ./src/components/NavBar/Button/Button.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Button_module = ({"button":"Button__button-pIxb5","line":"Button__line-jYFuv","open":"Button__open-BEPnj"});
@@ -7557,10 +7413,7 @@ var Button = function Button(_ref) {
     })]
   });
 };
-Button_c = Button;
 /* harmony default export */ const Button_Button = (Button);
-var Button_c;
-$RefreshReg$(Button_c, "Button");
 ;// CONCATENATED MODULE: ./src/components/NavBar/PhoneLink/PhoneLink.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const PhoneLink_module = ({"phone":"PhoneLink__phone-XdKhZ"});
@@ -7577,15 +7430,11 @@ var PhoneLink = function PhoneLink(_ref) {
     children: children
   });
 };
-PhoneLink_c = PhoneLink;
 /* harmony default export */ const PhoneLink_PhoneLink = (PhoneLink);
-var PhoneLink_c;
-$RefreshReg$(PhoneLink_c, "PhoneLink");
 ;// CONCATENATED MODULE: ./src/components/NavBar/NavBar.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const NavBar_module = ({"wrapper":"NavBar__wrapper-AcGjg","inner":"NavBar__inner-Ep4zC","list":"NavBar__list-qTjym","fixed":"NavBar__fixed-tTNz1","nav":"NavBar__nav-faUny","open":"NavBar__open-AFzS3"});
 ;// CONCATENATED MODULE: ./src/components/NavBar/NavBar.jsx
-var NavBar_s2 = $RefreshSig$();
 function NavBar_slicedToArray(arr, i) { return NavBar_arrayWithHoles(arr) || NavBar_iterableToArrayLimit(arr, i) || NavBar_unsupportedIterableToArray(arr, i) || NavBar_nonIterableRest(); }
 function NavBar_nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
 function NavBar_unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return NavBar_arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return NavBar_arrayLikeToArray(o, minLen); }
@@ -7604,7 +7453,6 @@ function NavBar_arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 
 var Navbar = function Navbar() {
-  NavBar_s2();
   var _useState = (0,react.useState)(false),
     _useState2 = NavBar_slicedToArray(_useState, 2),
     fixed = _useState2[0],
@@ -7651,11 +7499,7 @@ var Navbar = function Navbar() {
     })
   });
 };
-NavBar_s2(Navbar, "NRzANorMNqk+V+yu+ysbj1pjcYg=");
-NavBar_c = Navbar;
 /* harmony default export */ const NavBar = (Navbar);
-var NavBar_c;
-$RefreshReg$(NavBar_c, "Navbar");
 ;// CONCATENATED MODULE: ./src/components/App/App.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const App_module = ({"wrapper":"App__wrapper-vhn2S","content":"App__content-wL0Gq"});
@@ -7682,10 +7526,7 @@ var App = function App() {
     }), /*#__PURE__*/(0,jsx_runtime.jsx)(Footer_Footer, {})]
   });
 };
-App_c = App;
 /* harmony default export */ const App_App = (App);
-var App_c;
-$RefreshReg$(App_c, "App");
 ;// CONCATENATED MODULE: ./src/index.jsx
 
 
@@ -7699,4 +7540,4 @@ root.render( /*#__PURE__*/(0,jsx_runtime.jsx)(react.StrictMode, {
 
 /******/ })()
 ;
-//# sourceMappingURL=main.7144c13de65d30b79fde.js.map
+//# sourceMappingURL=main.08c2def1257a06b633d2.js.map
