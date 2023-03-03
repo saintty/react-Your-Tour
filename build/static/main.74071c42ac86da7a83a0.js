@@ -1010,8 +1010,10 @@ var Section = function Section(_ref) {
   var title = _ref.title,
     subtitle = _ref.subtitle,
     order = _ref.order,
+    id = _ref.id,
     children = _ref.children;
   return /*#__PURE__*/(0,jsx_runtime.jsx)("section", {
+    id: id,
     className: classnames_default()(Section_module.section, order === "first" && Section_module.first, order === "last" && Section_module.last),
     children: /*#__PURE__*/(0,jsx_runtime.jsxs)(container_Container, {
       children: [title && /*#__PURE__*/(0,jsx_runtime.jsx)(sectionTitle_SectionTitle, {
@@ -1298,6 +1300,7 @@ var options = [{
 
 var Form = function Form() {
   return /*#__PURE__*/(0,jsx_runtime.jsx)(section_Section, {
+    id: "build-tour",
     title: "\u0421\u043E\u0431\u0435\u0440\u0438 \u0441\u0432\u043E\u0439 \u0442\u0443\u0440",
     subtitle: "\u0418\u0434\u0435\u0439\u043D\u044B\u0435 \u0441\u043E\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F \u0432\u044B\u0441\u0448\u0435\u0433\u043E \u043F\u043E\u0440\u044F\u0434\u043A\u0430,\u0430 \u0442\u0430\u043A\u0436\u0435 \u0440\u0430\u043C\u043A\u0438 \u0438 \u043C\u0435\u0441\u0442\u043E \u043E\u0431\u0443\u0447\u0435\u043D\u0438\u044F \u043A\u0430\u0434\u0440\u043E\u0432",
     children: /*#__PURE__*/(0,jsx_runtime.jsxs)("form", {
@@ -6413,11 +6416,11 @@ function getStyles7(reverse, direction) {
 }
 var Slide = (props) => {
   const { direction, reverse = false, ...rest } = props;
-  const keyframes87 = (0,react.useMemo)(
+  const keyframes87 = useMemo8(
     () => getStyles7(reverse, direction),
     [direction, reverse]
   );
-  return /* @__PURE__ */ emotion_react_jsx_runtime_browser_esm_jsx(Reveal, { keyframes: keyframes87, ...rest });
+  return /* @__PURE__ */ jsx10(Reveal, { keyframes: keyframes87, ...rest });
 };
 
 // src/components/Zoom.tsx
@@ -6595,11 +6598,11 @@ function getStyles8(reverse, direction) {
 }
 var Zoom = (props) => {
   const { direction, reverse = false, ...rest } = props;
-  const keyframes87 = useMemo9(
+  const keyframes87 = (0,react.useMemo)(
     () => getStyles8(reverse, direction),
     [direction, reverse]
   );
-  return /* @__PURE__ */ jsx11(Reveal, { keyframes: keyframes87, ...rest });
+  return /* @__PURE__ */ emotion_react_jsx_runtime_browser_esm_jsx(Reveal, { keyframes: keyframes87, ...rest });
 };
 
 //# sourceMappingURL=index.mjs.map
@@ -6664,9 +6667,8 @@ var InfoButton = function InfoButton(_ref) {
 
 var Card = function Card(_ref) {
   var card = _ref.card;
-  return /*#__PURE__*/(0,jsx_runtime.jsx)(Slide, {
-    direction: "up",
-    duration: 700,
+  return /*#__PURE__*/(0,jsx_runtime.jsx)(Zoom, {
+    duration: 1500,
     triggerOnce: true,
     children: /*#__PURE__*/(0,jsx_runtime.jsx)("li", {
       className: Card_module.card,
@@ -6723,6 +6725,7 @@ var Tours = function Tours() {
   return /*#__PURE__*/(0,jsx_runtime.jsxs)(section_Section, {
     title: "\u0412\u044B\u0431\u0435\u0440\u0438 \u0441\u0432\u043E\u0439 \u0442\u0443\u0440",
     order: "first",
+    id: "tour",
     children: [/*#__PURE__*/(0,jsx_runtime.jsx)(CategoryList_CategoryList, {
       categories: categories
     }), /*#__PURE__*/(0,jsx_runtime.jsx)(CardList_CardList, {
@@ -6817,6 +6820,7 @@ var data = [{
 
 var Feedback = function Feedback() {
   return /*#__PURE__*/(0,jsx_runtime.jsxs)(section_Section, {
+    id: "feedback",
     title: "\u041E\u0442\u0437\u044B\u0432\u044B \u043D\u0430\u0448\u0438\u0445 \u043F\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0435\u043D\u043D\u0438\u043A\u043E\u0432",
     subtitle: "\u0418\u0434\u0435\u0439\u043D\u044B\u0435 \u0441\u043E\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F \u0432\u044B\u0441\u0448\u0435\u0433\u043E \u043F\u043E\u0440\u044F\u0434\u043A\u0430, \u0430 \u0442\u0430\u043A\u0436\u0435 \u0440\u0430\u043C\u043A\u0438 \u0438 \u043C\u0435\u0441\u0442\u043E \u043E\u0431\u0443\u0447\u0435\u043D\u0438\u044F \u043A\u0430\u0434\u0440\u043E\u0432",
     children: [/*#__PURE__*/(0,jsx_runtime.jsx)("div", {
@@ -6991,8 +6995,10 @@ var WideSection = function WideSection(_ref) {
   var title = _ref.title,
     subtitle = _ref.subtitle,
     order = _ref.order,
+    id = _ref.id,
     children = _ref.children;
   return /*#__PURE__*/(0,jsx_runtime.jsx)("section", {
+    id: id,
     className: classnames_default()(WideSection_module.section, order === "first" && WideSection_module.first, order === "last" && WideSection_module.last),
     children: /*#__PURE__*/(0,jsx_runtime.jsxs)(shared_wideContainer_WideContainer, {
       children: [/*#__PURE__*/(0,jsx_runtime.jsx)(sectionTitle_SectionTitle, {
@@ -7136,9 +7142,8 @@ var CardFooter = function CardFooter(_ref) {
 
 var Card_Card_Card = function Card(_ref) {
   var card = _ref.card;
-  return /*#__PURE__*/(0,jsx_runtime.jsx)(Slide, {
-    direction: "up",
-    duration: 700,
+  return /*#__PURE__*/(0,jsx_runtime.jsx)(Zoom, {
+    duration: 1500,
     triggerOnce: true,
     children: /*#__PURE__*/(0,jsx_runtime.jsx)("li", {
       className: Card_Card_module.item,
@@ -7230,6 +7235,7 @@ var histories = [{
 
 var History = function History() {
   return /*#__PURE__*/(0,jsx_runtime.jsx)(section_Section, {
+    id: "history",
     title: "\u0418\u0441\u0442\u043E\u0440\u0438\u0438 \u043F\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0439",
     subtitle: "\u0418\u0434\u0435\u0439\u043D\u044B\u0435 \u0441\u043E\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F \u0432\u044B\u0441\u0448\u0435\u0433\u043E \u043F\u043E\u0440\u044F\u0434\u043A\u0430, \u0430 \u0442\u0430\u043A\u0436\u0435 \u0440\u0430\u043C\u043A\u0438 \u0438 \u043C\u0435\u0441\u0442\u043E \u043E\u0431\u0443\u0447\u0435\u043D\u0438\u044F \u043A\u0430\u0434\u0440\u043E\u0432",
     children: /*#__PURE__*/(0,jsx_runtime.jsx)("ul", {
@@ -7362,10 +7368,10 @@ var navLinks_links = [{
   to: "#build-tour",
   label: "Создать тур"
 }, {
-  to: "#feedback",
+  to: "#history",
   label: "Истории"
 }, {
-  to: "#history",
+  to: "#feedback",
   label: "Отзывы"
 }];
 /* harmony default export */ const navLinks = (navLinks_links);
@@ -7540,4 +7546,4 @@ root.render( /*#__PURE__*/(0,jsx_runtime.jsx)(react.StrictMode, {
 
 /******/ })()
 ;
-//# sourceMappingURL=main.071178f877576fd973e7.js.map
+//# sourceMappingURL=main.74071c42ac86da7a83a0.js.map
