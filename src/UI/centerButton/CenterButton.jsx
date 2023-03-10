@@ -1,8 +1,9 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 import styles from "./CenterButton.module.scss";
 
-const CenteredButton = ({ to, label }) => {
+const CenterButton = ({ to, label }) => {
   return (
     <div className={styles.wrapper}>
       <a className={styles.button} href={to} target="_blank">
@@ -12,4 +13,14 @@ const CenteredButton = ({ to, label }) => {
   );
 };
 
-export default CenteredButton;
+CenterButton.propTypes = {
+  to: PropTypes.string,
+  label: PropTypes.string,
+};
+
+CenterButton.defaultProps = {
+  to: "/",
+  label: "Перейти",
+};
+
+export default CenterButton;
