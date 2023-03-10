@@ -27,11 +27,11 @@
   opacity: 1;
 }
 
-.item_active {
+.active {
   color: $orange-200;
 }
 
-.item_active::after {
+.active::after {
   background-color: $orange-200;
   opacity: 1;
 }
@@ -54,7 +54,7 @@
     opacity: 0;
   }
 
-  .item_active:hover::after {
+  .active:hover::after {
     opacity: 1;
   }
 }
