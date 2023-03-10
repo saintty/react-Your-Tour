@@ -27,12 +27,13 @@ Field.propTypes = {
     id: PropTypes.string.isRequired,
     type: PropTypes.string.isRequired,
     label: PropTypes.string.isRequired,
-    placeholder: PropTypes.string.isRequired,
+    placeholder: PropTypes.string,
     required: PropTypes.bool,
   }),
 };
 
 Field.defaultProps = {
+  placeholder: "",
   require: false,
 };
 
