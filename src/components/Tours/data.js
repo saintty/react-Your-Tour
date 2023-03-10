@@ -28,7 +28,6 @@ import p4 from "./pictures/card-4.jpg";
 import p5 from "./pictures/card-5.jpg";
 import p6 from "./pictures/card-6.jpg";
 
-
 export const cards = [
   {
     name: "Путешествие в горы",

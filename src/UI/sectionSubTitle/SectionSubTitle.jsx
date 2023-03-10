@@ -8,7 +8,7 @@ const SectionSubTitle = ({ subtitle }) => {
 };
 
 SectionSubTitle.propTypes = {
-  title: PropTypes.string.isRequired,
+  subtitle: PropTypes.string.isRequired,
 };
 
 export default SectionSubTitle;
