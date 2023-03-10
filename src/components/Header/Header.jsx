@@ -14,11 +14,11 @@ const Header = () => {
       <Background background={background} />
       <div className={styles.content}>
         <Container>
-          <PageCaption>Идеальные путешествия существуют</PageCaption>
-          <PageSubCaption>
-            Идейные соображения высшего порядка, а также рамки и место обучения
-            кадров
-          </PageSubCaption>
+          <PageCaption text="Идеальные путешествия существуют" />
+          <PageSubCaption
+            text="Идейные соображения высшего порядка, а также рамки и место обучения
+            кадров"
+          />
           <CenterButton to={"#"} label="Найти тур" />
         </Container>
       </div>
