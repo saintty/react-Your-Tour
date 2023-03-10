@@ -1,13 +1,13 @@
 import React from "react";
 import CardContent from "../CardContent/CardContent";
 import CardFooter from "../CardFooter/CardFooter";
-import { Slide } from "react-awesome-reveal";
+import { Zoom } from "react-awesome-reveal";
 
 import styles from "./Card.module.scss";
 
 const Card = ({ card }) => {
   return (
-    <Slide direction="up" duration={700} triggerOnce={true}>
+    <Zoom duration={1500} triggerOnce={true}>
       <li className={styles.item}>
         <a className={styles.link} href={card.link}>
           <img
@@ -25,7 +25,7 @@ const Card = ({ card }) => {
           </div>
         </a>
       </li>
-    </Slide>
+    </Zoom>
   );
 };
 

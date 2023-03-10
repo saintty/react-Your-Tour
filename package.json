@@ -6,11 +6,9 @@
   "description": "Your Tour web-site",
   "main": "index.jsx",
   "scripts": {
-    "start": "set NODE_ENV=development&&webpack serve --config webpack.config.js",
+    "start": "cross-env NODE_ENV=development webpack serve --config webpack.config.js",
     "prebuild": "rimraf build",
-    "build": "set NODE_ENV=production&&webpack --config webpack.config.js",
-    "deploy": "gh-pages -d build",
-    "predeploy": "npm run build"
+    "build": "cross-env NODE_ENV=production webpack --config webpack.config.js"
   },
   "keywords": [
     "webpack",
@@ -39,6 +37,8 @@
     "autoprefixer": "^10.4.13",
     "babel-loader": "^9.1.2",
     "classnames": "^2.3.2",
+    "copy-webpack-plugin": "^11.0.0",
+    "cross-env": "^7.0.3",
     "css-loader": "^6.7.3",
     "cssnano": "^5.1.15",
     "gh-pages": "^5.0.0",
@@ -52,6 +52,7 @@
     "imagemin-optipng": "^8.0.0",
     "imagemin-svgo": "^10.0.1",
     "mini-css-extract-plugin": "^2.7.2",
+    "mini-svg-data-uri": "^1.4.4",
     "postcss-loader": "^7.0.2",
     "postcss-preset-env": "^8.0.1",
     "react-refresh": "^0.14.0",

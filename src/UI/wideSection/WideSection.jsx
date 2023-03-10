@@ -5,9 +5,10 @@ import SectionTitle from "../sectionTitle/SectionTitle";
 import classNames from "classnames";
 import styles from "./WideSection.module.scss";
 
-const WideSection = ({ title, subtitle, order, children }) => {
+const WideSection = ({ title, subtitle, order, id, children }) => {
   return (
     <section
+      id={id}
       className={classNames(
         styles.section,
         order === "first" && styles.first,

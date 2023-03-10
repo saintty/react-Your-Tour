@@ -879,19 +879,16 @@ var Container = function Container(_ref) {
     children: children
   });
 };
-_c = Container;
 /* harmony default export */ const container_Container = (Container);
-var _c;
-$RefreshReg$(_c, "Container");
 ;// CONCATENATED MODULE: ./src/components/Footer/Socials/Socials.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Socials_module = ({"list":"Socials__list-Jz7L0","link":"Socials__link-eRUzO","icon":"Socials__icon-buy4y","item":"Socials__item-Ioz0j"});
 ;// CONCATENATED MODULE: ./src/components/Footer/Socials/icons/instagram.svg
-const instagram_namespaceObject = __webpack_require__.p + "icons\\instagram.cd8d274fb772190c0694.svg";
+const instagram_namespaceObject = "data:image/svg+xml,%3csvg width='26' height='26' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M14.667 14a2.333 2.333 0 1 1 4.667 0 2.333 2.333 0 0 1-4.667 0Zm-1.261 0a3.594 3.594 0 1 0 7.189 0 3.594 3.594 0 0 0-7.19 0Zm6.491-3.737a.84.84 0 1 0 1.68 0 .84.84 0 0 0-1.68 0Zm-5.725 9.435c-.683-.031-1.054-.145-1.3-.241a2.177 2.177 0 0 1-.805-.524 2.165 2.165 0 0 1-.524-.804c-.096-.247-.21-.618-.24-1.3-.035-.738-.042-.96-.042-2.829 0-1.87.008-2.09.041-2.829.031-.682.146-1.053.241-1.3.127-.327.279-.56.524-.805s.477-.397.805-.524c.246-.096.617-.21 1.3-.24.738-.034.96-.041 2.828-.041 1.87 0 2.09.007 2.83.04.682.032 1.052.146 1.3.241.326.127.559.28.804.524.245.245.397.478.524.805.096.247.21.618.24 1.3.035.739.042.96.042 2.829 0 1.869-.007 2.09-.041 2.829-.031.682-.145 1.053-.241 1.3-.127.327-.279.56-.524.804a2.173 2.173 0 0 1-.805.524c-.246.096-.617.21-1.3.24-.738.035-.96.041-2.829.041-1.868 0-2.09-.006-2.828-.04Zm-.058-12.656c-.745.034-1.254.153-1.699.326a3.43 3.43 0 0 0-1.24.807c-.389.389-.629.78-.808 1.24-.173.445-.29.954-.325 1.7-.034.745-.042.984-.042 2.885 0 1.901.008 2.14.042 2.886.034.745.152 1.254.325 1.7.18.46.418.85.808 1.239.389.39.78.628 1.24.808.446.172.954.29 1.7.325.746.034.984.042 2.885.042 1.902 0 2.14-.008 2.886-.042s1.255-.152 1.7-.325c.46-.18.85-.419 1.24-.808.389-.389.628-.78.807-1.24.173-.445.292-.954.325-1.7.034-.746.042-.984.042-2.885 0-1.901-.008-2.14-.042-2.886-.034-.745-.152-1.254-.325-1.7-.18-.46-.418-.85-.807-1.239a3.434 3.434 0 0 0-1.24-.807c-.445-.173-.954-.292-1.7-.326-.745-.034-.984-.042-2.885-.042-1.902 0-2.14.008-2.887.042Z' fill='%23A6A6A6'/%3e%3c/svg%3e";
 ;// CONCATENATED MODULE: ./src/components/Footer/Socials/icons/facebook.svg
-const facebook_namespaceObject = __webpack_require__.p + "icons\\facebook.85711e0226eadb9513f9.svg";
+const facebook_namespaceObject = "data:image/svg+xml,%3csvg width='26' height='26' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M20.988 5h-2.717c-1.612 0-3.406.678-3.406 3.015.008.815 0 1.594 0 2.472H13v2.968h1.923V22h3.534v-8.601h2.332l.211-2.92h-2.604s.006-1.3 0-1.676c0-.924.96-.871 1.019-.871h1.574V5Z' fill='%23A6A6A6'/%3e%3c/svg%3e";
 ;// CONCATENATED MODULE: ./src/components/Footer/Socials/icons/vk.svg
-const vk_namespaceObject = __webpack_require__.p + "icons\\vk.54fd9a687a2678b83f8d.svg";
+const vk_namespaceObject = "data:image/svg+xml,%3csvg width='26' height='26' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' clip-rule='evenodd' d='M23.54 10.805c.14-.473 0-.805-.657-.805h-2.188c-.563 0-.813.3-.954.632 0 0-1.11 2.747-2.689 4.515-.515.521-.734.68-1.016.68-.14 0-.344-.159-.344-.632v-4.39c0-.568-.156-.805-.625-.805h-3.439c-.344 0-.563.268-.563.505 0 .537.782.663.876 2.148v3.252c0 .71-.125.837-.407.837-.734 0-2.548-2.747-3.61-5.905-.22-.584-.423-.837-.985-.837H4.75c-.625 0-.75.3-.75.632 0 .584.735 3.49 3.455 7.326C9.268 20.578 11.815 22 14.129 22c1.392 0 1.563-.316 1.563-.853v-1.99c0-.63.126-.757.579-.757.328 0 .875.158 2.173 1.421 1.485 1.5 1.735 2.179 2.563 2.179h2.189c.625 0 .938-.316.75-.932-.203-.615-.907-1.515-1.845-2.59-.515-.615-1.281-1.262-1.5-1.594-.328-.426-.235-.616 0-.979 0-.015 2.673-3.805 2.939-5.1Z' fill='%23A6A6A6'/%3e%3c/svg%3e";
 ;// CONCATENATED MODULE: ./src/components/Footer/Socials/links.js
 
 
@@ -938,10 +935,7 @@ var Socials = function Socials() {
     })
   });
 };
-Socials_c = Socials;
 /* harmony default export */ const Socials_Socials = (Socials);
-var Socials_c;
-$RefreshReg$(Socials_c, "Socials");
 ;// CONCATENATED MODULE: ./src/components/Footer/Footer.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Footer_module = ({"footer":"Footer__footer-ceS4E","content":"Footer__content-OCBXB","label":"Footer__label-kuwh_"});
@@ -966,10 +960,7 @@ var Footer = function Footer() {
     })
   });
 };
-Footer_c = Footer;
 /* harmony default export */ const Footer_Footer = (Footer);
-var Footer_c;
-$RefreshReg$(Footer_c, "Footer");
 ;// CONCATENATED MODULE: ./src/UI/sectionTitle/SectionTitle.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const SectionTitle_module = ({"title":"sectionTitle__title-a4_Yf"});
@@ -984,13 +975,10 @@ var SectionTitle = function SectionTitle(_ref) {
     children: title
   });
 };
-SectionTitle_c = SectionTitle;
 /* harmony default export */ const sectionTitle_SectionTitle = (SectionTitle);
-var SectionTitle_c;
-$RefreshReg$(SectionTitle_c, "SectionTitle");
-;// CONCATENATED MODULE: ./src/UI/sectionSubTitle/sectionSubTitle.module.scss
+;// CONCATENATED MODULE: ./src/UI/sectionSubTitle/SectionSubTitle.module.scss
 // extracted by mini-css-extract-plugin
-/* harmony default export */ const sectionSubTitle_module = ({"subtitle":"sectionSubTitle__subtitle-pBCca"});
+/* harmony default export */ const SectionSubTitle_module = ({"subtitle":"sectionSubTitle__subtitle-izu1L"});
 ;// CONCATENATED MODULE: ./src/UI/sectionSubTitle/SectionSubTitle.jsx
 
 
@@ -998,14 +986,11 @@ $RefreshReg$(SectionTitle_c, "SectionTitle");
 var SectionSubTitle = function SectionSubTitle(_ref) {
   var subtitle = _ref.subtitle;
   return /*#__PURE__*/(0,jsx_runtime.jsx)("p", {
-    className: sectionSubTitle_module.subtitle,
+    className: SectionSubTitle_module.subtitle,
     children: subtitle
   });
 };
-SectionSubTitle_c = SectionSubTitle;
 /* harmony default export */ const sectionSubTitle_SectionSubTitle = (SectionSubTitle);
-var SectionSubTitle_c;
-$RefreshReg$(SectionSubTitle_c, "SectionSubTitle");
 // EXTERNAL MODULE: ./node_modules/classnames/index.js
 var classnames = __webpack_require__(184);
 var classnames_default = /*#__PURE__*/__webpack_require__.n(classnames);
@@ -1025,8 +1010,10 @@ var Section = function Section(_ref) {
   var title = _ref.title,
     subtitle = _ref.subtitle,
     order = _ref.order,
+    id = _ref.id,
     children = _ref.children;
   return /*#__PURE__*/(0,jsx_runtime.jsx)("section", {
+    id: id,
     className: classnames_default()(Section_module.section, order === "first" && Section_module.first, order === "last" && Section_module.last),
     children: /*#__PURE__*/(0,jsx_runtime.jsxs)(container_Container, {
       children: [title && /*#__PURE__*/(0,jsx_runtime.jsx)(sectionTitle_SectionTitle, {
@@ -1037,10 +1024,7 @@ var Section = function Section(_ref) {
     })
   });
 };
-Section_c = Section;
 /* harmony default export */ const section_Section = (Section);
-var Section_c;
-$RefreshReg$(Section_c, "Section");
 ;// CONCATENATED MODULE: ./src/components/Form/InputRow/InputRow.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const InputRow_module = ({"row":"InputRow__row-KuPFy","longRow":"InputRow__longRow-q_pnm"});
@@ -1057,10 +1041,7 @@ var InputRow = function InputRow(_ref) {
     children: children
   });
 };
-InputRow_c = InputRow;
 /* harmony default export */ const InputRow_InputRow = (InputRow);
-var InputRow_c;
-$RefreshReg$(InputRow_c, "InputRow");
 ;// CONCATENATED MODULE: ./src/UI/label/Label.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Label_module = ({"label":"label__label-pXIIj","long":"label__long-iCPqs"});
@@ -1079,10 +1060,7 @@ var Label = function Label(_ref) {
     children: label
   });
 };
-Label_c = Label;
 /* harmony default export */ const label_Label = (Label);
-var Label_c;
-$RefreshReg$(Label_c, "Label");
 ;// CONCATENATED MODULE: ./src/UI/input/Input.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Input_module = ({"input":"input__input-J5tvk"});
@@ -1112,10 +1090,7 @@ var Input = function Input(_ref) {
     })]
   });
 };
-Input_c = Input;
 /* harmony default export */ const input_Input = (Input);
-var Input_c;
-$RefreshReg$(Input_c, "Input");
 ;// CONCATENATED MODULE: ./src/components/Form/Field/Field.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Field_module = ({"field":"Field__field-BSSOH"});
@@ -1138,10 +1113,7 @@ var Field = function Field(_ref) {
     }) : children
   });
 };
-Field_c = Field;
 /* harmony default export */ const Field_Field = (Field);
-var Field_c;
-$RefreshReg$(Field_c, "Field");
 ;// CONCATENATED MODULE: ./src/UI/select/Select.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Select_module = ({"select":"select__select-nAOti"});
@@ -1176,10 +1148,7 @@ var Select = function Select(_ref) {
     })]
   });
 };
-Select_c = Select;
 /* harmony default export */ const select_Select = (Select);
-var Select_c;
-$RefreshReg$(Select_c, "Select");
 ;// CONCATENATED MODULE: ./src/UI/textarea/Textarea.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Textarea_module = ({"textarea":"textarea__textarea-_tTEC"});
@@ -1203,10 +1172,7 @@ var Textarea = function Textarea(_ref) {
     })]
   });
 };
-Textarea_c = Textarea;
 /* harmony default export */ const textarea_Textarea = (Textarea);
-var Textarea_c;
-$RefreshReg$(Textarea_c, "Textarea");
 ;// CONCATENATED MODULE: ./src/UI/radio/Radio.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Radio_module = ({"label":"radio__label-TxJXx","input":"radio__input-hZxBe"});
@@ -1238,10 +1204,7 @@ var Radio = function Radio(_ref) {
     })]
   });
 };
-Radio_c = Radio;
 /* harmony default export */ const radio_Radio = (Radio);
-var Radio_c;
-$RefreshReg$(Radio_c, "Radio");
 ;// CONCATENATED MODULE: ./src/UI/checkbox/Checkbox.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Checkbox_module = ({"label":"checkbox__label-BfwQY","input":"checkbox__input-xYbI1"});
@@ -1267,10 +1230,7 @@ var Checkbox = function Checkbox(_ref) {
     })]
   });
 };
-Checkbox_c = Checkbox;
 /* harmony default export */ const checkbox_Checkbox = (Checkbox);
-var Checkbox_c;
-$RefreshReg$(Checkbox_c, "Checkbox");
 ;// CONCATENATED MODULE: ./src/UI/formButton/FormButton.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const FormButton_module = ({"button":"formButton__button-Zs43D","submit":"formButton__submit-jZHgO","reset":"formButton__reset-vlvNZ"});
@@ -1288,10 +1248,7 @@ var FormButton = function FormButton(_ref) {
     children: label
   });
 };
-FormButton_c = FormButton;
 /* harmony default export */ const formButton_FormButton = (FormButton);
-var FormButton_c;
-$RefreshReg$(FormButton_c, "FormButton");
 ;// CONCATENATED MODULE: ./src/components/Form/ButtonRow/ButtonRow.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const ButtonRow_module = ({"row":"ButtonRow__row-GeIn9"});
@@ -1306,10 +1263,7 @@ var ButtonRow = function ButtonRow(_ref) {
     children: children
   });
 };
-ButtonRow_c = ButtonRow;
 /* harmony default export */ const ButtonRow_ButtonRow = (ButtonRow);
-var ButtonRow_c;
-$RefreshReg$(ButtonRow_c, "ButtonRow");
 ;// CONCATENATED MODULE: ./src/components/Form/Form.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Form_module = ({"form":"Form__form-Nl9sb","license":"Form__license-xbWce"});
@@ -1346,6 +1300,7 @@ var options = [{
 
 var Form = function Form() {
   return /*#__PURE__*/(0,jsx_runtime.jsx)(section_Section, {
+    id: "build-tour",
     title: "\u0421\u043E\u0431\u0435\u0440\u0438 \u0441\u0432\u043E\u0439 \u0442\u0443\u0440",
     subtitle: "\u0418\u0434\u0435\u0439\u043D\u044B\u0435 \u0441\u043E\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F \u0432\u044B\u0441\u0448\u0435\u0433\u043E \u043F\u043E\u0440\u044F\u0434\u043A\u0430,\u0430 \u0442\u0430\u043A\u0436\u0435 \u0440\u0430\u043C\u043A\u0438 \u0438 \u043C\u0435\u0441\u0442\u043E \u043E\u0431\u0443\u0447\u0435\u043D\u0438\u044F \u043A\u0430\u0434\u0440\u043E\u0432",
     children: /*#__PURE__*/(0,jsx_runtime.jsxs)("form", {
@@ -1450,14 +1405,11 @@ var Form = function Form() {
     })
   });
 };
-Form_c = Form;
 /* harmony default export */ const Form_Form = (Form);
-var Form_c;
-$RefreshReg$(Form_c, "Form");
-;// CONCATENATED MODULE: ./src/UI/centeredButton/CenteredButton.module.scss
+;// CONCATENATED MODULE: ./src/UI/centerButton/CenterButton.module.scss
 // extracted by mini-css-extract-plugin
-/* harmony default export */ const CenteredButton_module = ({"wrapper":"centeredButton__wrapper-_NvT1","button":"centeredButton__button-BPT0R"});
-;// CONCATENATED MODULE: ./src/UI/centeredButton/CenteredButton.jsx
+/* harmony default export */ const CenterButton_module = ({"wrapper":"centerButton__wrapper-s8gxA","button":"centerButton__button-JEmCV"});
+;// CONCATENATED MODULE: ./src/UI/centerButton/CenterButton.jsx
 
 
 
@@ -1465,55 +1417,46 @@ var CenteredButton = function CenteredButton(_ref) {
   var to = _ref.to,
     label = _ref.label;
   return /*#__PURE__*/(0,jsx_runtime.jsx)("div", {
-    className: CenteredButton_module.wrapper,
+    className: CenterButton_module.wrapper,
     children: /*#__PURE__*/(0,jsx_runtime.jsx)("a", {
-      className: CenteredButton_module.button,
+      className: CenterButton_module.button,
       href: to,
       target: "_blank",
       children: label
     })
   });
 };
-CenteredButton_c = CenteredButton;
-/* harmony default export */ const centeredButton_CenteredButton = (CenteredButton);
-var CenteredButton_c;
-$RefreshReg$(CenteredButton_c, "CenteredButton");
-;// CONCATENATED MODULE: ./src/UI/PageCaption/pageCaption.module.scss
+/* harmony default export */ const CenterButton = (CenteredButton);
+;// CONCATENATED MODULE: ./src/UI/pageCaption/PageCaption.module.scss
 // extracted by mini-css-extract-plugin
-/* harmony default export */ const pageCaption_module = ({"title":"PageCaption__title-Q_kwD"});
-;// CONCATENATED MODULE: ./src/UI/PageCaption/PageCaption.jsx
+/* harmony default export */ const PageCaption_module = ({"title":"pageCaption__title-K__D9"});
+;// CONCATENATED MODULE: ./src/UI/pageCaption/PageCaption.jsx
 
 
 
 var PageCaption = function PageCaption(_ref) {
   var children = _ref.children;
   return /*#__PURE__*/(0,jsx_runtime.jsx)("h1", {
-    className: pageCaption_module.title,
+    className: PageCaption_module.title,
     children: children
   });
 };
-PageCaption_c = PageCaption;
-/* harmony default export */ const PageCaption_PageCaption = (PageCaption);
-var PageCaption_c;
-$RefreshReg$(PageCaption_c, "PageCaption");
-;// CONCATENATED MODULE: ./src/UI/PageSubCaption/pageSubCaption.module.scss
+/* harmony default export */ const pageCaption_PageCaption = (PageCaption);
+;// CONCATENATED MODULE: ./src/UI/pageSubCaption/PageSubCaption.module.scss
 // extracted by mini-css-extract-plugin
-/* harmony default export */ const pageSubCaption_module = ({"subtitle":"PageSubCaption__subtitle-yRWsY"});
-;// CONCATENATED MODULE: ./src/UI/PageSubCaption/PageSubCaption.jsx
+/* harmony default export */ const PageSubCaption_module = ({"subtitle":"pageSubCaption__subtitle-V_wX7"});
+;// CONCATENATED MODULE: ./src/UI/pageSubCaption/PageSubCaption.jsx
 
 
 
 var PageSubCaption = function PageSubCaption(_ref) {
   var children = _ref.children;
   return /*#__PURE__*/(0,jsx_runtime.jsx)("h2", {
-    className: pageSubCaption_module.subtitle,
+    className: PageSubCaption_module.subtitle,
     children: children
   });
 };
-PageSubCaption_c = PageSubCaption;
-/* harmony default export */ const PageSubCaption_PageSubCaption = (PageSubCaption);
-var PageSubCaption_c;
-$RefreshReg$(PageSubCaption_c, "PageSubCaption");
+/* harmony default export */ const pageSubCaption_PageSubCaption = (PageSubCaption);
 ;// CONCATENATED MODULE: ./src/components/Header/Background/Background.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Background_module = ({"background":"Background__background-wql0t"});
@@ -1529,10 +1472,7 @@ var Background = function Background(_ref) {
     alt: "\u0424\u043E\u043D\u043E\u0432\u043E\u0435 \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 \u0448\u0430\u043F\u043A\u0438 \u0441\u0430\u0439\u0442\u0430, \u0434\u0435\u0440\u0435\u0432\u044F\u043D\u043D\u044B\u0435 \u043F\u043E\u0441\u0442\u0440\u043E\u0439\u043A\u0438 \u043D\u0430 \u0444\u043E\u043D\u0435 \u0440\u0435\u043A\u0438"
   });
 };
-Background_c = Background;
 /* harmony default export */ const Background_Background = (Background);
-var Background_c;
-$RefreshReg$(Background_c, "Background");
 ;// CONCATENATED MODULE: ./src/components/Header/Header.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Header_module = ({"header":"Header__header-k5rxh","content":"Header__content-hKJhd"});
@@ -1557,11 +1497,11 @@ var Header = function Header() {
     }), /*#__PURE__*/(0,jsx_runtime.jsx)("div", {
       className: Header_module.content,
       children: /*#__PURE__*/(0,jsx_runtime.jsxs)(container_Container, {
-        children: [/*#__PURE__*/(0,jsx_runtime.jsx)(PageCaption_PageCaption, {
+        children: [/*#__PURE__*/(0,jsx_runtime.jsx)(pageCaption_PageCaption, {
           children: "\u0418\u0434\u0435\u0430\u043B\u044C\u043D\u044B\u0435 \u043F\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u044F \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0443\u044E\u0442"
-        }), /*#__PURE__*/(0,jsx_runtime.jsx)(PageSubCaption_PageSubCaption, {
+        }), /*#__PURE__*/(0,jsx_runtime.jsx)(pageSubCaption_PageSubCaption, {
           children: "\u0418\u0434\u0435\u0439\u043D\u044B\u0435 \u0441\u043E\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F \u0432\u044B\u0441\u0448\u0435\u0433\u043E \u043F\u043E\u0440\u044F\u0434\u043A\u0430, \u0430 \u0442\u0430\u043A\u0436\u0435 \u0440\u0430\u043C\u043A\u0438 \u0438 \u043C\u0435\u0441\u0442\u043E \u043E\u0431\u0443\u0447\u0435\u043D\u0438\u044F \u043A\u0430\u0434\u0440\u043E\u0432"
-        }), /*#__PURE__*/(0,jsx_runtime.jsx)(centeredButton_CenteredButton, {
+        }), /*#__PURE__*/(0,jsx_runtime.jsx)(CenterButton, {
           to: "#",
           label: "\u041D\u0430\u0439\u0442\u0438 \u0442\u0443\u0440"
         })]
@@ -1569,13 +1509,7 @@ var Header = function Header() {
     })]
   });
 };
-Header_c = Header;
 /* harmony default export */ const Header_Header = (Header);
-var Header_c;
-$RefreshReg$(Header_c, "Header");
-;// CONCATENATED MODULE: ./src/components/Tours/Tours.module.scss
-// extracted by mini-css-extract-plugin
-/* harmony default export */ const Tours_module = ({});
 ;// CONCATENATED MODULE: ./src/components/Tours/pictures/card-1.jpg
 const card_1_namespaceObject = __webpack_require__.p + "images\\card-1.a3ab33de5ea3efedd27d.jpg";
 ;// CONCATENATED MODULE: ./src/components/Tours/pictures/card-2.jpg
@@ -1667,15 +1601,11 @@ var CategoryItem = function CategoryItem(_ref) {
     })
   });
 };
-CategoryItem_c = CategoryItem;
 /* harmony default export */ const CategoryItem_CategoryItem = (CategoryItem);
-var CategoryItem_c;
-$RefreshReg$(CategoryItem_c, "CategoryItem");
 ;// CONCATENATED MODULE: ./src/components/Tours/CategoryList/CategoryList.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const CategoryList_module = ({"list":"CategoryList__list-bAKO6"});
 ;// CONCATENATED MODULE: ./src/components/Tours/CategoryList/CategoryList.jsx
-var _s2 = $RefreshSig$();
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
 function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
@@ -1687,7 +1617,6 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 
 var CategoryList = function CategoryList(_ref) {
-  _s2();
   var categories = _ref.categories;
   var _useState = (0,react.useState)(categories[0].name),
     _useState2 = _slicedToArray(_useState, 2),
@@ -1705,65 +1634,7 @@ var CategoryList = function CategoryList(_ref) {
     })
   });
 };
-_s2(CategoryList, "d74bv2W9B1NPNL2apphCJ3bmeiE=");
-CategoryList_c = CategoryList;
 /* harmony default export */ const CategoryList_CategoryList = (CategoryList);
-var CategoryList_c;
-$RefreshReg$(CategoryList_c, "CategoryList");
-;// CONCATENATED MODULE: ./src/components/Tours/card/cardHeader/CardHeader.module.scss
-// extracted by mini-css-extract-plugin
-/* harmony default export */ const CardHeader_module = ({"name":"cardHeader__name-GiFmR","price":"cardHeader__price-koror"});
-;// CONCATENATED MODULE: ./src/components/Tours/card/cardHeader/CardHeader.jsx
-
-
-
-
-var CardHeader = function CardHeader(_ref) {
-  var name = _ref.name,
-    price = _ref.price;
-  return /*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
-    children: [/*#__PURE__*/(0,jsx_runtime.jsx)("h3", {
-      className: CardHeader_module.name,
-      children: name
-    }), /*#__PURE__*/(0,jsx_runtime.jsx)("span", {
-      className: CardHeader_module.price,
-      children: price
-    })]
-  });
-};
-CardHeader_c = CardHeader;
-/* harmony default export */ const cardHeader_CardHeader = (CardHeader);
-var CardHeader_c;
-$RefreshReg$(CardHeader_c, "CardHeader");
-;// CONCATENATED MODULE: ./src/UI/infoButton/InfoButton.module.scss
-// extracted by mini-css-extract-plugin
-/* harmony default export */ const InfoButton_module = ({"button":"infoButton__button-JEBfa","label":"infoButton__label-Cg8S6"});
-;// CONCATENATED MODULE: ./src/UI/infoButton/arrow.svg
-const arrow_namespaceObject = __webpack_require__.p + "icons\\arrow.f74fbbb58a5e60ee636a.svg";
-;// CONCATENATED MODULE: ./src/UI/infoButton/InfoButton.jsx
-
-
-
-
-
-var InfoButton = function InfoButton(_ref) {
-  var label = _ref.label;
-  return /*#__PURE__*/(0,jsx_runtime.jsxs)("button", {
-    className: InfoButton_module.button,
-    children: [/*#__PURE__*/(0,jsx_runtime.jsx)("span", {
-      className: InfoButton_module.label,
-      children: label
-    }), /*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-      className: InfoButton_module.icon,
-      src: arrow_namespaceObject,
-      alt: "\u0418\u043A\u043E\u043D\u043A\u0430 \u043A\u043D\u043E\u043F\u043A\u0438 \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u0438"
-    })]
-  });
-};
-InfoButton_c = InfoButton;
-/* harmony default export */ const infoButton_InfoButton = (InfoButton);
-var InfoButton_c;
-$RefreshReg$(InfoButton_c, "InfoButton");
 ;// CONCATENATED MODULE: ./node_modules/@emotion/sheet/dist/emotion-sheet.browser.esm.js
 /*
 
@@ -6545,11 +6416,11 @@ function getStyles7(reverse, direction) {
 }
 var Slide = (props) => {
   const { direction, reverse = false, ...rest } = props;
-  const keyframes87 = (0,react.useMemo)(
+  const keyframes87 = useMemo8(
     () => getStyles7(reverse, direction),
     [direction, reverse]
   );
-  return /* @__PURE__ */ emotion_react_jsx_runtime_browser_esm_jsx(Reveal, { keyframes: keyframes87, ...rest });
+  return /* @__PURE__ */ jsx10(Reveal, { keyframes: keyframes87, ...rest });
 };
 
 // src/components/Zoom.tsx
@@ -6727,18 +6598,66 @@ function getStyles8(reverse, direction) {
 }
 var Zoom = (props) => {
   const { direction, reverse = false, ...rest } = props;
-  const keyframes87 = useMemo9(
+  const keyframes87 = (0,react.useMemo)(
     () => getStyles8(reverse, direction),
     [direction, reverse]
   );
-  return /* @__PURE__ */ jsx11(Reveal, { keyframes: keyframes87, ...rest });
+  return /* @__PURE__ */ emotion_react_jsx_runtime_browser_esm_jsx(Reveal, { keyframes: keyframes87, ...rest });
 };
 
 //# sourceMappingURL=index.mjs.map
-;// CONCATENATED MODULE: ./src/components/Tours/card/Card.module.scss
+;// CONCATENATED MODULE: ./src/components/Tours/Card/CardHeader/CardHeader.module.scss
 // extracted by mini-css-extract-plugin
-/* harmony default export */ const Card_module = ({"card":"card__card-HyTn7","picture":"card__picture-NHIal","wrapper":"card__wrapper-dlfmn"});
-;// CONCATENATED MODULE: ./src/components/Tours/card/Card.jsx
+/* harmony default export */ const CardHeader_module = ({"name":"CardHeader__name-i4TzD","price":"CardHeader__price-spI6q"});
+;// CONCATENATED MODULE: ./src/components/Tours/Card/CardHeader/CardHeader.jsx
+
+
+
+
+var CardHeader = function CardHeader(_ref) {
+  var name = _ref.name,
+    price = _ref.price;
+  return /*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
+    children: [/*#__PURE__*/(0,jsx_runtime.jsx)("h3", {
+      className: CardHeader_module.name,
+      children: name
+    }), /*#__PURE__*/(0,jsx_runtime.jsx)("span", {
+      className: CardHeader_module.price,
+      children: price
+    })]
+  });
+};
+/* harmony default export */ const CardHeader_CardHeader = (CardHeader);
+;// CONCATENATED MODULE: ./src/UI/infoButton/InfoButton.module.scss
+// extracted by mini-css-extract-plugin
+/* harmony default export */ const InfoButton_module = ({"button":"infoButton__button-JEBfa","label":"infoButton__label-Cg8S6"});
+;// CONCATENATED MODULE: ./src/UI/infoButton/arrow.svg
+const arrow_namespaceObject = "data:image/svg+xml,%3csvg width='22' height='16' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M21.7 7.283 15.154.797a1.03 1.03 0 0 0-1.447 0c-.4.396-.4 1.037 0 1.433l4.8 4.756H1.023C.458 6.986 0 7.44 0 8s.458 1.014 1.023 1.014h17.484l-4.8 4.756c-.4.396-.4 1.037 0 1.433a1.026 1.026 0 0 0 1.447 0L21.7 8.717c.4-.396.4-1.038 0-1.434Z' fill='white'/%3e%3c/svg%3e";
+;// CONCATENATED MODULE: ./src/UI/infoButton/InfoButton.jsx
+
+
+
+
+
+var InfoButton = function InfoButton(_ref) {
+  var label = _ref.label;
+  return /*#__PURE__*/(0,jsx_runtime.jsxs)("button", {
+    className: InfoButton_module.button,
+    children: [/*#__PURE__*/(0,jsx_runtime.jsx)("span", {
+      className: InfoButton_module.label,
+      children: label
+    }), /*#__PURE__*/(0,jsx_runtime.jsx)("img", {
+      className: InfoButton_module.icon,
+      src: arrow_namespaceObject,
+      alt: "\u0418\u043A\u043E\u043D\u043A\u0430 \u043A\u043D\u043E\u043F\u043A\u0438 \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u0438"
+    })]
+  });
+};
+/* harmony default export */ const infoButton_InfoButton = (InfoButton);
+;// CONCATENATED MODULE: ./src/components/Tours/Card/Card.module.scss
+// extracted by mini-css-extract-plugin
+/* harmony default export */ const Card_module = ({"card":"Card__card-bOonk","picture":"Card__picture-YMkno","wrapper":"Card__wrapper-KpA0Y"});
+;// CONCATENATED MODULE: ./src/components/Tours/Card/Card.jsx
 
 
 
@@ -6748,9 +6667,8 @@ var Zoom = (props) => {
 
 var Card = function Card(_ref) {
   var card = _ref.card;
-  return /*#__PURE__*/(0,jsx_runtime.jsx)(Slide, {
-    direction: "up",
-    duration: 700,
+  return /*#__PURE__*/(0,jsx_runtime.jsx)(Zoom, {
+    duration: 1500,
     triggerOnce: true,
     children: /*#__PURE__*/(0,jsx_runtime.jsx)("li", {
       className: Card_module.card,
@@ -6763,7 +6681,7 @@ var Card = function Card(_ref) {
           alt: "\u0424\u043E\u043D\u043E\u0432\u043E\u0435 \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 \u043F\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u044F"
         }), /*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
           className: Card_module.wrapper,
-          children: [/*#__PURE__*/(0,jsx_runtime.jsx)(cardHeader_CardHeader, {
+          children: [/*#__PURE__*/(0,jsx_runtime.jsx)(CardHeader_CardHeader, {
             name: card.name,
             price: card.price
           }), /*#__PURE__*/(0,jsx_runtime.jsx)(infoButton_InfoButton, {
@@ -6774,10 +6692,7 @@ var Card = function Card(_ref) {
     })
   });
 };
-Card_c = Card;
-/* harmony default export */ const card_Card = (Card);
-var Card_c;
-$RefreshReg$(Card_c, "Card");
+/* harmony default export */ const Card_Card = (Card);
 ;// CONCATENATED MODULE: ./src/components/Tours/CardList/CardList.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const CardList_module = ({"list":"CardList__list-pi9dt"});
@@ -6791,19 +6706,14 @@ var CardList = function CardList(_ref) {
   return /*#__PURE__*/(0,jsx_runtime.jsx)("ul", {
     className: CardList_module.list,
     children: cards.map(function (item) {
-      return /*#__PURE__*/(0,jsx_runtime.jsx)(card_Card, {
+      return /*#__PURE__*/(0,jsx_runtime.jsx)(Card_Card, {
         card: item
       }, "".concat(item.price, "_").concat(item.link));
     })
   });
 };
-CardList_c = CardList;
 /* harmony default export */ const CardList_CardList = (CardList);
-var CardList_c;
-$RefreshReg$(CardList_c, "CardList");
 ;// CONCATENATED MODULE: ./src/components/Tours/Tours.jsx
-
-
 
 
 
@@ -6815,6 +6725,7 @@ var Tours = function Tours() {
   return /*#__PURE__*/(0,jsx_runtime.jsxs)(section_Section, {
     title: "\u0412\u044B\u0431\u0435\u0440\u0438 \u0441\u0432\u043E\u0439 \u0442\u0443\u0440",
     order: "first",
+    id: "tour",
     children: [/*#__PURE__*/(0,jsx_runtime.jsx)(CategoryList_CategoryList, {
       categories: categories
     }), /*#__PURE__*/(0,jsx_runtime.jsx)(CardList_CardList, {
@@ -6822,10 +6733,7 @@ var Tours = function Tours() {
     })]
   });
 };
-Tours_c = Tours;
 /* harmony default export */ const Tours_Tours = (Tours);
-var Tours_c;
-$RefreshReg$(Tours_c, "Tours");
 ;// CONCATENATED MODULE: ./src/components/Feedback/ReviewFooter/ReviewFooter.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const ReviewFooter_module = ({"footer":"ReviewFooter__footer-F8AzU","wrapper":"ReviewFooter__wrapper-sa6Dw","user":"ReviewFooter__user-qWqPp","tour":"ReviewFooter__tour-QYfaG","avatar":"ReviewFooter__avatar-wn2tl"});
@@ -6856,10 +6764,7 @@ var ReviewFooter = function ReviewFooter(_ref) {
     })]
   });
 };
-ReviewFooter_c = ReviewFooter;
 /* harmony default export */ const ReviewFooter_ReviewFooter = (ReviewFooter);
-var ReviewFooter_c;
-$RefreshReg$(ReviewFooter_c, "ReviewFooter");
 ;// CONCATENATED MODULE: ./src/components/Feedback/Review/Review.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Review_module = ({"item":"Review__item-PAZP_","text":"Review__text-SCJVi"});
@@ -6883,10 +6788,7 @@ var Review = function Review(_ref) {
     })]
   });
 };
-Review_c = Review;
 /* harmony default export */ const Review_Review = (Review);
-var Review_c;
-$RefreshReg$(Review_c, "Review");
 ;// CONCATENATED MODULE: ./src/components/Feedback/Feedback.modules.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Feedback_modules = ({"list":"Feedback__list-K7_mT"});
@@ -6918,6 +6820,7 @@ var data = [{
 
 var Feedback = function Feedback() {
   return /*#__PURE__*/(0,jsx_runtime.jsxs)(section_Section, {
+    id: "feedback",
     title: "\u041E\u0442\u0437\u044B\u0432\u044B \u043D\u0430\u0448\u0438\u0445 \u043F\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0435\u043D\u043D\u0438\u043A\u043E\u0432",
     subtitle: "\u0418\u0434\u0435\u0439\u043D\u044B\u0435 \u0441\u043E\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F \u0432\u044B\u0441\u0448\u0435\u0433\u043E \u043F\u043E\u0440\u044F\u0434\u043A\u0430, \u0430 \u0442\u0430\u043A\u0436\u0435 \u0440\u0430\u043C\u043A\u0438 \u0438 \u043C\u0435\u0441\u0442\u043E \u043E\u0431\u0443\u0447\u0435\u043D\u0438\u044F \u043A\u0430\u0434\u0440\u043E\u0432",
     children: [/*#__PURE__*/(0,jsx_runtime.jsx)("div", {
@@ -6930,10 +6833,7 @@ var Feedback = function Feedback() {
     }), "hello"]
   });
 };
-Feedback_c = Feedback;
 /* harmony default export */ const Feedback_Feedback = (Feedback);
-var Feedback_c;
-$RefreshReg$(Feedback_c, "Feedback");
 ;// CONCATENATED MODULE: ./src/components/Gallery/Picture/Picture.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Picture_module = ({"item":"Picture__item-tSITu","img":"Picture__img-ps_qJ","mediumHide":"Picture__mediumHide-K_HOX","smallHide":"Picture__smallHide-Tl8Cw"});
@@ -6955,10 +6855,7 @@ var Picture = function Picture(_ref) {
     })
   });
 };
-Picture_c = Picture;
 /* harmony default export */ const Picture_Picture = (Picture);
-var Picture_c;
-$RefreshReg$(Picture_c, "Picture");
 ;// CONCATENATED MODULE: ./src/components/Gallery/Row/Row.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Row_module = ({"row":"Row__row-WmNr1","small":"Row__small-l7Qob"});
@@ -6982,10 +6879,7 @@ var Row = function Row(_ref) {
     })
   });
 };
-Row_c = Row;
 /* harmony default export */ const Row_Row = (Row);
-var Row_c;
-$RefreshReg$(Row_c, "Row");
 ;// CONCATENATED MODULE: ./src/components/Gallery/Gallery.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Gallery_module = ({});
@@ -7084,10 +6978,7 @@ var WideContainer = function WideContainer(_ref) {
     children: children
   });
 };
-WideContainer_c = WideContainer;
 /* harmony default export */ const shared_wideContainer_WideContainer = (WideContainer);
-var WideContainer_c;
-$RefreshReg$(WideContainer_c, "WideContainer");
 ;// CONCATENATED MODULE: ./src/UI/wideSection/WideSection.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const WideSection_module = ({"section":"wideSection__section-bLyPw","first":"wideSection__first-uE5WF","last":"wideSection__last-VGZql"});
@@ -7104,8 +6995,10 @@ var WideSection = function WideSection(_ref) {
   var title = _ref.title,
     subtitle = _ref.subtitle,
     order = _ref.order,
+    id = _ref.id,
     children = _ref.children;
   return /*#__PURE__*/(0,jsx_runtime.jsx)("section", {
+    id: id,
     className: classnames_default()(WideSection_module.section, order === "first" && WideSection_module.first, order === "last" && WideSection_module.last),
     children: /*#__PURE__*/(0,jsx_runtime.jsxs)(shared_wideContainer_WideContainer, {
       children: [/*#__PURE__*/(0,jsx_runtime.jsx)(sectionTitle_SectionTitle, {
@@ -7116,10 +7009,7 @@ var WideSection = function WideSection(_ref) {
     })
   });
 };
-WideSection_c = WideSection;
 /* harmony default export */ const wideSection_WideSection = (WideSection);
-var WideSection_c;
-$RefreshReg$(WideSection_c, "WideSection");
 ;// CONCATENATED MODULE: ./src/components/Gallery/Gallery.jsx
 
 
@@ -7141,10 +7031,7 @@ var Gallery = function Gallery() {
     })
   });
 };
-Gallery_c = Gallery;
 /* harmony default export */ const Gallery_Gallery = (Gallery);
-var Gallery_c;
-$RefreshReg$(Gallery_c, "Gallery");
 ;// CONCATENATED MODULE: ./src/components/History/Benefits/Benefits.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Benefits_module = ({"list":"Benefits__list-JjlXO"});
@@ -7164,10 +7051,7 @@ var Benefits = function Benefits(_ref) {
     })
   });
 };
-Benefits_c = Benefits;
 /* harmony default export */ const Benefits_Benefits = (Benefits);
-var Benefits_c;
-$RefreshReg$(Benefits_c, "Benefits");
 ;// CONCATENATED MODULE: ./src/components/History/CardContent/CardContent.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const CardContent_module = ({"content":"CardContent__content-btjGi","name":"CardContent__name-xall4","description":"CardContent__description-MEEY7"});
@@ -7194,10 +7078,7 @@ var CardContent = function CardContent(_ref) {
     })]
   });
 };
-CardContent_c = CardContent;
 /* harmony default export */ const CardContent_CardContent = (CardContent);
-var CardContent_c;
-$RefreshReg$(CardContent_c, "CardContent");
 ;// CONCATENATED MODULE: ./src/components/History/Socials/Socials.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Socials_Socials_module = ({"list":"Socials__list-IRbIL","item":"Socials__item-bAXWb","link":"Socials__link-G5vCk"});
@@ -7224,10 +7105,7 @@ var Socials_Socials_Socials = function Socials(_ref) {
     })
   });
 };
-Socials_Socials_c = Socials_Socials_Socials;
 /* harmony default export */ const History_Socials_Socials = (Socials_Socials_Socials);
-var Socials_Socials_c;
-$RefreshReg$(Socials_Socials_c, "Socials");
 ;// CONCATENATED MODULE: ./src/components/History/CardFooter/CardFooter.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const CardFooter_module = ({"footer":"CardFooter__footer-Fwcs2"});
@@ -7250,10 +7128,7 @@ var CardFooter = function CardFooter(_ref) {
     })]
   });
 };
-CardFooter_c = CardFooter;
 /* harmony default export */ const CardFooter_CardFooter = (CardFooter);
-var CardFooter_c;
-$RefreshReg$(CardFooter_c, "CardFooter");
 ;// CONCATENATED MODULE: ./src/components/History/Card/Card.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Card_Card_module = ({"item":"Card__item-zRlQu","link":"Card__link-TGqxm","picture":"Card__picture-Fzij5","card":"Card__card-pppe6"});
@@ -7265,11 +7140,10 @@ $RefreshReg$(CardFooter_c, "CardFooter");
 
 
 
-var Card_Card = function Card(_ref) {
+var Card_Card_Card = function Card(_ref) {
   var card = _ref.card;
-  return /*#__PURE__*/(0,jsx_runtime.jsx)(Slide, {
-    direction: "up",
-    duration: 700,
+  return /*#__PURE__*/(0,jsx_runtime.jsx)(Zoom, {
+    duration: 1500,
     triggerOnce: true,
     children: /*#__PURE__*/(0,jsx_runtime.jsx)("li", {
       className: Card_Card_module.item,
@@ -7294,10 +7168,7 @@ var Card_Card = function Card(_ref) {
     })
   });
 };
-Card_Card_c = Card_Card;
-/* harmony default export */ const History_Card_Card = (Card_Card);
-var Card_Card_c;
-$RefreshReg$(Card_Card_c, "Card");
+/* harmony default export */ const History_Card_Card = (Card_Card_Card);
 ;// CONCATENATED MODULE: ./src/components/History/History.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const History_module = ({});
@@ -7364,6 +7235,7 @@ var histories = [{
 
 var History = function History() {
   return /*#__PURE__*/(0,jsx_runtime.jsx)(section_Section, {
+    id: "history",
     title: "\u0418\u0441\u0442\u043E\u0440\u0438\u0438 \u043F\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0439",
     subtitle: "\u0418\u0434\u0435\u0439\u043D\u044B\u0435 \u0441\u043E\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F \u0432\u044B\u0441\u0448\u0435\u0433\u043E \u043F\u043E\u0440\u044F\u0434\u043A\u0430, \u0430 \u0442\u0430\u043A\u0436\u0435 \u0440\u0430\u043C\u043A\u0438 \u0438 \u043C\u0435\u0441\u0442\u043E \u043E\u0431\u0443\u0447\u0435\u043D\u0438\u044F \u043A\u0430\u0434\u0440\u043E\u0432",
     children: /*#__PURE__*/(0,jsx_runtime.jsx)("ul", {
@@ -7375,10 +7247,7 @@ var History = function History() {
     })
   });
 };
-History_c = History;
 /* harmony default export */ const History_History = (History);
-var History_c;
-$RefreshReg$(History_c, "History");
 ;// CONCATENATED MODULE: ./src/components/Invite/Info/Info.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Info_module = ({"title":"Info__title-oPr3K","text":"Info__text-jjQvh","email":"Info__email-GgUOB","picture":"Info__picture-AOpWH"});
@@ -7402,10 +7271,7 @@ var Info = function Info() {
     })]
   });
 };
-Info_c = Info;
 /* harmony default export */ const Info_Info = (Info);
-var Info_c;
-$RefreshReg$(Info_c, "Info");
 ;// CONCATENATED MODULE: ./src/components/Invite/Invite.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Invite_module = ({"wrapper":"Invite__wrapper-Ggg9K","picture":"Invite__picture-FV8VH"});
@@ -7434,10 +7300,7 @@ var Invite = function Invite(_ref) {
     })
   });
 };
-Invite_c = Invite;
 /* harmony default export */ const Invite_Invite = (Invite);
-var Invite_c;
-$RefreshReg$(Invite_c, "Invite");
 ;// CONCATENATED MODULE: ./src/UI/logo/Logo.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Logo_module = ({"logo":"logo__logo-ewK9q"});
@@ -7496,10 +7359,7 @@ var Logo = function Logo() {
     })
   });
 };
-Logo_c = Logo;
 /* harmony default export */ const logo_Logo = (Logo);
-var Logo_c;
-$RefreshReg$(Logo_c, "Logo");
 ;// CONCATENATED MODULE: ./src/components/NavBar/navLinks.js
 var navLinks_links = [{
   to: "#tour",
@@ -7508,10 +7368,10 @@ var navLinks_links = [{
   to: "#build-tour",
   label: "Создать тур"
 }, {
-  to: "#feedback",
+  to: "#history",
   label: "Истории"
 }, {
-  to: "#history",
+  to: "#feedback",
   label: "Отзывы"
 }];
 /* harmony default export */ const navLinks = (navLinks_links);
@@ -7534,10 +7394,7 @@ var NavLink = function NavLink(_ref) {
     })
   });
 };
-NavLink_c = NavLink;
 /* harmony default export */ const NavLink_NavLink = (NavLink);
-var NavLink_c;
-$RefreshReg$(NavLink_c, "NavLink");
 ;// CONCATENATED MODULE: ./src/components/NavBar/Button/Button.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Button_module = ({"button":"Button__button-pIxb5","line":"Button__line-jYFuv","open":"Button__open-BEPnj"});
@@ -7562,10 +7419,7 @@ var Button = function Button(_ref) {
     })]
   });
 };
-Button_c = Button;
 /* harmony default export */ const Button_Button = (Button);
-var Button_c;
-$RefreshReg$(Button_c, "Button");
 ;// CONCATENATED MODULE: ./src/components/NavBar/PhoneLink/PhoneLink.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const PhoneLink_module = ({"phone":"PhoneLink__phone-XdKhZ"});
@@ -7582,15 +7436,11 @@ var PhoneLink = function PhoneLink(_ref) {
     children: children
   });
 };
-PhoneLink_c = PhoneLink;
 /* harmony default export */ const PhoneLink_PhoneLink = (PhoneLink);
-var PhoneLink_c;
-$RefreshReg$(PhoneLink_c, "PhoneLink");
 ;// CONCATENATED MODULE: ./src/components/NavBar/NavBar.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const NavBar_module = ({"wrapper":"NavBar__wrapper-AcGjg","inner":"NavBar__inner-Ep4zC","list":"NavBar__list-qTjym","fixed":"NavBar__fixed-tTNz1","nav":"NavBar__nav-faUny","open":"NavBar__open-AFzS3"});
 ;// CONCATENATED MODULE: ./src/components/NavBar/NavBar.jsx
-var NavBar_s2 = $RefreshSig$();
 function NavBar_slicedToArray(arr, i) { return NavBar_arrayWithHoles(arr) || NavBar_iterableToArrayLimit(arr, i) || NavBar_unsupportedIterableToArray(arr, i) || NavBar_nonIterableRest(); }
 function NavBar_nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
 function NavBar_unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return NavBar_arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return NavBar_arrayLikeToArray(o, minLen); }
@@ -7609,7 +7459,6 @@ function NavBar_arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 
 var Navbar = function Navbar() {
-  NavBar_s2();
   var _useState = (0,react.useState)(false),
     _useState2 = NavBar_slicedToArray(_useState, 2),
     fixed = _useState2[0],
@@ -7656,11 +7505,7 @@ var Navbar = function Navbar() {
     })
   });
 };
-NavBar_s2(Navbar, "NRzANorMNqk+V+yu+ysbj1pjcYg=");
-NavBar_c = Navbar;
 /* harmony default export */ const NavBar = (Navbar);
-var NavBar_c;
-$RefreshReg$(NavBar_c, "Navbar");
 ;// CONCATENATED MODULE: ./src/components/App/App.module.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const App_module = ({"wrapper":"App__wrapper-vhn2S","content":"App__content-wL0Gq"});
@@ -7687,10 +7532,7 @@ var App = function App() {
     }), /*#__PURE__*/(0,jsx_runtime.jsx)(Footer_Footer, {})]
   });
 };
-App_c = App;
 /* harmony default export */ const App_App = (App);
-var App_c;
-$RefreshReg$(App_c, "App");
 ;// CONCATENATED MODULE: ./src/index.jsx
 
 
@@ -7704,4 +7546,4 @@ root.render( /*#__PURE__*/(0,jsx_runtime.jsx)(react.StrictMode, {
 
 /******/ })()
 ;
-//# sourceMappingURL=main.c7678c7fc77ce9bc067c.js.map
+//# sourceMappingURL=main.74071c42ac86da7a83a0.js.map

@@ -7,7 +7,7 @@ import { data } from "./data";
 
 const Feedback = () => {
   return (
-    <Section
+    <Section id="feedback"
       title="Отзывы наших путешественников"
       subtitle="Идейные соображения высшего порядка, а также рамки и место обучения кадров"
     >

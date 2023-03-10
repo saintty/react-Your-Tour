@@ -1,6 +1,6 @@
 import React from "react";
 
-import styles from "./CenteredButton.module.scss";
+import styles from "./CenterButton.module.scss";
 
 const CenteredButton = ({ to, label }) => {
   return (

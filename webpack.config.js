@@ -3,7 +3,8 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const ReactRefreshWebpackPlugin = require("@pmmmwh/react-refresh-webpack-plugin");
 const ImageMinimizerPlugin = require("image-minimizer-webpack-plugin");
-const webpack = require("webpack");
+const CopyWebpackPlugin = require("copy-webpack-plugin");
+const svgToMiniDataURI = require('mini-svg-data-uri');
 
 const mode = process.env.NODE_ENV;
 const isDev = mode === "development";
@@ -29,7 +30,8 @@ module.exports = {
           {
             loader: require.resolve("babel-loader"),
             options: {
-              plugins: [["react-refresh/babel", { skipEnvCheck: true }]],
+              cacheDirectory: true,
+              plugins: isDev ? ["react-refresh/babel"] : [],
             },
           },
         ],
@@ -56,16 +58,18 @@ module.exports = {
       },
       {
         test: /\.svg$/,
-        type: "asset/resource",
+        type: "asset/inline",
         generator: {
-          filename: path.join("icons", "[name].[contenthash][ext]"),
-        },
+          dataUrl: content => {
+            content = content.toString();
+            return svgToMiniDataURI(content);
+          }
+        }
       },
     ],
   },
   devtool: isDev ? "eval-cheap-source-map" : "source-map",
   devServer: {
-
     hot: true,
     open: true,
     ...(isDev && { port: 3000 }),
@@ -80,6 +84,20 @@ module.exports = {
       new MiniCssExtractPlugin({
         filename: "styles/styles.[contenthash].css",
       }),
+    new CopyWebpackPlugin({
+      patterns: [
+        {
+          from: path.resolve(__dirname, "public/site.webmanifest.json"),
+          to: path.resolve(__dirname, "build"),
+          toType: "dir",
+        },
+        {
+          from: path.resolve(__dirname, "public/browserconfig.xml"),
+          to: path.resolve(__dirname, "build"),
+          toType: "dir",
+        },
+      ],
+    }),
   ].filter(Boolean),
   optimization: {
     minimizer: [

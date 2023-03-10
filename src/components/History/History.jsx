@@ -8,6 +8,7 @@ import { histories } from "./histories";
 const History = () => {
   return (
     <Section
+      id="history"
       title="Истории путешествий"
       subtitle="Идейные соображения высшего порядка, а также рамки и место обучения кадров"
     >

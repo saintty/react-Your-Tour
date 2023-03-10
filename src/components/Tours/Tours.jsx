@@ -6,7 +6,7 @@ import CardList from "./CardList/CardList";
 
 const Tours = () => {
   return (
-    <Section title="Выбери свой тур" order="first">
+    <Section title="Выбери свой тур" order="first" id="tour">
       <CategoryList categories={categories} />
       <CardList cards={cards} />
     </Section>
