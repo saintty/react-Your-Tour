@@ -29,7 +29,7 @@ const WideSection = ({ title, subtitle, order, id, children }) => {
 WideSection.propTypes = {
   title: PropTypes.string,
   subtitle: PropTypes.string,
-  order: PropTypes.string,
+  order: PropTypes.oneOf(["first", "last", ""]),
   id: PropTypes.string.isRequired,
   children: PropTypes.node,
 };
