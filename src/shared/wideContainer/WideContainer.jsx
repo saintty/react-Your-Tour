@@ -8,10 +8,7 @@ const WideContainer = ({ children }) => {
 };
 
 WideContainer.propTypes = {
-  children: PropTypes.oneOfType([
-    PropTypes.node,
-    PropTypes.arrayOf(PropTypes.node),
-  ]),
+  children: PropTypes.node,
 };
 
 export default WideContainer;
