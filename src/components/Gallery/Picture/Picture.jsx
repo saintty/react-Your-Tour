@@ -1,15 +1,15 @@
 import React from "react";
-import classNames from "classnames";
+import cx from "classnames";
 
 import styles from "./Picture.module.scss";
 
-const Picture = ({ picture, mediumHide, smallHide }) => {
+const Picture = ({ picture, hide }) => {
   return (
     <div
-      className={classNames(
+      className={cx(
         styles.item,
-        mediumHide && styles.mediumHide,
-        smallHide && styles.smallHide
+        hide === "medium" && styles.mediumHide,
+        hide === "small" && styles.smallHide
       )}
     >
       <img className={styles.img} src={picture} alt="Галерея путешествий" />

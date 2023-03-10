@@ -16,16 +16,16 @@ export const rows = [
   {
     pictures: [
       { picture: p1 },
-      { picture: p2, isMediumHidden: true },
-      { picture: p3, isSmallHidden: true },
+      { picture: p2, hide: "medium" },
+      { picture: p3, hide: "small" },
       { picture: p4 },
     ],
   },
   {
     pictures: [
       { picture: p5 },
-      { picture: p6, isSmallHidden: true },
-      { picture: p7, isMediumHidden: true },
+      { picture: p6, hide: "small" },
+      { picture: p7, hide: "medium" },
       { picture: p8 },
       { picture: p9 },
     ],
@@ -35,8 +35,8 @@ export const rows = [
     pictures: [
       { picture: p10 },
       { picture: p11 },
-      { picture: p12, isSmallHidden: true },
-      { picture: p13, isMediumHidden: true },
+      { picture: p12, hide: "small" },
+      { picture: p13, hide: "medium" },
     ],
     smallGap: true,
   },
