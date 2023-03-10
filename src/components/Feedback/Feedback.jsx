@@ -7,7 +7,8 @@ import { data } from "./data";
 
 const Feedback = () => {
   return (
-    <Section id="feedback"
+    <Section
+      id="feedback"
       title="Отзывы наших путешественников"
       subtitle="Идейные соображения высшего порядка, а также рамки и место обучения кадров"
     >
@@ -16,7 +17,6 @@ const Feedback = () => {
           <Review review={item} key={item.avatar} />
         ))}
       </div>
-      hello
     </Section>
   );
 };
