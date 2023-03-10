@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import WideContainer from "../../shared/wideContainer/WideContainer";
 import SectionSubTitle from "../sectionSubTitle/SectionSubTitle";
 import SectionTitle from "../sectionTitle/SectionTitle";
