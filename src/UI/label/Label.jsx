@@ -1,13 +1,25 @@
 import React from "react";
-import classNames from "classnames";
+import PropTypes from "prop-types";
+
+import cx from "classnames";
 import styles from "./Label.module.scss";
 
 const Label = ({ label, htmlFor, long }) => {
   return (
-    <label className={classNames(styles.label, long && styles.long)} htmlFor={htmlFor}>
+    <label className={cx(styles.label, long && styles.long)} htmlFor={htmlFor}>
       {label}
     </label>
   );
+};
+
+Label.propTypes = {
+  label: PropTypes.string.isRequired,
+  htmlFor: PropTypes.string.isRequired,
+  long: PropTypes.bool,
+};
+
+Label.defaultProps = {
+  long: false,
 };
 
 export default Label;
