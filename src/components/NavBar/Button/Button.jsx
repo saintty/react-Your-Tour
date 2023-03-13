@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 import cx from "classnames";
 import styles from "./Button.module.scss";
 
-const Button = ({ open, setOpen }) => {
+const Button = React.memo(({ open, setOpen }) => {
   return (
     <button
       className={cx(styles.button, open && styles.open)}
@@ -15,7 +15,7 @@ const Button = ({ open, setOpen }) => {
       <span className={styles.line}></span>
     </button>
   );
-};
+});
 
 Button.propTypes = {
   open: PropTypes.bool.isRequired,

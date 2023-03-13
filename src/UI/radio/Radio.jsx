@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 import styles from "./Radio.module.scss";
 
-const Radio = ({ radio }) => {
+const Radio = React.memo(({ radio }) => {
   return (
     <>
       <input
@@ -19,7 +19,7 @@ const Radio = ({ radio }) => {
       </label>
     </>
   );
-};
+});
 
 Radio.propTypes = {
   radio: PropTypes.shape({

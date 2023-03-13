@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 import cx from "classnames";
 import styles from "./Category.module.scss";
 
-const Category = ({ name, link, active, setActive }) => {
+const Category = React.memo(({ name, link, active, setActive }) => {
   return (
     <li
       className={cx(styles.item, active ? styles.active : "")}
@@ -15,7 +15,7 @@ const Category = ({ name, link, active, setActive }) => {
       </a>
     </li>
   );
-};
+});
 
 Category.propTypes = {
   name: PropTypes.string.isRequired,

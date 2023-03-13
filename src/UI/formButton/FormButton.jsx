@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 import cx from "classnames";
 import styles from "./FormButton.module.scss";
 
-const FormButton = ({ label, type }) => {
+const FormButton = React.memo(({ label, type }) => {
   return (
     <button
       className={cx(
@@ -16,7 +16,7 @@ const FormButton = ({ label, type }) => {
       {label}
     </button>
   );
-};
+});
 
 FormButton.propTypes = {
   label: PropTypes.string.isRequired,

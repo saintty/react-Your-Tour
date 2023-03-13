@@ -4,7 +4,7 @@ import Benefits from "./../Benefits";
 
 import styles from "./CardContent.module.scss";
 
-const CardContent = ({ name, description, benefits }) => {
+const CardContent = React.memo(({ name, description, benefits }) => {
   return (
     <div className={styles.content}>
       <h3 className={styles.name}>{name}</h3>
@@ -12,7 +12,7 @@ const CardContent = ({ name, description, benefits }) => {
       {benefits && <Benefits benefits={benefits} />}
     </div>
   );
-};
+});
 
 CardContent.propTypes = {
   name: PropTypes.string.isRequired,

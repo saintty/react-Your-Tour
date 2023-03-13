@@ -4,7 +4,7 @@ import Label from "./../label/Label";
 
 import styles from "./Select.module.scss";
 
-const Select = ({ id, label, required, options }) => {
+const Select = React.memo(({ id, label, required, options }) => {
   return (
     <>
       <Label label={label} htmlFor={id} />
@@ -22,7 +22,7 @@ const Select = ({ id, label, required, options }) => {
       </select>
     </>
   );
-};
+});
 
 Select.propTypes = {
   id: PropTypes.string.isRequired,

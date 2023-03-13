@@ -4,7 +4,7 @@ import Label from "../label/Label";
 
 import styles from "./Textarea.module.scss";
 
-const Textarea = ({ textarea }) => {
+const Textarea = React.memo(({ textarea }) => {
   return (
     <>
       <Label label={textarea.label} htmlFor={textarea.id} />
@@ -15,7 +15,7 @@ const Textarea = ({ textarea }) => {
       ></textarea>
     </>
   );
-};
+});
 
 Textarea.propTypes = {
   textarea: PropTypes.shape({

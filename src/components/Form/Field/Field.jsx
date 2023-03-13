@@ -4,7 +4,7 @@ import Input from "../../../UI/input";
 
 import styles from "./Field.module.scss";
 
-const Field = ({ input, children }) => {
+const Field = React.memo(({ input, children }) => {
   return (
     <div className={styles.field}>
       {input ? (
@@ -20,7 +20,7 @@ const Field = ({ input, children }) => {
       )}
     </div>
   );
-};
+});
 
 Field.propTypes = {
   input: PropTypes.shape({
