@@ -2,9 +2,9 @@ import React from "react";
 import PropTypes from "prop-types";
 
 import cx from "classnames";
-import styles from "./CategoryItem.module.scss";
+import styles from "./Category.module.scss";
 
-const CategoryItem = ({ name, link, active, setActive }) => {
+const Category = ({ name, link, active, setActive }) => {
   return (
     <li
       className={cx(styles.item, active ? styles.active : "")}
@@ -17,15 +17,15 @@ const CategoryItem = ({ name, link, active, setActive }) => {
   );
 };
 
-CategoryItem.propTypes = {
+Category.propTypes = {
   name: PropTypes.string.isRequired,
   link: PropTypes.string.isRequired,
   active: PropTypes.bool,
   setActive: PropTypes.func.isRequired,
 };
 
-CategoryItem.defaultProps = {
+Category.defaultProps = {
   active: false,
 };
 
-export default CategoryItem;
+export default Category;

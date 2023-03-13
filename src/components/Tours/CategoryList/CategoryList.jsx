@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
-import CategoryItem from "../CategoryItem/CategoryItem";
+import Category from "../Category/Category";
 
 import styles from "./CategoryList.module.scss";
 
@@ -10,7 +10,7 @@ const CategoryList = ({ categories }) => {
   return (
     <ul className={styles.list}>
       {categories.map((item) => (
-        <CategoryItem
+        <Category
           name={item.name}
           link={item.link}
           active={item.name === active}
