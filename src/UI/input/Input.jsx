@@ -27,7 +27,7 @@ Input.propTypes = {
   required: PropTypes.bool,
 };
 
-Input.propTypes = {
+Input.defaultTypes = {
   placeholder: "",
   require: false,
 };
