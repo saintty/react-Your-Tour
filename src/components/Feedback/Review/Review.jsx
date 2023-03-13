@@ -22,7 +22,7 @@ Review.propTypes = {
     text: PropTypes.string.isRequired,
     user: PropTypes.string.isRequired,
     tour: PropTypes.string.isRequired,
-    avatar: PropTypes.string.isRequired,
+    avatar: PropTypes.string,
   }),
 };
 
