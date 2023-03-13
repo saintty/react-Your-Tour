@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useCallback, useEffect, useState } from "react";
 import Logo from "./../../UI/logo";
 import Container from "./../../shared/container";
 import NavLink from "./NavLink";
@@ -12,12 +12,14 @@ const Navbar = () => {
   const [fixed, setFixed] = useState(false);
   const [open, setOpen] = useState(false);
 
-  useEffect(() => {
-    const handleScroll = (event) => {
-      if (window.scrollY >= 450) setFixed(true);
-      else setFixed(false);
-    };
+  const toggleOpen = useCallback(() => setOpen(!open), [open, setOpen]);
 
+  const handleScroll = useCallback(() => {
+    if (window.scrollY >= 450) setFixed(true);
+    else setFixed(false);
+  }, [setFixed]);
+
+  useEffect(() => {
     window.addEventListener("scroll", handleScroll);
 
     return () => {
@@ -37,7 +39,7 @@ const Navbar = () => {
               ))}
             </ul>
           </nav>
-          <Button open={open} setOpen={() => setOpen(!open)} />
+          <Button open={open} setOpen={toggleOpen} />
           <a className={styles.phone} href="tel:+79999999999">
             +7 999 999 99 99
           </a>

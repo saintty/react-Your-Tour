@@ -1,14 +1,16 @@
-import React from "react";
+import React, { useCallback } from "react";
 import PropTypes from "prop-types";
 
 import cx from "classnames";
 import styles from "./Category.module.scss";
 
 const Category = React.memo(({ name, link, active, setActive }) => {
+  const updateActive = useCallback(() => setActive(name), [name, setActive]);
+
   return (
     <li
       className={cx(styles.item, active ? styles.active : "")}
-      onClick={() => setActive(name)}
+      onClick={updateActive}
     >
       <a href={link} className={styles.link}>
         {name}
