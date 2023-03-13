@@ -1,9 +1,9 @@
 import React from "react";
-import Container from "../../shared/container/Container";
-import CenterButton from "../../UI/centerButton/CenterButton";
-import PageCaption from "../../UI/pageCaption/PageCaption";
-import PageSubCaption from "../../UI/pageSubCaption/PageSubCaption";
-import Background from "./Background/Background";
+import Container from "../../shared/container";
+import CenterButton from "../../UI/centerButton";
+import PageCaption from "../../UI/pageCaption";
+import PageSubCaption from "../../UI/pageSubCaption";
+import Background from "./Background";
 
 import styles from "./Header.module.scss";
 import background from "./headerBackground.jpg";

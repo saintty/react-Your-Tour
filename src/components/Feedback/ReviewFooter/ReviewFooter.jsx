@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 import styles from "./ReviewFooter.module.scss";
 import defaultAvatar from "./../avatar-default.png";
 
-const ReviewFooter = ({ user, tour, avatar }) => {
+const ReviewFooter = React.memo(({ user, tour, avatar }) => {
   return (
     <footer className={styles.footer}>
       <div className={styles.wrapper}>
@@ -18,7 +18,7 @@ const ReviewFooter = ({ user, tour, avatar }) => {
       />
     </footer>
   );
-};
+});
 
 ReviewFooter.propTypes = {
   user: PropTypes.string.isRequired,

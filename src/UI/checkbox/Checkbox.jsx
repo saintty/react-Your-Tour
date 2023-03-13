@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 import styles from "./Checkbox.module.scss";
 
-const Checkbox = ({ id, label, children }) => {
+const Checkbox = React.memo(({ id, label, children }) => {
   return (
     <>
       <input id={id} className={styles.input} type="checkbox" />
@@ -13,7 +13,7 @@ const Checkbox = ({ id, label, children }) => {
       </label>
     </>
   );
-};
+});
 
 Checkbox.propTypes = {
   id: PropTypes.string.isRequired,

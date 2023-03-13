@@ -1,11 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Picture from "./../Picture/Picture";
+import Picture from "./../Picture";
 
 import cx from "classnames";
 import styles from "./Row.module.scss";
 
-const Row = ({ pictures, smallGap }) => {
+const Row = React.memo(({ pictures, smallGap }) => {
   return (
     <div className={cx(styles.row, smallGap && styles.small)}>
       {pictures.map((item) => (
@@ -17,7 +17,7 @@ const Row = ({ pictures, smallGap }) => {
       ))}
     </div>
   );
-};
+});
 
 Row.propTypes = {
   pictures: PropTypes.arrayOf(

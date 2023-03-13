@@ -1,8 +1,8 @@
 import React from "react";
-import Section from "./../../UI/section/Section";
+import Section from "./../../UI/section";
 import { categories, cards } from "./data";
-import CategoryList from "./CategoryList/CategoryList";
-import CardList from "./CardList/CardList";
+import CategoryList from "./CategoryList";
+import CardList from "./CardList";
 
 const Tours = () => {
   return (

@@ -3,9 +3,9 @@ import PropTypes from "prop-types";
 
 import styles from "./Container.module.scss";
 
-const Container = ({ children }) => {
+const Container = React.memo(({ children }) => {
   return <div className={styles.container}>{children}</div>;
-};
+});
 
 Container.propTypes = {
   children: PropTypes.node,

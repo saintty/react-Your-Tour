@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import CardContent from "../CardContent/CardContent";
-import CardFooter from "../CardFooter/CardFooter";
+import CardContent from "./../CardContent";
+import CardFooter from "./../CardFooter";
 import { Zoom } from "react-awesome-reveal";
 
 import styles from "./Card.module.scss";
 
-const Card = ({ card }) => {
+const Card = React.memo(({ card }) => {
   return (
     <Zoom duration={1500} triggerOnce={true}>
       <li className={styles.item}>
@@ -28,7 +28,7 @@ const Card = ({ card }) => {
       </li>
     </Zoom>
   );
-};
+});
 
 Card.propTypes = {
   card: PropTypes.shape({

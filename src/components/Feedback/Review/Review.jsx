@@ -1,10 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
-import ReviewFooter from "../ReviewFooter/ReviewFooter";
+import ReviewFooter from "../ReviewFooter";
 
 import styles from "./Review.module.scss";
 
-const Review = ({ review }) => {
+const Review = React.memo(({ review }) => {
   return (
     <article className={styles.item}>
       <p className={styles.text}>{review.text}</p>
@@ -15,7 +15,7 @@ const Review = ({ review }) => {
       />
     </article>
   );
-};
+});
 
 Review.propTypes = {
   review: PropTypes.shape({

@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 import styles from "./Benefits.module.scss";
 
-const Benefits = ({ benefits }) => {
+const Benefits = React.memo(({ benefits }) => {
   return (
     <ul className={styles.list}>
       {benefits.map((item) => (
@@ -13,7 +13,7 @@ const Benefits = ({ benefits }) => {
       ))}
     </ul>
   );
-};
+});
 
 Benefits.propTypes = {
   benefits: PropTypes.arrayOf(PropTypes.string),

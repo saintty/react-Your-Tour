@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 import styles from "./NavLink.module.scss";
 
-const NavLink = ({ to, label }) => {
+const NavLink = React.memo(({ to, label }) => {
   return (
     <li className={styles.item}>
       <a href={to} className={styles.link}>
@@ -11,7 +11,7 @@ const NavLink = ({ to, label }) => {
       </a>
     </li>
   );
-};
+});
 
 NavLink.propTypes = {
   to: PropTypes.string.isRequired,

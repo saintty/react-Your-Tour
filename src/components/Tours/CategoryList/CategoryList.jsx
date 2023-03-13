@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
-import Category from "../Category/Category";
+import Category from "../Category";
 
 import styles from "./CategoryList.module.scss";
 
-const CategoryList = ({ categories }) => {
+const CategoryList = React.memo(({ categories }) => {
   const [active, setActive] = useState(categories[0].name);
 
   return (
@@ -20,7 +20,7 @@ const CategoryList = ({ categories }) => {
       ))}
     </ul>
   );
-};
+});
 
 CategoryList.propTypes = {
   categories: PropTypes.arrayOf(

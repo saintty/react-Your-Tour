@@ -1,10 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Card from "../Card/Card";
+import Card from "../Card";
 
 import styles from "./CardList.module.scss";
 
-const CardList = ({ cards }) => {
+const CardList = React.memo(({ cards }) => {
   return (
     <ul className={styles.list}>
       {cards.map((item) => (
@@ -12,7 +12,7 @@ const CardList = ({ cards }) => {
       ))}
     </ul>
   );
-};
+});
 
 CardList.propTypes = {
   cards: PropTypes.arrayOf(
