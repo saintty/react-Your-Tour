@@ -1,8 +1,7 @@
 import React from "react";
-import Section from "../../UI/section/Section";
-import Card from "./Card/Card";
+import Section from "../../UI/section";
+import Card from "./Card";
 
-import styles from "./History.module.scss";
 import { histories } from "./histories";
 
 const History = () => {

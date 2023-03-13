@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
-import InfoButton from "../../../UI/infoButton/InfoButton";
-import Socials from "../Socials/Socials";
+import InfoButton from "./../../../UI/infoButton";
+import Socials from "./../Socials";
 
 import styles from "./CardFooter.module.scss";
 

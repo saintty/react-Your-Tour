@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import ReviewFooter from "../ReviewFooter/ReviewFooter";
+import ReviewFooter from "../ReviewFooter";
 
 import styles from "./Review.module.scss";
 

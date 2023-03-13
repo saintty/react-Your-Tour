@@ -1,6 +1,6 @@
 import React from "react";
-import Section from "../../UI/section/Section";
-import Info from "./Info/Info";
+import Section from "../../UI/section";
+import Info from "./Info";
 
 import styles from "./Invite.module.scss";
 import picture from "./footer-photo.jpg";

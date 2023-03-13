@@ -1,8 +1,8 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Footer from "../Footer/Footer";
-import Navbar from "../NavBar/NavBar";
-import Home from "../Home/Home";
+import Footer from "../Footer";
+import Navbar from "../NavBar";
+import Home from "../Home";
 
 import styles from "./App.module.scss";
 

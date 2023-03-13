@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
-import Logo from "../../UI/logo/Logo";
-import links from "./navLinks";
-import Container from "./../../shared/container/Container";
-import NavLink from "./NavLink/NavLink";
-import Button from "./Button/Button";
+import Logo from "./../../UI/logo";
+import Container from "./../../shared/container";
+import NavLink from "./NavLink";
+import Button from "./Button";
 
 import cx from "classnames";
 import styles from "./NavBar.module.scss";
+import links from "./navLinks";
 
 const Navbar = () => {
   const [fixed, setFixed] = useState(false);

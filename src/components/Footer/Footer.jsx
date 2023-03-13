@@ -1,6 +1,6 @@
 import React from "react";
-import Container from "./../../shared/container/Container";
-import Socials from "./Socials/Socials";
+import Container from "./../../shared/container";
+import Socials from "./Socials";
 
 import styles from "./Footer.module.scss";
 

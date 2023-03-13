@@ -1,8 +1,8 @@
 import React from "react";
-import WideSection from "../../UI/wideSection/WideSection";
-import Row from "./Row/Row";
+import WideSection from "../../UI/wideSection";
+import Row from "./Row";
 
-import { rows } from "./picture";
+import { rows } from "./photos";
 
 const Gallery = () => {
   return (
