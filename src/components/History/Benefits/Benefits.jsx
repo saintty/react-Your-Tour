@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 import styles from "./Benefits.module.scss";
 
@@ -12,6 +13,10 @@ const Benefits = ({ benefits }) => {
       ))}
     </ul>
   );
+};
+
+Benefits.propTypes = {
+  benefits: PropTypes.arrayOf(PropTypes.string),
 };
 
 export default Benefits;
