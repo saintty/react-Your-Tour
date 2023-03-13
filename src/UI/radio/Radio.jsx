@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 import styles from "./Radio.module.scss";
 
@@ -18,6 +19,20 @@ const Radio = ({ radio }) => {
       </label>
     </>
   );
+};
+
+Radio.propTypes = {
+  radio: PropTypes.shape({
+    id: PropTypes.string.isRequired,
+    label: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+    value: PropTypes.number.isRequired,
+    require: PropTypes.bool,
+  }),
+};
+
+Radio.defaultProps = {
+  require: false,
 };
 
 export default Radio;

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import CategoryItem from "../CategoryItem/CategoryItem";
+import PropTypes from "prop-types";
+import Category from "../Category/Category";
 
 import styles from "./CategoryList.module.scss";
 
@@ -9,7 +10,7 @@ const CategoryList = ({ categories }) => {
   return (
     <ul className={styles.list}>
       {categories.map((item) => (
-        <CategoryItem
+        <Category
           name={item.name}
           link={item.link}
           active={item.name === active}
@@ -19,6 +20,15 @@ const CategoryList = ({ categories }) => {
       ))}
     </ul>
   );
+};
+
+CategoryList.propTypes = {
+  categories: PropTypes.arrayOf(
+    PropTypes.shape({
+      name: PropTypes.string.isRequired,
+      link: PropTypes.string.isRequired,
+    })
+  ),
 };
 
 export default CategoryList;
