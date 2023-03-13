@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import Label from "../label/Label";
 
 import styles from "./Textarea.module.scss";
@@ -14,6 +15,18 @@ const Textarea = ({ textarea }) => {
       ></textarea>
     </>
   );
+};
+
+Textarea.propTypes = {
+  textarea: PropTypes.shape({
+    id: PropTypes.string.isRequired,
+    label: PropTypes.string.isRequired,
+    placeholder: PropTypes.string,
+  }),
+};
+
+Textarea.defaultProps = {
+  placeholder: "",
 };
 
 export default Textarea;

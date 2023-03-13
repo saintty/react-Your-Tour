@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import Label from "./../label/Label";
 
 import styles from "./Select.module.scss";
@@ -21,6 +22,19 @@ const Select = ({ id, label, required, options }) => {
       </select>
     </>
   );
+};
+
+Select.propTypes = {
+  id: PropTypes.string.isRequired,
+  label: PropTypes.string.isRequired,
+  require: PropTypes.bool,
+  options: PropTypes.arrayOf(
+    PropTypes.shape({
+      name: PropTypes.string.isRequired,
+      value: PropTypes.string.isRequired,
+      disabled: PropTypes.bool,
+    })
+  ),
 };
 
 export default Select;

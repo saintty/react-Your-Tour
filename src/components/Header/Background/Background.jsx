@@ -1,8 +1,9 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 import styles from "./Background.module.scss";
 
-const Background = ({background}) => {
+const Background = ({ background }) => {
   return (
     <img
       className={styles.background}
@@ -10,6 +11,10 @@ const Background = ({background}) => {
       alt="Фоновое изображение шапки сайта, деревянные постройки на фоне реки"
     />
   );
+};
+
+Background.propTypes = {
+  background: PropTypes.string.isRequired,
 };
 
 export default Background;

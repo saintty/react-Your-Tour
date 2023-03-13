@@ -1,20 +1,26 @@
 import React from "react";
-import classNames from "classnames";
+import PropTypes from "prop-types";
 
+import cx from "classnames";
 import styles from "./Picture.module.scss";
 
-const Picture = ({ picture, mediumHide, smallHide }) => {
+const Picture = ({ picture, hide }) => {
   return (
     <div
-      className={classNames(
+      className={cx(
         styles.item,
-        mediumHide && styles.mediumHide,
-        smallHide && styles.smallHide
+        hide === "medium" && styles.mediumHide,
+        hide === "small" && styles.smallHide
       )}
     >
       <img className={styles.img} src={picture} alt="Галерея путешествий" />
     </div>
   );
+};
+
+Picture.propTypes = {
+  picture: PropTypes.string.isRequired,
+  hide: PropTypes.oneOf(["medium", "small"]),
 };
 
 export default Picture;

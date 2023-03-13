@@ -1,7 +1,9 @@
 import React from "react";
+import PropTypes from "prop-types";
 import Benefits from "../Benefits/Benefits";
 
 import styles from "./CardContent.module.scss";
+import Card from "../Card/Card";
 
 const CardContent = ({ name, description, benefits }) => {
   return (
@@ -11,6 +13,12 @@ const CardContent = ({ name, description, benefits }) => {
       {benefits && <Benefits benefits={benefits} />}
     </div>
   );
+};
+
+CardContent.propTypes = {
+  name: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  benefits: PropTypes.arrayOf(PropTypes.string),
 };
 
 export default CardContent;

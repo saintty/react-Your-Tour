@@ -1,6 +1,8 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 import styles from "./ReviewFooter.module.scss";
+import defaultAvatar from "./../avatar-default.png";
 
 const ReviewFooter = ({ user, tour, avatar }) => {
   return (
@@ -16,6 +18,16 @@ const ReviewFooter = ({ user, tour, avatar }) => {
       />
     </footer>
   );
+};
+
+ReviewFooter.propTypes = {
+  user: PropTypes.string.isRequired,
+  tour: PropTypes.string.isRequired,
+  avatar: PropTypes.string.isRequired,
+};
+
+ReviewFooter.defaultProps = {
+  avatar: defaultAvatar,
 };
 
 export default ReviewFooter;

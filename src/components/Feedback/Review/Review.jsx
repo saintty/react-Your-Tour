@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import ReviewFooter from "../ReviewFooter/ReviewFooter";
 
 import styles from "./Review.module.scss";
@@ -14,6 +15,15 @@ const Review = ({ review }) => {
       />
     </article>
   );
+};
+
+Review.propTypes = {
+  review: PropTypes.shape({
+    text: PropTypes.string.isRequired,
+    user: PropTypes.string.isRequired,
+    tour: PropTypes.string.isRequired,
+    avatar: PropTypes.string,
+  }),
 };
 
 export default Review;

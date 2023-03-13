@@ -1,17 +1,17 @@
 import React from "react";
 import Section from "../../UI/section/Section";
 import InputRow from "./InputRow/InputRow";
-import InputField from "./Field/Field";
+import Field from "./Field/Field";
 import Select from "../../UI/select/Select";
 import Textarea from "../../UI/textarea/Textarea";
 import Radio from "../../UI/radio/Radio";
 import Checkbox from "../../UI/checkbox/Checkbox";
 import FromButton from "../../UI/formButton/FormButton";
 import ButtonRow from "./ButtonRow/ButtonRow";
+import Label from "../../UI/label/Label";
 
 import styles from "./Form.module.scss";
 import { options } from "./selectOptions";
-import Label from "../../UI/label/Label";
 
 const Form = () => {
   return (
@@ -22,7 +22,7 @@ const Form = () => {
     >
       <form className={styles.form}>
         <InputRow>
-          <InputField
+          <Field
             input={{
               id: "name",
               type: "text",
@@ -31,17 +31,17 @@ const Form = () => {
               required: true,
             }}
           />
-          <InputField>
+          <Field>
             <Select
               id="destination"
               label="Направление"
               options={options}
               required
             />
-          </InputField>
+          </Field>
         </InputRow>
         <InputRow>
-          <InputField
+          <Field
             input={{
               id: "email",
               type: "email",
@@ -50,7 +50,7 @@ const Form = () => {
               required: true,
             }}
           />
-          <InputField
+          <Field
             input={{
               id: "tel",
               type: "tel",
@@ -61,7 +61,7 @@ const Form = () => {
           />
         </InputRow>
         <InputRow>
-          <InputField
+          <Field
             input={{
               id: "date-from",
               type: "date",
@@ -70,7 +70,7 @@ const Form = () => {
               required: true,
             }}
           />
-          <InputField
+          <Field
             input={{
               id: "date-to",
               type: "date",
