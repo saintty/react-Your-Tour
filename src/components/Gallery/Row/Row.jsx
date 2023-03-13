@@ -26,6 +26,11 @@ Row.propTypes = {
       hide: PropTypes.oneOf(["medium", "small"]),
     })
   ),
+  smallGap: PropTypes.bool,
+};
+
+Row.defaultProps = {
+  smallGap: false,
 };
 
 export default Row;
