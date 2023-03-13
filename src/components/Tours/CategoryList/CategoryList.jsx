@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
-import Category from "../Category/Category";
+import Category from "../Category";
 
 import styles from "./CategoryList.module.scss";
 

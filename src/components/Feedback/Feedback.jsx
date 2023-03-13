@@ -1,6 +1,6 @@
 import React from "react";
-import Section from "../../UI/section/Section";
-import Review from "./Review/Review";
+import Section from "../../UI/section";
+import Review from "./Review";
 
 import styles from "./Feedback.modules.scss";
 import { data } from "./data";

@@ -1,14 +1,14 @@
 import React from "react";
-import Section from "../../UI/section/Section";
-import InputRow from "./InputRow/InputRow";
-import Field from "./Field/Field";
-import Select from "../../UI/select/Select";
-import Textarea from "../../UI/textarea/Textarea";
-import Radio from "../../UI/radio/Radio";
-import Checkbox from "../../UI/checkbox/Checkbox";
-import FromButton from "../../UI/formButton/FormButton";
-import ButtonRow from "./ButtonRow/ButtonRow";
-import Label from "../../UI/label/Label";
+import Section from "../../UI/section";
+import InputRow from "./InputRow";
+import Field from "./Field";
+import Select from "../../UI/select";
+import Textarea from "../../UI/textarea";
+import Radio from "../../UI/radio";
+import Checkbox from "../../UI/checkbox";
+import FromButton from "../../UI/formButton";
+import ButtonRow from "./ButtonRow";
+import Label from "../../UI/label";
 
 import styles from "./Form.module.scss";
 import { options } from "./selectOptions";

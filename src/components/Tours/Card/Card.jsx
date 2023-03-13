@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
-import CardHeader from "./CardHeader/CardHeader";
-import InfoButton from "../../../UI/infoButton/InfoButton";
+import CardHeader from "./CardHeader";
+import InfoButton from "./../../../UI/infoButton";
 import { Zoom } from "react-awesome-reveal";
 
 import styles from "./Card.module.scss";

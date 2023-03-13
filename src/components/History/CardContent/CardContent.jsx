@@ -1,9 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Benefits from "../Benefits/Benefits";
+import Benefits from "./../Benefits";
 
 import styles from "./CardContent.module.scss";
-import Card from "../Card/Card";
 
 const CardContent = ({ name, description, benefits }) => {
   return (

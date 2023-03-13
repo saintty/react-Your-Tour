@@ -1,12 +1,12 @@
 import React from "react";
-import Form from "../Form/Form";
-import Header from "../Header/Header";
-import Tours from "../Tours/Tours";
-import Feedback from "../Feedback/Feedback";
-import Gallery from "../Gallery/Gallery";
-import History from "../History/History";
-import Invite from "../Invite/Invite";
-import Section from "../../UI/section/Section";
+import Form from "../Form";
+import Header from "../Header";
+import Tours from "../Tours";
+import Feedback from "../Feedback";
+import Gallery from "../Gallery";
+import History from "../History";
+import Invite from "../Invite";
+
 import styles from "./Home.module.scss";
 
 const Home = () => {

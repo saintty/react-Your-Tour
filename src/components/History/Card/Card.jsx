@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
-import CardContent from "../CardContent/CardContent";
-import CardFooter from "../CardFooter/CardFooter";
+import CardContent from "./../CardContent";
+import CardFooter from "./../CardFooter";
 import { Zoom } from "react-awesome-reveal";
 
 import styles from "./Card.module.scss";
