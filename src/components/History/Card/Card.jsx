@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import CardContent from "../CardContent/CardContent";
 import CardFooter from "../CardFooter/CardFooter";
 import { Zoom } from "react-awesome-reveal";
@@ -27,6 +28,22 @@ const Card = ({ card }) => {
       </li>
     </Zoom>
   );
+};
+
+Card.propTypes = {
+  card: PropTypes.shape({
+    name: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+    picture: PropTypes.string.isRequired,
+    link: PropTypes.string.isRequired,
+    benefits: PropTypes.arrayOf(PropTypes.string),
+    socials: PropTypes.arrayOf(
+      PropTypes.shape({
+        link: PropTypes.string.isRequired,
+        label: PropTypes.string.isRequired,
+      })
+    ),
+  }).isRequired,
 };
 
 export default Card;
